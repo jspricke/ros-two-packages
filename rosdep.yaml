@@ -37,6 +37,9 @@ ament_cmake_export_targets:
 ament_cmake_gen_version_h:
   debian:
   - ament-cmake
+ament_cmake_clang_format:
+  debian:
+  - ament-cmake-clang-format
 ament_cmake_gmock:
   debian:
   - ament-cmake-googletest
@@ -923,3 +926,9 @@ viz:
 xmlrpcpp:
   debian:
   - libxmlrpcpp-dev
+ignition-cmake2:
+  debian:
+  - libignition-cmake-dev
+ignition-math6:
+  debian:
+  - libignition-math-dev
