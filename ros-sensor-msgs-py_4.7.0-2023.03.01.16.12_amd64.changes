@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-sensor-msgs-py
+Binary: ros-sensor-msgs-py
+Architecture: amd64
+Version: 4.7.0-2023.03.01.16.12
+Distribution: bookworm
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-sensor-msgs-py - A package for easy creation and reading of PointCloud2 messages i
+Changes:
+ ros-sensor-msgs-py (4.7.0-2023.03.01.16.12) bookworm; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#210 <https://github.com/ros2/common_interfaces/issues/210>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ c548e2d8232a14085a74ad28019757cca37267d4 7085 ros-sensor-msgs-py_4.7.0-2023.03.01.16.12_amd64.buildinfo
+ 3622f865027f67652341c047ed8f9aa133906cbe 9464 ros-sensor-msgs-py_4.7.0-2023.03.01.16.12_amd64.deb
+Checksums-Sha256:
+ 3b38826bae8cc2a65e861b01f5a22ca99d691aeea9bbf11d873c86ecb20ff045 7085 ros-sensor-msgs-py_4.7.0-2023.03.01.16.12_amd64.buildinfo
+ 0bedf60889d4fbda981a4743006e2aa294e19659c497241f81730e0075fd03a6 9464 ros-sensor-msgs-py_4.7.0-2023.03.01.16.12_amd64.deb
+Files:
+ 7932f4a771022002d9d5b9a3ca049e67 7085 misc optional ros-sensor-msgs-py_4.7.0-2023.03.01.16.12_amd64.buildinfo
+ d88234c7aef139a41252fb751f5f10e3 9464 misc optional ros-sensor-msgs-py_4.7.0-2023.03.01.16.12_amd64.deb

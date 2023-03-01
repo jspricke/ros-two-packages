@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-launch-testing-ament-cmake
+Binary: ros-launch-testing-ament-cmake
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.14
+Distribution: bookworm
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-launch-testing-ament-cmake - A package providing cmake functions for running launch tests from
+Changes:
+ ros-launch-testing-ament-cmake (1.4.1-2023.03.01.15.14) bookworm; urgency=high
+Checksums-Sha1:
+ 86e5746fe374f817114e5387524a7ed3edb7230c 7629 ros-launch-testing-ament-cmake_1.4.1-2023.03.01.15.14_amd64.buildinfo
+ 6b76bbb16a00e3d2c51fb6b1941f748a27e560bb 9512 ros-launch-testing-ament-cmake_1.4.1-2023.03.01.15.14_amd64.deb
+Checksums-Sha256:
+ a55d390ff550fe4f48f60f6710e80cd1d2ffc72125e9243b66baf644ed4c53c0 7629 ros-launch-testing-ament-cmake_1.4.1-2023.03.01.15.14_amd64.buildinfo
+ b94def1c5c8a815d28f75093f06609ea059e2b543a4ad480976d5d4b9e1c5ba6 9512 ros-launch-testing-ament-cmake_1.4.1-2023.03.01.15.14_amd64.deb
+Files:
+ 2fde642adf76370cf0c367517803837d 7629 misc optional ros-launch-testing-ament-cmake_1.4.1-2023.03.01.15.14_amd64.buildinfo
+ d127929c1e1c673a871a50528a60b9c8 9512 misc optional ros-launch-testing-ament-cmake_1.4.1-2023.03.01.15.14_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 13 Sep 2022 00:00:00 -0000
+Source: ros-orocos-kdl-vendor
+Binary: ros-orocos-kdl-vendor
+Architecture: amd64
+Version: 0.3.4-2023.03.01.15.12
+Distribution: bookworm
+Urgency: high
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Changed-By: Jacob Perron <jacob@openrobotics.org>
+Description:
+ ros-orocos-kdl-vendor - Wrapper around orocos_kdl, providing nothing but a dependency on
+Changes:
+ ros-orocos-kdl-vendor (0.3.4-2023.03.01.15.12) bookworm; urgency=high
+Checksums-Sha1:
+ ca30b6daa8755f9351aa80ee720b626dfb461266 7891 ros-orocos-kdl-vendor_0.3.4-2023.03.01.15.12_amd64.buildinfo
+ 10b4672b85eea8beab625ad3f9cd6a7e45f3dce4 6628 ros-orocos-kdl-vendor_0.3.4-2023.03.01.15.12_amd64.deb
+Checksums-Sha256:
+ b9ade39f41b8a9c24b0b92ba9ad2e416d8574c33238f3de0a828e8069619ed3e 7891 ros-orocos-kdl-vendor_0.3.4-2023.03.01.15.12_amd64.buildinfo
+ 0a14b09fee219f88f23a0f52e800ef272041905dd562296c151a430699e4af64 6628 ros-orocos-kdl-vendor_0.3.4-2023.03.01.15.12_amd64.deb
+Files:
+ 7a1900aac1777e74be3adfd458166808 7891 misc optional ros-orocos-kdl-vendor_0.3.4-2023.03.01.15.12_amd64.buildinfo
+ 76528bb65a84adce21f4ffc2c4da4ada 6628 misc optional ros-orocos-kdl-vendor_0.3.4-2023.03.01.15.12_amd64.deb

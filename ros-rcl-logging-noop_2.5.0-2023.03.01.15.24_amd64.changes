@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rcl-logging-noop
+Binary: ros-rcl-logging-noop ros-rcl-logging-noop-dbgsym
+Architecture: amd64
+Version: 2.5.0-2023.03.01.15.24
+Distribution: bookworm
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Changed-By: Chris Lalancette <clalancette@openrobotics.org>
+Description:
+ ros-rcl-logging-noop - An rcl logger implementation that doesn't do anything with log me
+Changes:
+ ros-rcl-logging-noop (2.5.0-2023.03.01.15.24) bookworm; urgency=high
+ .
+   * Update rcl_logging to C++17. (#98 <https://github.com/ros2/rcl_logging/issues/98>)
+   * Contributors: Chris Lalancette
+Checksums-Sha1:
+ f5887e192ea6bcb4ac875f2f07a00508d5d0274d 3236 ros-rcl-logging-noop-dbgsym_2.5.0-2023.03.01.15.24_amd64.deb
+ 422a2f718fa2c4ec5d4a932c4676c2fcfc9fe6ff 8917 ros-rcl-logging-noop_2.5.0-2023.03.01.15.24_amd64.buildinfo
+ 683afbb01e78225e63e4cea860a24869ff9eaf15 11552 ros-rcl-logging-noop_2.5.0-2023.03.01.15.24_amd64.deb
+Checksums-Sha256:
+ 22bbbfa29967c4a9ebccffc3bf8ca96e72d9f8db57b56bdd9c02140f08a43d8e 3236 ros-rcl-logging-noop-dbgsym_2.5.0-2023.03.01.15.24_amd64.deb
+ f160c5c5cf1a71cd35a46425103cc7872f33d7bf6f33d6f2a07d17018edf5af4 8917 ros-rcl-logging-noop_2.5.0-2023.03.01.15.24_amd64.buildinfo
+ 44fb794cdc198e4b471e6eb667bb18cf142110483c07dd21cd033cd9caf18ae4 11552 ros-rcl-logging-noop_2.5.0-2023.03.01.15.24_amd64.deb
+Files:
+ bad2f0bea8572719949150a883e82d19 3236 debug optional ros-rcl-logging-noop-dbgsym_2.5.0-2023.03.01.15.24_amd64.deb
+ 6b9ae909a87f64ab6e236910248086fb 8917 misc optional ros-rcl-logging-noop_2.5.0-2023.03.01.15.24_amd64.buildinfo
+ 5604bef4bf4115fb2f463e39a007dced 11552 misc optional ros-rcl-logging-noop_2.5.0-2023.03.01.15.24_amd64.deb

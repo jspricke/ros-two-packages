@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-examples-rclpy-minimal-client
+Binary: ros-examples-rclpy-minimal-client
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.56
+Distribution: bookworm
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-examples-rclpy-minimal-client - Examples of minimal service clients using rclpy.
+Changes:
+ ros-examples-rclpy-minimal-client (0.17.1-2023.03.01.14.56) bookworm; urgency=high
+Checksums-Sha1:
+ a1f871291ded8246fe73e72eeb4d84cfaa4bc867 7164 ros-examples-rclpy-minimal-client_0.17.1-2023.03.01.14.56_amd64.buildinfo
+ 95a4bc90fb7f88db26bc89be9c49a7f14b23c588 7000 ros-examples-rclpy-minimal-client_0.17.1-2023.03.01.14.56_amd64.deb
+Checksums-Sha256:
+ 98dbd55cdbd754be14c197bdaa18799d6aeb14a7f5b2ae49ee120ae8d0865110 7164 ros-examples-rclpy-minimal-client_0.17.1-2023.03.01.14.56_amd64.buildinfo
+ 8bb627f41d34e3124ab6c83710e27dc36873ef1e4d854ba96037eb7441fa77b4 7000 ros-examples-rclpy-minimal-client_0.17.1-2023.03.01.14.56_amd64.deb
+Files:
+ 82aa0b2c228c34e6aab847cd78b9c1ad 7164 misc optional ros-examples-rclpy-minimal-client_0.17.1-2023.03.01.14.56_amd64.buildinfo
+ 36197e56ea6c5d238770f578ef8a9e37 7000 misc optional ros-examples-rclpy-minimal-client_0.17.1-2023.03.01.14.56_amd64.deb

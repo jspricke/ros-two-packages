@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-geometry2
+Binary: ros-geometry2
+Architecture: amd64
+Version: 0.30.0-2023.03.01.15.01
+Distribution: bookworm
+Urgency: high
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Changed-By: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Description:
+ ros-geometry2 - A metapackage to bring in the default packages second generation
+Changes:
+ ros-geometry2 (0.30.0-2023.03.01.15.01) bookworm; urgency=high
+Checksums-Sha1:
+ f32e68f20d263e84a194f33c7b3d2fd9c45b7652 6442 ros-geometry2_0.30.0-2023.03.01.15.01_amd64.buildinfo
+ d343e7ee68f693c730be2876f511be3159c8e386 6496 ros-geometry2_0.30.0-2023.03.01.15.01_amd64.deb
+Checksums-Sha256:
+ e48337a9b3162a2d7f651fc87f943974f6260f43920b37408b7469b1652e4f11 6442 ros-geometry2_0.30.0-2023.03.01.15.01_amd64.buildinfo
+ a5e782eeb57c25e4b2436a9ea6a0e6f1ec8129a08340a420a59e980230915339 6496 ros-geometry2_0.30.0-2023.03.01.15.01_amd64.deb
+Files:
+ eb6556a4451fe4432c5c7e7cec344d97 6442 misc optional ros-geometry2_0.30.0-2023.03.01.15.01_amd64.buildinfo
+ d6de1bc2d53c1444b59a2bc57808bcc9 6496 misc optional ros-geometry2_0.30.0-2023.03.01.15.01_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-plot
+Binary: ros-rqt-plot
+Architecture: amd64
+Version: 1.2.1-2023.03.01.15.58
+Distribution: bookworm
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-rqt-plot - rqt_plot provides a GUI plugin visualizing numeric values in a 2D
+Changes:
+ ros-rqt-plot (1.2.1-2023.03.01.15.58) bookworm; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#83 <https://github.com/ros-visualization/rqt_plot/issues/83>)
+   * Contributors: Audrow Nash, Jacob Perron
+Checksums-Sha1:
+ 2b1e2cbe7655597f701ec5b88c733d27e7ad5e27 5400 ros-rqt-plot_1.2.1-2023.03.01.15.58_amd64.buildinfo
+ 2a620ec71dce84a89a8468eb9f699c524361381c 23484 ros-rqt-plot_1.2.1-2023.03.01.15.58_amd64.deb
+Checksums-Sha256:
+ c1bb122a308f45062c8bff7736df0e6f74a313a0f1ae72420db1063ffb8da6a4 5400 ros-rqt-plot_1.2.1-2023.03.01.15.58_amd64.buildinfo
+ 2aee8ae05f39d0578646e4acd3f0be6736d649f3275b86343b500c09e70a7004 23484 ros-rqt-plot_1.2.1-2023.03.01.15.58_amd64.deb
+Files:
+ 0d404c77eba3e95005ecc0f81d3adcff 5400 misc optional ros-rqt-plot_1.2.1-2023.03.01.15.58_amd64.buildinfo
+ f00faba013e7a4c807dcfde39d114918 23484 misc optional ros-rqt-plot_1.2.1-2023.03.01.15.58_amd64.deb

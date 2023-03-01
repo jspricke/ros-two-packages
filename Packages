@@ -1,0 +1,1588 @@
+Package: ros-common-interfaces
+Architecture: amd64
+Version: 4.7.0-2023.03.01.14.50
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Installed-Size: 37
+Depends: ros-actionlib-msgs, ros-builtin-interfaces, ros-diagnostic-msgs, ros-geometry-msgs, ros-nav-msgs, ros-sensor-msgs, ros-shape-msgs, ros-std-msgs, ros-std-srvs, ros-stereo-msgs, ros-trajectory-msgs, ros-visualization-msgs
+Filename: ./ros-common-interfaces_4.7.0-2023.03.01.14.50_amd64.deb
+Size: 6028
+MD5sum: cf8fb88af377b40f533e5d245108c857
+SHA1: 64b5f59bacdc7348bbaf6f48b1e22aa0a9f99ec0
+SHA256: 14197f81317b9f093a25fa23318ddc853de4e7e274386d1e830afaf52a56e7cd
+SHA512: af5a8ca324979ffc396f31011c6c8dcafd8f063360b060ec53c6478e17d6e05e6b9cddbd5b79e33de3c35fd49177ddac028db014e80664ad4ad080fb22ae9266
+Description: common_interfaces contains messages and services that are widely used by other ROS packages.
+
+Package: ros-console-bridge-vendor
+Architecture: amd64
+Version: 1.6.0-2023.03.01.14.51
+Priority: optional
+Section: misc
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Installed-Size: 36
+Depends: libconsole-bridge-dev
+Filename: ./ros-console-bridge-vendor_1.6.0-2023.03.01.14.51_amd64.deb
+Size: 5244
+MD5sum: e6d2c02315a697b8b1f29b503ccc4038
+SHA1: a8e6014f89e6e64d1ae77af473107c92088a89ee
+SHA256: 036ae479a3849d479a1a025eb7b5683c14f148ec731175d2e7aadd819815e40a
+SHA512: 788b9cf1654a2949d9b8ae7bd5013079089425233cde335202344b2612b53294cfd8d741439cf4e395632ee0687bb907243f65da63da0d78484a8ef7f024d95b
+Homepage: https://github.com/ros/console_bridge
+Description: Wrapper around console_bridge, providing nothing but a dependency on console_bridge, on some systems.
+ On others, it provides an ExternalProject build of console_bridge.
+
+Package: ros-demo-nodes-py
+Architecture: amd64
+Version: 0.25.0-2023.03.01.14.51
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 80
+Depends: python3-pkg-resources, python3:any, ros-example-interfaces, ros-rcl-interfaces, ros-rclpy, ros-std-msgs
+Filename: ./ros-demo-nodes-py_0.25.0-2023.03.01.14.51_amd64.deb
+Size: 12200
+MD5sum: 885620ed4a3efbd340bc4937031fcad9
+SHA1: 328d3a88d80c89d08c286d1a126cc629833bab4e
+SHA256: b2c673f5bab734ab348caf02c613b9775af57733a3d286f246d70862212e8872
+SHA512: eb9e184c0c675d607239ba2b391c949503a69629c38dc0eb326c3d46797b38131f7e853832ddc18e63118c27ec86c93919ab880b14d286fcd1fedaff9432db9c
+Description: Python nodes which were previously in the ros2/examples repository but are now just used for demo purposes.
+
+Package: ros-dummy-robot-bringup
+Architecture: amd64
+Version: 0.25.0-2023.03.01.14.52
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 52
+Depends: python3-ament-index, ros-dummy-map-server, ros-dummy-sensors, ros-launch, ros-launch-ros, ros-robot-state-publisher
+Filename: ./ros-dummy-robot-bringup_0.25.0-2023.03.01.14.52_amd64.deb
+Size: 9492
+MD5sum: c3ade9e58694dab9f380ae09b2df5789
+SHA1: aa56caca7dd3817fd5892c2293b60dd9e22852dd
+SHA256: 3b942da872d7a32e2343cf83a0d0f83c853194127436c647b0c028b4064b1e6f
+SHA512: 8ec2b98cac1e52f4044e2e8f54d55c495ba749cb55dd4818da21d3c5926ec373edbb84103e94a1b2075c1aafc413a0b0c31f6b2518512cdc5f033e734646caae
+Description: dummy robot bringup
+
+Package: ros-eigen3-cmake-module
+Architecture: amd64
+Version: 0.2.2-2023.03.01.14.53
+Priority: optional
+Section: misc
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Installed-Size: 40
+Filename: ./ros-eigen3-cmake-module_0.2.2-2023.03.01.14.53_amd64.deb
+Size: 6348
+MD5sum: 513eda865e7cedcad8e3ca2d1316ef1b
+SHA1: d4aa1648e769c07adb1a4d859788f4a43b1f56c5
+SHA256: 83d1867ff057bf496cc726be1ff5093c942faba91544d3cc9c9beff9c47fc542
+SHA512: e55e8a7a4927c058f053097f87a79a9eb81ead858eb48389c442fd0dc75c4fe81f6bc694458501141741adae4fc0fb51bd152c3a9966ef2d2db8c960b8598047
+Description: Exports a custom CMake module to find Eigen3.
+
+Package: ros-examples-rclpy-executors
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.53
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 55
+Depends: python3-pkg-resources, python3:any, ros-rclpy, ros-std-msgs
+Filename: ./ros-examples-rclpy-executors_0.17.1-2023.03.01.14.53_amd64.deb
+Size: 8804
+MD5sum: 7c74d4e9fffa3c45e9f0a1aaa3350637
+SHA1: 62cf2d5b84ea7b00743e6249b775bd6a55f73b40
+SHA256: e7388fd2dc4fbefcc76aba933012de64e1190a3ca9fb58517e599e13971cccf1
+SHA512: 1d00e717abd8cebab565d628fd3e1fa7fecaef0a38d17355da2dda4f2ca32fd6f6804899250ed08dfab88f39b68ec1077c67b409efb20d1fd22e2d88e40b65e5
+Description: Examples of creating and using exectors to run multiple nodes in the same process
+
+Package: ros-examples-rclpy-guard-conditions
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.54
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 30
+Depends: python3-pkg-resources, python3:any, ros-rclpy
+Filename: ./ros-examples-rclpy-guard-conditions_0.17.1-2023.03.01.14.54_amd64.deb
+Size: 5040
+MD5sum: 6a8e9a102abc7b00e3be73e3cae27f7f
+SHA1: 13194f3cee784d755000e4e7de18a77f1ae29c1d
+SHA256: acbaa6bc0f75ea7d39c295a6ed375fd5c0de5f465f7cd38c44b9eb46a6249664
+SHA512: de8ef2679ada321c36773b9dfea620b98c62fded46dbc23d740bf11611e6799b160dc7c6b85a39aadcd1229c1966c5183efcde1679926b1c7e003929bc79bca9
+Description: Examples of using guard conditions.
+
+Package: ros-examples-rclpy-minimal-action-client
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.55
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 48
+Depends: python3-pkg-resources, python3:any, ros-example-interfaces, ros-rclpy
+Filename: ./ros-examples-rclpy-minimal-action-client_0.17.1-2023.03.01.14.55_amd64.deb
+Size: 7084
+MD5sum: b4c85066a04f8243d4adb4347cbcab4a
+SHA1: 82e51e795fcdbde12e1ffa3e74f4d4b5234d9408
+SHA256: 0acc56fc51c22d3331ead8310e5c5dccd4fa56e4e98f30af321490622da863dd
+SHA512: 5b87ffb903f71d79451657f9e9f2962847da0e3cd14d2729ece8b678c98977f7feee0de96a7f254031462b838fc6fc555e9cfec22bcb9307f73849e40359a0c1
+Description: Examples of minimal action clients using rclpy.
+
+Package: ros-examples-rclpy-minimal-action-server
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.55
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 58
+Depends: python3-pkg-resources, python3:any, ros-example-interfaces, ros-rclpy
+Filename: ./ros-examples-rclpy-minimal-action-server_0.17.1-2023.03.01.14.55_amd64.deb
+Size: 7484
+MD5sum: 7144b17b2aaf7256093fa7a023fd2b75
+SHA1: ae0e5a7e6f8a908808ad19fc5cab360f17415555
+SHA256: e1907c303db7e9e0d8c7b994ebf7ac9701034c98c4c1c4d3e1776ccbac27b6bf
+SHA512: 6620d4d1716b7774f789063ef4bfa929a1f532f8cdb27807bdf071903c4dd515734baaea8c10acf253364710ca2c4ff60edd296c84f1f19bc9c4fbba7c4d8db6
+Description: Examples of minimal action servers using rclpy.
+
+Package: ros-examples-rclpy-minimal-client
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.56
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 45
+Depends: python3-pkg-resources, python3:any, ros-example-interfaces, ros-rclpy, ros-std-msgs
+Filename: ./ros-examples-rclpy-minimal-client_0.17.1-2023.03.01.14.56_amd64.deb
+Size: 7000
+MD5sum: 36197e56ea6c5d238770f578ef8a9e37
+SHA1: 95a4bc90fb7f88db26bc89be9c49a7f14b23c588
+SHA256: 8bb627f41d34e3124ab6c83710e27dc36873ef1e4d854ba96037eb7441fa77b4
+SHA512: bb7d1f851f9f7c0c7f2d7b735abfba11b91d652d1f5887cfa2c16b6281f16c12d06b2f7290761ba85c6ae6f75138beb9b9bdba3db9d7125f9922f948824a84e2
+Description: Examples of minimal service clients using rclpy.
+
+Package: ros-examples-rclpy-minimal-publisher
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.57
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 40
+Depends: python3-pkg-resources, python3:any, ros-rclpy, ros-std-msgs
+Filename: ./ros-examples-rclpy-minimal-publisher_0.17.1-2023.03.01.14.57_amd64.deb
+Size: 6540
+MD5sum: 4cbcc0d8788801f3d51bdf078999d6e7
+SHA1: 6c416e8789380f8afffbdd5ad0e2a76cd41d2324
+SHA256: 8a432ea8a7e833a92ac60af1697b6f8926f2e8df4adf856ba2bd099c0b5dd802
+SHA512: bb9d48ffba828a6d2555df2f67ce142e3bfea4d1e9583ba9ee89bf618c5693a1cd7070f34e37ac190ecd62bc2fcd9a648dfa3e16e73921af467be5817692b74f
+Description: Examples of minimal publishers using rclpy.
+
+Package: ros-examples-rclpy-minimal-service
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.58
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 36
+Depends: python3-pkg-resources, python3:any, ros-example-interfaces, ros-rclpy, ros-std-msgs
+Filename: ./ros-examples-rclpy-minimal-service_0.17.1-2023.03.01.14.58_amd64.deb
+Size: 6176
+MD5sum: ce03215e30b2460a0164d83fdd03e50a
+SHA1: 674d67b5ba73f5cbf1335cd77531e5ea81b5035b
+SHA256: 812f41842ec151c2ea8979c68253074ab992aff28a8799a55850c07201c14d16
+SHA512: 19645fe46b9b15f9db873e50d9367c4d04224e64a8d10f0bfd1258aacc58b4ff2eba6961658caf71374aee364fc34f74d3a5e06f8fab097ce594cd0cca9898f5
+Description: Examples of minimal service servers using rclpy.
+
+Package: ros-examples-rclpy-minimal-subscriber
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.58
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 40
+Depends: python3-pkg-resources, python3:any, ros-rclpy, ros-std-msgs
+Filename: ./ros-examples-rclpy-minimal-subscriber_0.17.1-2023.03.01.14.58_amd64.deb
+Size: 6332
+MD5sum: 96d4fed5733fcfcd4f37778a3bcd6480
+SHA1: 5f001df11f77d1f886f316c3a74165726c8c1359
+SHA256: de1cbde7115c94a524c149ef8fdfcdc88458df75aadeb6746e7ba599570375ee
+SHA512: efa63959be94dc12e103063138ac540c9735d430541c8909dc8128112684d19e3696f1a3ba7ef47368a6eb3878937f363d82bb653225f7babc88658cce64b63a
+Description: Examples of minimal subscribers using rclpy.
+
+Package: ros-examples-rclpy-pointcloud-publisher
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.59
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 32
+Depends: python3-pkg-resources, python3:any, python3-numpy, ros-rclpy, ros-sensor-msgs, ros-sensor-msgs-py, ros-std-msgs
+Filename: ./ros-examples-rclpy-pointcloud-publisher_0.17.1-2023.03.01.14.59_amd64.deb
+Size: 5024
+MD5sum: 568cb0ca87da77f70bb7573ea3d4a14d
+SHA1: 6302f90912919866e7177f1e3dce930eb1c81f3c
+SHA256: 002edb0edf8d9017fc8a4bbe7e02c41cbd6a414d9efbe1e5c0cdfd25d138883c
+SHA512: 94542455eda0c695dedea7a80298e367e18c4b609f0443ef58ac381bd04714ed0c2dd77d66adc3d028f1b33f784a6fa38b9389320fadf910c01f369466e0f299
+Description: Example on how to publish a Pointcloud2 message
+
+Package: ros-examples-tf2-py
+Architecture: amd64
+Version: 0.30.0-2023.03.01.15.00
+Priority: optional
+Section: misc
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 55
+Depends: python3-pkg-resources, python3:any, ros-launch-ros, ros-tf2-ros-py
+Filename: ./ros-examples-tf2-py_0.30.0-2023.03.01.15.00_amd64.deb
+Size: 8308
+MD5sum: 394dac243e77d81d9ada4a519b960466
+SHA1: 95fc45b169a2207aa476b68edae5474ff4e35691
+SHA256: ec2a5aee109ccee89cb062c343b4417619e73d1f4b52b8026ed3fc40b9214bee
+SHA512: 2b7e972e1ad9fc58b026dfb554084336bc849b45d99a41f7e84752627c163316ddcb79006cef6180ce0229054504c416e48d46fe9c3baef6b02be15cacb6c2d1
+Description: Has examples of using the tf2 Python API.
+
+Package: ros-fastrtps-cmake-module
+Architecture: amd64
+Version: 2.5.0-2023.03.01.15.01
+Priority: optional
+Section: misc
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Installed-Size: 41
+Filename: ./ros-fastrtps-cmake-module_2.5.0-2023.03.01.15.01_amd64.deb
+Size: 7604
+MD5sum: 3cfbbd1d15395ad9f8d713e9f8d4b77b
+SHA1: 58bd6dbcf2cdc9a77f5cb28e497194f30eddfbea
+SHA256: bcc71fab358ef2cb947d0599b0467ec70b772f3086030954f6bdca0365f89f17
+SHA512: de35ac0a9488ca7c55aff21a7d8dda64da782216a08a05d3017e49e123f06e62421096aa7a8816a6e37c9f9a95fa7a5815a840dd33d3ac2e44057fed30ab1c56
+Description: Provide CMake module to find eProsima FastRTPS.
+
+Package: ros-geometry2
+Architecture: amd64
+Version: 0.30.0-2023.03.01.15.01
+Priority: optional
+Section: misc
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 37
+Depends: ros-tf2, ros-tf2-bullet, ros-tf2-eigen, ros-tf2-eigen-kdl, ros-tf2-geometry-msgs, ros-tf2-kdl, ros-tf2-msgs, ros-tf2-py, ros-tf2-ros, ros-tf2-sensor-msgs, ros-tf2-tools
+Filename: ./ros-geometry2_0.30.0-2023.03.01.15.01_amd64.deb
+Size: 6496
+MD5sum: d6de1bc2d53c1444b59a2bc57808bcc9
+SHA1: d343e7ee68f693c730be2876f511be3159c8e386
+SHA256: a5e782eeb57c25e4b2436a9ea6a0e6f1ec8129a08340a420a59e980230915339
+SHA512: 293579ad950457d775f650269747d08c8d8a71d2f0eb0eb63e4acef12672c3555010f8f9e09d5075050f1237f8119d388fa4fe92c986b58b9e72aea5ad2ad995
+Homepage: http://www.ros.org/wiki/geometry2
+Description: A metapackage to bring in the default packages second generation Transform Library in ros, tf2.
+
+Package: ros-ignition-cmake2-vendor
+Architecture: amd64
+Version: 0.0.2-1-gb5912fc-2023.03.01.15.02
+Priority: optional
+Section: misc
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Installed-Size: 11
+Depends: libignition-cmake-dev
+Filename: ./ros-ignition-cmake2-vendor_0.0.2-1-gb5912fc-2023.03.01.15.02_amd64.deb
+Size: 2312
+MD5sum: 246db9116690c2141ad5ec722940e6d0
+SHA1: 5bfc7761e1775bee69d01ee05691131704953633
+SHA256: f48939f0a28cc7a522c7e9e67534bc3f02112eb7a8d1b97ec4da6c58aa961b38
+SHA512: 93ed83c53bb87703c95d21296965225379e8bd950a943e1fbc154efb558ba49330450f56e5f833e8e198e0fd47518aeeb9118d5334d45a3fd3f6f56714f36801
+Homepage: https://github.com/ignitionrobotics/ign-cmake
+Description: This package provides the Ignition CMake 2.x library.
+
+Package: ros-ignition-math6-vendor
+Architecture: amd64
+Version: 0.0.2-1-gf964dd9-2023.03.01.15.03
+Priority: optional
+Section: misc
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Installed-Size: 11
+Depends: libignition-math-dev, ros-ignition-cmake2-vendor
+Filename: ./ros-ignition-math6-vendor_0.0.2-1-gf964dd9-2023.03.01.15.03_amd64.deb
+Size: 2168
+MD5sum: dc7216347f66db9cac64da93e67e99f3
+SHA1: 5b8477553a9a2e5549f57e57c1e674ff6a38f1a9
+SHA256: 9a4603496d36fbe1407f0d3a7087cecfb9626ff5148716529d9d2630ca4aa86b
+SHA512: 269c59e77144ff9778dd3b21bd0c2014ca03b0030960550632802bf5fc01718a3c7a6c0e8fae2b79d572515e170eef60002fe793a09459734c6e395df54d686f
+Homepage: https://github.com/ignitionrobotics/ign-math
+Description: This package provides the Ignition Math 6.x library.
+
+Package: ros-image-common
+Architecture: amd64
+Version: 4.2.0-2023.03.01.15.04
+Priority: optional
+Section: misc
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 37
+Depends: ros-camera-calibration-parsers, ros-camera-info-manager, ros-image-transport
+Filename: ./ros-image-common_4.2.0-2023.03.01.15.04_amd64.deb
+Size: 6256
+MD5sum: 654e305123c441e04524841b36e1dea7
+SHA1: 13062ae6834440b233814225063f5d6f75cb1029
+SHA256: 01fa113aaaa332291aab60a9e0a85fc343f6fbc7438cf5c49e21733ddf3cb06b
+SHA512: d1a035db445c27876a276e82ec2bd71b3ba49f7e2e4ccfc7ea738910f25e5552df767d1bfccb252ad0c21886100f4de326c0df69c8810fd8a435130cf7a19584
+Homepage: http://www.ros.org/wiki/image_common
+Description: Common code for working with images in ROS.
+
+Package: ros-kdl-parser-dbgsym
+Architecture: amd64
+Version: 2.9.0-2023.03.01.18.09
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-kdl-parser
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 180
+Depends: ros-kdl-parser (= 2.9.0-2023.03.01.18.09)
+Filename: ./ros-kdl-parser-dbgsym_2.9.0-2023.03.01.18.09_amd64.deb
+Size: 165780
+MD5sum: 0a1c7366f0d18778310d384e2a705d66
+SHA1: 9f1beb3838b5d9b5b2fd7dce80f0a2341293e4c5
+SHA256: c58b3e2d543b4c42ddc372e1b07ecd3f6bc6512d96f33fde745550fb88d76811
+SHA512: 308b70936ffbe7c9315e4310d2897f8c7ad0e3268fa5737757d415c297cc4d1743abcadff72daab3b509d9e63a3671f6a595c408fd32d8e5c6393c78b3fa9930
+Description: debug symbols for ros-kdl-parser
+Build-Ids: c3c2a8b893ee0b28f202cfbea4b0283192ddecf1
+
+Package: ros-kdl-parser
+Architecture: amd64
+Version: 2.9.0-2023.03.01.18.09
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 91
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), liborocos-kdl1.5 (>= 1.5.1), librcutils1d (>= 6.0.0), libstdc++6 (>= 11), librcutils-dev, liburdfdom-headers-dev, python3-rcutils, ros-orocos-kdl-vendor, ros-urdf
+Filename: ./ros-kdl-parser_2.9.0-2023.03.01.18.09_amd64.deb
+Size: 21920
+MD5sum: 74f1d43125ad69c1bdce771edf6b2ceb
+SHA1: 8f4228776e18d62d4411b2fd638831c9d530ec38
+SHA256: acaedbc7afd6b9e7d2267f2986fc146ab51dcb92c1a7ac9a88ae172bbb6712ba
+SHA512: 216d87f340d1315ed3261e78acaa62788b1937cd9cd32337532c939e223c52a01200baaa086b8801d4971601b04dcd42708a236d94814c5d5cccb2484a360287
+Description: The Kinematics and Dynamics Library (KDL) defines a tree structure to represent the kinematic and dynamic parameters of a robot mechanism.
+ kdl_parser provides tools to construct a KDL tree from an XML robot representation in URDF.
+
+Package: ros-keyboard-handler-dbgsym
+Architecture: amd64
+Version: 0.1.0-2-gf5bcaf6-2023.03.01.15.04
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-keyboard-handler
+Maintainer: michael <michael.orlov@apex.ai>
+Installed-Size: 237
+Depends: ros-keyboard-handler (= 0.1.0-2-gf5bcaf6-2023.03.01.15.04)
+Filename: ./ros-keyboard-handler-dbgsym_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.deb
+Size: 216624
+MD5sum: 534bf95347d224e8b18594c43e61de4d
+SHA1: 5aab4865fddfb62ea7e2686640fb46aa38a1bece
+SHA256: 907f72ec2de1330745325b782d6f188e5f186bae80f44fde7d57f684e570bcc3
+SHA512: 111ae4f245f8b72ebe9c58484e4d237ef4df53e0b24fad5d74121831644be8c85c8a909751be62421927337ab8f1cf6a481bf16cb4905285d394eb3dae6b947f
+Description: debug symbols for ros-keyboard-handler
+Build-Ids: 6ab79e03c2bc00cd8471f77d13c1905ff3a4fb75
+
+Package: ros-keyboard-handler
+Architecture: amd64
+Version: 0.1.0-2-gf5bcaf6-2023.03.01.15.04
+Priority: optional
+Section: misc
+Maintainer: michael <michael.orlov@apex.ai>
+Installed-Size: 139
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: ./ros-keyboard-handler_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.deb
+Size: 30060
+MD5sum: cb6f233cb651afcaf4835bd6fc26e333
+SHA1: 49076dd04b3d1e970061566e81ab733983e73c97
+SHA256: 0f951a896b7038103916e846c797e213f68174bff12e21e38b46f01d1ef14c2a
+SHA512: 1b8836bf3b48ece77222df6ed836fd2f3af2b97955791a86ee96e1cc9462a325cff15f6de5576184f87fd269efb0f1765599dd4c061da3bc2c2c48ccc3d1d942
+Description: Handler for input from keyboard
+
+Package: ros-launch-pytest
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.06
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 80
+Depends: python3-pkg-resources, python3:any, python3-ament-index, python3-osrf-pycommon, python3-pytest, ros-launch, ros-launch-testing
+Filename: ./ros-launch-pytest_1.4.1-2023.03.01.15.06_amd64.deb
+Size: 13616
+MD5sum: 265fa824c1bc85442428bc3ff2a7b54e
+SHA1: 39bbbc3f7579dae0d1e4c234982c478c6595dddb
+SHA256: 86847bd9018270db32a89dd62f79efc82b4ca24b7f419ec4eb5a754343a2e3c8
+SHA512: 4becb62c64edd71a2c1c1e9acb531ee3b44fbe98ca61160caedf5472dcec0d22479fd31e00bd9427bfd3aaeb30d502c176a928b3050a93d3dc4fb4d57a5767a5
+Description: A package to create tests which involve launch files and multiple processes.
+
+Package: ros-launch-testing-ament-cmake
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.14
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 46
+Depends: python3-ament-cmake-test, ros-launch-testing, ros-python-cmake-module
+Filename: ./ros-launch-testing-ament-cmake_1.4.1-2023.03.01.15.14_amd64.deb
+Size: 9512
+MD5sum: d127929c1e1c673a871a50528a60b9c8
+SHA1: 6b76bbb16a00e3d2c51fb6b1941f748a27e560bb
+SHA256: b94def1c5c8a815d28f75093f06609ea059e2b543a4ad480976d5d4b9e1c5ba6
+SHA512: 10c954b813ab0a5f905c65e30e4800403b164f0a6f94ecf98b63f81223a4c7716282aa5dcb6609cf23ad8e7a61cf2a43906682b666ba3734e79fefa7458ce961
+Description: A package providing cmake functions for running launch tests from the build.
+
+Package: ros-launch-testing-ros
+Architecture: amd64
+Version: 0.23.0-2023.03.01.16.39
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 76
+Depends: python3-pkg-resources, python3:any, ros-launch-ros, ros-launch-testing, ros-rclpy
+Filename: ./ros-launch-testing-ros_0.23.0-2023.03.01.16.39_amd64.deb
+Size: 13664
+MD5sum: 92b6816d83c3b9c18509bf19b40c30e1
+SHA1: 4d28836167a609c95fb88b91958bed3efe99406b
+SHA256: f126cec02d8342a8f015decf2fe7ade8454e6b806a6897f7677bc95d401b43fd
+SHA512: 2671d646a374b188b2efb7216587521554b44c5cbe3b5b7c86fb4fe11976474a7dfa27976f50c51d991711fa00aaaac87973b41d7507df5072f05584de5b04f2
+Description: A package providing utilities for writing ROS2 enabled launch tests.
+
+Package: ros-launch-testing
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.09
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 223
+Depends: python3-pkg-resources, python3:any, python3-ament-index, python3-osrf-pycommon, python3-pytest, ros-launch, ros-launch-xml, ros-launch-yaml
+Filename: ./ros-launch-testing_1.4.1-2023.03.01.15.09_amd64.deb
+Size: 38848
+MD5sum: 3fc48542dcda62fd559b417cd4c1df43
+SHA1: 624df8980e3b6cfda7bceadf3e1927c5eaac112c
+SHA256: 69cc4f56ad7a6793e04feeca0adfd469d3bf501d0b1ab580dc28e8001d1e34b5
+SHA512: d3ec025e4ce61eb810fb1623b36852bba430ce10db473620e825582005c436b72f4cddbb2ba0d3358f998034e1040597851f5245f00e2438e49480907b84a233
+Description: A package to create tests which involve launch files and multiple processes.
+
+Package: ros-launch-xml
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.07
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 40
+Depends: python3-pkg-resources, python3:any, ros-launch
+Filename: ./ros-launch-xml_1.4.1-2023.03.01.15.07_amd64.deb
+Size: 8344
+MD5sum: 4f3a3a720d831e32e4ef1f21c549890f
+SHA1: 5d8587114f8dcc54a2f1cd8b3c50533b4fbbce5c
+SHA256: 5de7d1d86a0a5817d5968c41c62a8479104c96be8bc29515e3d6c7f9be2b3881
+SHA512: c81450709c21612d89e215c924e49124b77f4334f078da6119e22da10ca0634138ad668802989d5a1031ca09a71fcc673df3abb2beb56992c398b1578851adda
+Description: XML frontend for the launch package.
+
+Package: ros-launch-yaml
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.08
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 40
+Depends: python3-pkg-resources, python3:any, ros-launch
+Filename: ./ros-launch-yaml_1.4.1-2023.03.01.15.08_amd64.deb
+Size: 8216
+MD5sum: b7faaa4f5c5cfe3c9fb20230d3830da3
+SHA1: bdf1c790b4c8c2d880a18ed2273fb00fa163cd4a
+SHA256: c90385a68b1c2746c95ac7bec059fe993aeee1e50af8e0feb37c0e4bdbb57716
+SHA512: be897b4099a140cf6933c36b601f30f7baed6673505ebea0e633d23b3cc8338d57758976ac3c86e9b9953314e42de757e891e092b0a2ffc6603ed6e1d1d1c643
+Description: YAML frontend for the launch package.
+
+Package: ros-launch
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.05
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 527
+Depends: python3-pkg-resources, python3:any, python3-ament-index, python3-importlib-metadata, python3-lark, python3-osrf-pycommon, python3-yaml
+Filename: ./ros-launch_1.4.1-2023.03.01.15.05_amd64.deb
+Size: 78752
+MD5sum: 46b7ffe6a86fccc2faf4640eed14a9e4
+SHA1: 76f1380c0fa1e19b2b50be5e05b5384bc3f089cd
+SHA256: 1518ca1405413742f6d0a3777e130aa938206d1fdf6af2331947d23798140c36
+SHA512: 9c1d18a2344e0a1dee6189f3fa64fad662f04b5aa0f02652bbe00bf09a48e155ae6c3064acee6fba499b28c4bdeadf56c20d173f0b861b0e6f7018b1a3c03e53
+Description: The ROS launch tool.
+
+Package: ros-libcurl-vendor
+Architecture: amd64
+Version: 3.2.2-2023.03.01.15.10
+Priority: optional
+Section: misc
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 41
+Depends: curl, libcurl4-openssl-dev, pkg-config
+Filename: ./ros-libcurl-vendor_3.2.2-2023.03.01.15.10_amd64.deb
+Size: 7588
+MD5sum: 26af5ce411b768417d531c0a028dae27
+SHA1: fa4979b19ce02fad1ed79b469d633f176b84ada1
+SHA256: 0adf777395ae2b08f27c53257cda0fdb87170c40c69860b8bfbc33d5c77607a8
+SHA512: 6fef6fdd936c067d86b7738c27966d51eafc86aa25a5c60979a9edc95fb5a9fb82ad00e43273783a8100876fb7cd06921124f58d648ab4bd3aa65ae112b33ad5
+Homepage: https://github.com/curl/curl
+Description: Wrapper around libcurl, it provides a fixed CMake module and an ExternalProject build of it.
+
+Package: ros-libyaml-vendor
+Architecture: amd64
+Version: 1.5.0-2023.03.01.15.10
+Priority: optional
+Section: misc
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Installed-Size: 47
+Depends: libyaml-0-2, libyaml-dev, pkg-config
+Filename: ./ros-libyaml-vendor_1.5.0-2023.03.01.15.10_amd64.deb
+Size: 9480
+MD5sum: 0b5005e93e371867879aa689b0cbda27
+SHA1: c66058f93c2e65a3c0960080bd6f34ba39e755c7
+SHA256: c55f04cff6f3f198d704a82adce237fd96485ae05f6d13231c6c609a0ec93963
+SHA512: 46c3798d574c27c69aa41fadf465d06d83d99fb157f57caaaca46a2757e6dcd25dcaf3ace564cec17b648b32fdd1fb2feffc17552bd823ef4e8c936eabfa59d1
+Homepage: https://github.com/yaml/libyaml
+Description: Vendored version of libyaml.
+
+Package: ros-orocos-kdl-vendor
+Architecture: amd64
+Version: 0.3.4-2023.03.01.15.12
+Priority: optional
+Section: misc
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Installed-Size: 39
+Depends: libeigen3-dev, liborocos-kdl-dev, ros-eigen3-cmake-module
+Filename: ./ros-orocos-kdl-vendor_0.3.4-2023.03.01.15.12_amd64.deb
+Size: 6628
+MD5sum: 76528bb65a84adce21f4ffc2c4da4ada
+SHA1: 10b4672b85eea8beab625ad3f9cd6a7e45f3dce4
+SHA256: 0a14b09fee219f88f23a0f52e800ef272041905dd562296c151a430699e4af64
+SHA512: b5788eacd12c00997e8a2ab18f7f2df2b4bca93ec2b78cb63abe5d80c4e7dfbfc749e621e62b665935a78a1c85362178e5fcef81c1c081fd14d4f39be69600d2
+Description: Wrapper around orocos_kdl, providing nothing but a dependency on orocos_kdl on some systems.
+ On others, it fetches and builds orocos_kdl locally.
+
+Package: ros-pybind11-vendor
+Architecture: amd64
+Version: 3.0.2-2023.03.01.15.13
+Priority: optional
+Section: misc
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Installed-Size: 37
+Depends: pybind11-dev
+Filename: ./ros-pybind11-vendor_3.0.2-2023.03.01.15.13_amd64.deb
+Size: 6776
+MD5sum: 93f774acbbfcac37b1076556fcfc2586
+SHA1: 0522fe8582845ec6e7c8e15e462f3c9c28f5d4a9
+SHA256: 8d1cfdc391f78eb4d36f9765b636133f65a091105238fcf14abef1f1aad2e44a
+SHA512: 6f8cf54c2c77d1681b50cb11cdf5d6d60cf3488024421f85aa24eb1e929f76dada57d431a9cc0eefe18e0abb0fd042276253176366479e9c173acb4e550f5bd5
+Homepage: https://github.com/pybind/pybind11
+Description: Wrapper around pybind11.
+
+Package: ros-python-cmake-module
+Architecture: amd64
+Version: 0.10.2-2023.03.01.15.14
+Priority: optional
+Section: misc
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Installed-Size: 46
+Depends: python3-dev
+Filename: ./ros-python-cmake-module_0.10.2-2023.03.01.15.14_amd64.deb
+Size: 8636
+MD5sum: 4ec9704542fb85a6ad764f83202e586c
+SHA1: db00310514a713fb10857228efc93c032caaa920
+SHA256: c6aab48aebe7a264401654752998a2a885941a8fb6beb7eae34e5b1eb76ad014
+SHA512: 2906ef641f9513628bd3df9b081090832c0bdf12c04d68d94b173d4310655ddbf1d2aa18e069702ec9b6dced5fe865d81f81ed3daaa0cee5dfff67eeb2507bfb
+Description: Provide CMake module with extra functionality for Python.
+
+Package: ros-python-orocos-kdl-vendor
+Architecture: amd64
+Version: 0.3.4-2023.03.01.15.15
+Priority: optional
+Section: misc
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Installed-Size: 37
+Depends: python3-pykdl, ros-orocos-kdl-vendor, ros-pybind11-vendor
+Filename: ./ros-python-orocos-kdl-vendor_0.3.4-2023.03.01.15.15_amd64.deb
+Size: 5908
+MD5sum: 74d6dee4dae98ae3a7579ce890e809d1
+SHA1: 96b347e8245f22fa275cbfc0b4cfd180cceab164
+SHA256: 0d624a3f47e34a35b3af6d4c74d89e2c3f83de40b9583bb4a4ca37f1419a006c
+SHA512: 426e1ed59fd318800ddcb01d8be31f5391db49e25f0bfa46c2d59f9e2962d4921522ca5ef5c5a9472b54e69ffe88ac1f8790e7c4f4d1e42a92915095ce784c41
+Description: Wrapper around PyKDL, providing nothing but a dependency on PyKDL on some systems.
+ On others, it fetches and builds python_orocos_kdl locally.
+
+Package: ros-qt-gui-app
+Architecture: amd64
+Version: 2.4.0-2023.03.01.15.20
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 39
+Depends: python3-ament-index, ros-qt-gui
+Filename: ./ros-qt-gui-app_2.4.0-2023.03.01.15.20_amd64.deb
+Size: 6340
+MD5sum: 1a7164d82478a50598bde6960451e34d
+SHA1: 256063d51366c54dc791635336accaa3944f4c2e
+SHA256: 34f5e26e5b5b4cb360482a026980db08a921b24baee6cf401a6f2de65c880a64
+SHA512: 1901ac099eeeeabe81a7cb4cfd925301e99e5f374a2f2d7eb3f1d5eada466c6afce7c2ee2a1444840860d5d8c6d91fb5843df3cc77c538f3d7eb45b49646592f
+Homepage: http://ros.org/wiki/qt_gui_app
+Description: qt_gui_app provides the main to start an instance of the integrated graphical user interface provided by qt_gui.
+
+Package: ros-qt-gui-core
+Architecture: amd64
+Version: 2.4.0-2023.03.01.15.21
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 38
+Depends: ros-qt-dotgraph (>= 0.3.0), ros-qt-gui (>= 0.3.0), ros-qt-gui-app (>= 0.3.0), ros-qt-gui-cpp (>= 0.3.0), ros-qt-gui-py-common (>= 0.3.0)
+Filename: ./ros-qt-gui-core_2.4.0-2023.03.01.15.21_amd64.deb
+Size: 7540
+MD5sum: ef6871ac2864042bd0906658e54d657f
+SHA1: f08fd7b4cb4106c8490117d036b0391fbf260a6e
+SHA256: 8b44d265eebc87f7f121781649aaa2aa5804d9dfad79ef8dd8e8751c9da26837
+SHA512: 1d0bbd6aeb764a8fd6c01431c7d4baaebf1390e6956ffa03247704105d05903a6ee0671a3b2ea45c73fb7bc83afb97e3e8ca37b3def15ba6195808b223847407
+Homepage: http://ros.org/wiki/qt_gui_core
+Description: Integration of the ROS package system and ROS-specific plugins for a Qt-based GUI.
+
+Package: ros-quality-of-service-demo-py
+Architecture: amd64
+Version: 0.25.0-2023.03.01.15.22
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 69
+Depends: python3-pkg-resources, python3:any, ros-rclpy, ros-std-msgs
+Filename: ./ros-quality-of-service-demo-py_0.25.0-2023.03.01.15.22_amd64.deb
+Size: 10784
+MD5sum: c6ebadca938f4437116dcb6162d15dab
+SHA1: b6d4132e1a97c079239fb622985973d9413044d6
+SHA256: e7633324d2d06229c356649fe71842c155c6517956588e5f7eab1d6ad1818c27
+SHA512: fba27d141c61af3b86ee9cef9dfc11ba285528fad8f9d0a78a18bcd99d01a7b8b94452dec58202635c6d09b1fe57631d42f522e6411731ce877301e5b85e4b3a
+Description: Python Demo applications for Quality of Service features
+
+Package: ros-rcl-logging-interface-dbgsym
+Architecture: amd64
+Version: 2.5.0-2023.03.01.15.23
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rcl-logging-interface
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 17
+Depends: ros-rcl-logging-interface (= 2.5.0-2023.03.01.15.23)
+Filename: ./ros-rcl-logging-interface-dbgsym_2.5.0-2023.03.01.15.23_amd64.deb
+Size: 4372
+MD5sum: be5d3e24f4a0a9eb66ce8f5051053ad2
+SHA1: 825682a242652e500a38e1363502b1fa450599e7
+SHA256: 4e84d750d62bbb0b7736eba0383fbe147e7f66bcaedbd4eff6f8383bd1a0a778
+SHA512: a536b7f150d39c38ea6b1bee6df7001d9bdb25ead66a9b66a2aa66c8aeb4568041ba21ca2b6015b226ee7fad4dab3b90aa068dc454b5b6a06e1115b33daef165
+Description: debug symbols for ros-rcl-logging-interface
+Build-Ids: a8f7dfb1c262f01c644a319113ed993967ac8079
+
+Package: ros-rcl-logging-interface
+Architecture: amd64
+Version: 2.5.0-2023.03.01.15.23
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 75
+Depends: libc6 (>= 2.4), librcutils1d (>= 6.0.0), librcutils-dev, python3-rcutils
+Filename: ./ros-rcl-logging-interface_2.5.0-2023.03.01.15.23_amd64.deb
+Size: 13096
+MD5sum: 26a56956552ee13ad3ccccf81ad3d1aa
+SHA1: 5dc9508da74e24f733c36b9607973bc4566aff58
+SHA256: 0a296b48ef0608ec7335f91d18357dd3b92438b82245151e92f61e1339d52e89
+SHA512: 291a06d8cced83b5e6631f021e01a0eb70158bcededa57b57d0d8b2fc545f11170d296d472cbadc4181c2ee53624fa2d98c24902ae1f3ee38952888527511b55
+Description: Interface that rcl_logging backends needs to implement.
+
+Package: ros-rcl-logging-noop-dbgsym
+Architecture: amd64
+Version: 2.5.0-2023.03.01.15.24
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rcl-logging-noop
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 16
+Depends: ros-rcl-logging-noop (= 2.5.0-2023.03.01.15.24)
+Filename: ./ros-rcl-logging-noop-dbgsym_2.5.0-2023.03.01.15.24_amd64.deb
+Size: 3236
+MD5sum: bad2f0bea8572719949150a883e82d19
+SHA1: f5887e192ea6bcb4ac875f2f07a00508d5d0274d
+SHA256: 22bbbfa29967c4a9ebccffc3bf8ca96e72d9f8db57b56bdd9c02140f08a43d8e
+SHA512: 29b3f0e6e82062bd511527fe7091c78f2da463717f94098ec26b983566c797ceddfb01027bc275c93756597562951928bc12254bb0efaadc837f4c762d210571
+Description: debug symbols for ros-rcl-logging-noop
+Build-Ids: 4176ff9fb113e77649999d82b068a67e4e6f8dee
+
+Package: ros-rcl-logging-noop
+Architecture: amd64
+Version: 2.5.0-2023.03.01.15.24
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 71
+Depends: librcutils-dev, python3-rcutils, ros-rcl-logging-interface
+Filename: ./ros-rcl-logging-noop_2.5.0-2023.03.01.15.24_amd64.deb
+Size: 11552
+MD5sum: 5604bef4bf4115fb2f463e39a007dced
+SHA1: 683afbb01e78225e63e4cea860a24869ff9eaf15
+SHA256: 44fb794cdc198e4b471e6eb667bb18cf142110483c07dd21cd033cd9caf18ae4
+SHA512: 45fd1ef294ffa9bcf6b4efdbdc090c7d204e34e76e7545b6a85838bae9c0c686b3d29262d03a995c65cf11d557c953eb996524391d6011397aca1462dbde7f62
+Description: An rcl logger implementation that doesn't do anything with log messages.
+
+Package: ros-rcl-logging-spdlog-dbgsym
+Architecture: amd64
+Version: 2.5.0-2023.03.01.16.17
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rcl-logging-spdlog
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 150
+Depends: ros-rcl-logging-spdlog (= 2.5.0-2023.03.01.16.17)
+Filename: ./ros-rcl-logging-spdlog-dbgsym_2.5.0-2023.03.01.16.17_amd64.deb
+Size: 131948
+MD5sum: 0ec53bf2bf88bb05eb3c993ba8e9c5b5
+SHA1: 86b3120e6de1d58bd520b2d6a6cc4045cb911d28
+SHA256: 13b06455bef398879b27e7cd738e4e2c72869679c6d636fee3ce22407fd98baa
+SHA512: 9dc2dae318e15fe26e29af0dc8efc7a596b65554834708bcf5e9b2f795974609ab39904e9758ec2ceb07a7925952f5eec86624d959da3732ec4bf63700c4640e
+Description: debug symbols for ros-rcl-logging-spdlog
+Build-Ids: d4ec388bd071a2c21fff98d4f397076629507c95
+
+Package: ros-rcl-logging-spdlog
+Architecture: amd64
+Version: 2.5.0-2023.03.01.16.17
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 101
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), librcpputils1d (>= 2.6.0), librcutils1d (>= 6.0.0), libspdlog1.10-fmt9, libstdc++6 (>= 5.2), librcpputils-dev, librcutils-dev, libspdlog-dev, python3-rcutils, ros-rcl-logging-interface, ros-spdlog-vendor
+Filename: ./ros-rcl-logging-spdlog_2.5.0-2023.03.01.16.17_amd64.deb
+Size: 22876
+MD5sum: c488b2ef13986936d4dbb19050604a1e
+SHA1: d43f29244ae82cf033b7dc81f88a926b4de3be43
+SHA256: dba284baa9a13497bfe258ed1071b2ae2538ae7456681a36446ec755fb775d2f
+SHA512: 0489fc1cae6013ffaace6cd46249a12cf4b21331bd6aefaf09373c14c1e113f47a79b9b46c88e0008702c37f4f57f54e5df2e06fe73983d7fe828aec0f8ad770
+Description: Implementation of rcl_logging API for an spdlog backend.
+
+Package: ros-rmw-dbgsym
+Architecture: amd64
+Version: 7.0.1-2023.03.01.15.26
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rmw
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Installed-Size: 50
+Depends: ros-rmw (= 7.0.1-2023.03.01.15.26)
+Filename: ./ros-rmw-dbgsym_7.0.1-2023.03.01.15.26_amd64.deb
+Size: 32160
+MD5sum: 7202a0299c0b3eb9fd7faee342c3f866
+SHA1: 2fe1a1b3949b6732928b0419f7134aa6c7c95fc8
+SHA256: d970b18e0e2b0de37a5c7c4f0077eb0d32a627fac7ba6a8e9f35482f365e53d0
+SHA512: ba7e67d38b4f9fbf2bd8ca1943c5eebd199f8004110289f67c5cb39458db3c055c35958e1d2ede7537319d37820705535d25de55685e9eee578928bfe6f66ebb
+Description: debug symbols for ros-rmw
+Build-Ids: b76309cdfab11e3f7754927eeab7a98de1238d37
+
+Package: ros-rmw-implementation-cmake
+Architecture: amd64
+Version: 7.0.1-2023.03.01.15.28
+Priority: optional
+Section: misc
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Installed-Size: 52
+Depends: ament-cmake
+Filename: ./ros-rmw-implementation-cmake_7.0.1-2023.03.01.15.28_amd64.deb
+Size: 9460
+MD5sum: bde713ddeb2f9cff82e58767fb32bd6e
+SHA1: 3fbfc3393ae6587496fd619864ad63dd72c630b5
+SHA256: e001d5af75abbc5352de54fbb9bdb1c854fe3807071700b974db13d5fdf873ef
+SHA512: bd7d3e09acb456dfd1df8b0d8933e0252f68cc95dd54983ed0c5f247c2d0f01d20442afc75124336d5c1967bc8a6c515393772567deb763d5f14d2ab10ac0703
+Description: CMake functions which can discover and enumerate available implementations.
+
+Package: ros-rmw
+Architecture: amd64
+Version: 7.0.1-2023.03.01.15.26
+Priority: optional
+Section: misc
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Installed-Size: 504
+Depends: libc6 (>= 2.14), librcutils1d (>= 6.0.0), librcutils-dev, librosidl-runtime-c-cpp-dev, python3-rcutils
+Filename: ./ros-rmw_7.0.1-2023.03.01.15.26_amd64.deb
+Size: 71200
+MD5sum: 813b18ad0c01da4d320a89b154508f50
+SHA1: 10912b90f1a3fc93ecf8adcc1eb60fadf5ac8822
+SHA256: 1a32d3857bce8c7dbccfd2e686898b6be202191d80ff61d0e49aa615ceeb9da6
+SHA512: 79fdefeb963f1e368f8286b9da53d3387c1be9f84f8bf8f8dd371b46f83be764c0a655d073b34740c2400623de8d0b8176f5db8f97b469eb2ce62670f0bb7c7f
+Description: Contains the ROS middleware API.
+
+Package: ros-ros-environment
+Architecture: amd64
+Version: 4.0.1-2023.03.01.15.31
+Priority: optional
+Section: misc
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Installed-Size: 44
+Filename: ./ros-ros-environment_4.0.1-2023.03.01.15.31_amd64.deb
+Size: 5536
+MD5sum: dc3459f5639548acad3b6513103f6e17
+SHA1: 6d172154f8802045b05cb0c7072ef0c71d097f7b
+SHA256: e3d578d0f4ee9e8d3aa8f7ceaba2a15284fcc48e71798d02381c72f8e7397c95
+SHA512: 92d372d54909b0ab800c470367b5769ff960e5dbfbf2008656e103754065fad52865493970bf933bf774e0c7b4b77a2afc71955e366d486a87f62205dadc262d
+Description: The package provides the environment variables `ROS_VERSION` and `ROS_DISTRO`.
+
+Package: ros-ros-testing
+Architecture: amd64
+Version: 0.5.2-2023.03.01.15.32
+Priority: optional
+Section: misc
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Installed-Size: 42
+Depends: ros-launch-testing, ros-launch-testing-ament-cmake, ros-launch-testing-ros, ros-ros2test
+Filename: ./ros-ros-testing_0.5.2-2023.03.01.15.32_amd64.deb
+Size: 7188
+MD5sum: e6880e20ac9e4a37f85e8fa5a7b5c1d7
+SHA1: 9e8b8922339526d76e4f4c1b9ff073a8a648b8b4
+SHA256: 9f586d835fdbddfdf6ad3647fe00caa1207884785fc1a9030f7fff4fb75a3823
+SHA512: e7da4137a1bd5d5227b58ef32937821b63c0d4614ea737669ed89f2fefdcbb05306e4159ce9b586d5f462ef1b5c8ad78db2ef0149b5a2ecede334d524e457e61
+Description: The entry point package to launch testing in ROS.
+
+Package: ros-ros2cli-common-extensions
+Architecture: amd64
+Version: 0.2.2-2023.03.01.15.29
+Priority: optional
+Section: misc
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Installed-Size: 38
+Depends: ros-launch-xml, ros-launch-yaml, ros-ros2action, ros-ros2cli, ros-ros2component, ros-ros2doctor, ros-ros2interface, ros-ros2launch, ros-ros2lifecycle, ros-ros2multicast, ros-ros2node, ros-ros2param, ros-ros2pkg, ros-ros2run, ros-ros2service, ros-ros2topic, ros-sros2
+Filename: ./ros-ros2cli-common-extensions_0.2.2-2023.03.01.15.29_amd64.deb
+Size: 5796
+MD5sum: f4e5fa86a45cb3736c2ed960dca1052a
+SHA1: 4a9c088501b744ca4c4e6417b100f34738afbe66
+SHA256: a5c521046aaefd92d85238e43f5542bd2a7c473f761103e54ceb7d4e427cd05e
+SHA512: 9b803b09c2e9e7add098a15ab3fff5f431d934c6479e0b387ef337dd76b1817ad824d175bcaaa92ad551d5f90a3a26851871fc68e05c5d6c146ebbeac2e1f397
+Description: Meta package for ros2cli common extensions
+
+Package: ros-ros2component
+Architecture: amd64
+Version: 0.22.0-3-g14e640c-2023.03.01.15.30
+Priority: optional
+Section: misc
+Maintainer: Audrow Nash <audrow@openrobotics.org>
+Installed-Size: 66
+Depends: python3:any, python3-ament-index, ros-composition-interfaces, ros-rcl-interfaces, ros-rclcpp-components, ros-rclpy, ros-ros2cli, ros-ros2node, ros-ros2param, ros-ros2pkg
+Filename: ./ros-ros2component_0.22.0-3-g14e640c-2023.03.01.15.30_amd64.deb
+Size: 12244
+MD5sum: 11351308e9115223488065d5e859eabb
+SHA1: 2fdfce103ef553326b758d33a6586451edef9a81
+SHA256: 39d85f8c9a9cf4c61f40a3329229fe99190084760a1d049d090385e837dd78cc
+SHA512: eb1bac40d0ffd3ad13857b22234a4bc77baeb56bc16df8a4d132ebe1fc9a1b7957141e72281d1f4907e210638b11a54acf8d89e776526dd988593d39f0e99613
+Description: The component command for ROS 2 command line tools.
+
+Package: ros-rosbag2-storage-default-plugins
+Architecture: amd64
+Version: 0.20.0-3-g6160bb3-2023.03.01.15.33
+Priority: optional
+Section: misc
+Maintainer: Michael Orlov <michael.orlov@apex.ai>
+Installed-Size: 37
+Depends: ros-rosbag2-storage-mcap, ros-rosbag2-storage-sqlite3
+Filename: ./ros-rosbag2-storage-default-plugins_0.20.0-3-g6160bb3-2023.03.01.15.33_amd64.deb
+Size: 5868
+MD5sum: 1f86d11a2696f54d5faebf96e8988639
+SHA1: e47c6b5a5dca6b84f9d6b05b69b326ff8821b586
+SHA256: d60842d83d086ab7b2c45cc388b04a156163985a2a582a42c1dc2cba12a0bfd7
+SHA512: 620f3c67fbfbd00d209d51acdd0f26a36249bb667366434154e3a37885233fe706956f0d7236032990fdc91e3dc67acf5080e884777157a343ce46bc028ab849
+Description: Intermediate metapackage to point at default storage plugin(s) for rosbag2
+
+Package: ros-rosidl-core-generators
+Architecture: amd64
+Version: 0.1.1-2023.03.01.15.47
+Priority: optional
+Section: misc
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Installed-Size: 46
+Depends: ament-cmake-core, librosidl-typesupport-introspection-c-cpp-dev, ros-rosidl-generator-py, ros-rosidl-typesupport-c, ros-rosidl-typesupport-cpp, ros-rosidl-typesupport-fastrtps-c, ros-rosidl-typesupport-fastrtps-cpp, rosidl-cmake, rosidl-generator-c-cpp
+Filename: ./ros-rosidl-core-generators_0.1.1-2023.03.01.15.47_amd64.deb
+Size: 6876
+MD5sum: abb9872a638d7b1c50c4567793886d83
+SHA1: 6e8275436391e47b3597e371097b84edbbaa772f
+SHA256: 93d70a08b66922b6a3f690f51a76d5f865b7dd8ee97b6ba7a69b685adb945b67
+SHA512: 6e27728cf26ec967540d35498bbcc7cda880e7796d7646873f2d3d6f945fc7d38b65d71f3537dbeb7bdb416b7a0f4f6fa731d3862da976fc41b20348df87ee5e
+Description: A configuration package defining core ROS interface generators.
+
+Package: ros-rosidl-core-runtime
+Architecture: amd64
+Version: 0.1.1-2023.03.01.15.44
+Priority: optional
+Section: misc
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Installed-Size: 38
+Depends: librosidl-runtime-c-cpp-dev, librosidl-typesupport-introspection-c-cpp-dev, ros-rosidl-generator-py, ros-rosidl-typesupport-c, ros-rosidl-typesupport-cpp, ros-rosidl-typesupport-fastrtps-c, ros-rosidl-typesupport-fastrtps-cpp
+Filename: ./ros-rosidl-core-runtime_0.1.1-2023.03.01.15.44_amd64.deb
+Size: 5988
+MD5sum: 8fca15f7c8b50f4da6efc3875a152129
+SHA1: 57b5d3a8e693c3d41e0bb3b0173543455861ad5a
+SHA256: d6bb722b21fae2705d0ddc24f868480381c1c1c4b394c915c52f51f90bfdee8c
+SHA512: 9f1f2dc792a3487917095d568482d3af8e54e08a3096a69d6dc593a22c9a23874a373630ed7d7b59d70b481de2b4cc0aeeff2d8d8435d8fd855f82710349424f
+Description: A configuration package defining runtime dependencies for core ROS interfaces.
+
+Package: ros-rosidl-default-generators
+Architecture: amd64
+Version: 1.5.0-2023.03.01.15.34
+Priority: optional
+Section: misc
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Installed-Size: 43
+Depends: ament-cmake-core, ros-action-msgs, ros-rosidl-core-generators, ros-service-msgs
+Filename: ./ros-rosidl-default-generators_1.5.0-2023.03.01.15.34_amd64.deb
+Size: 7392
+MD5sum: 0f1455c0474542283f7d2103150917a8
+SHA1: a6d5b3e5f3d8c1201bfa96471f4dbb919cfec25a
+SHA256: a015fd1548b78af1c89f16592b44f5effe6f89dcb977f87914482912da9fea04
+SHA512: c67654f44edb8ec0facdde6a8bc0bd51a75607a4d9b83d1b5443bf562e25c441296a8f74babb3d16646a77343a135f699f3991b58ec247e15974dcc74fee6a24
+Description: A configuration package defining the default ROS interface generators.
+
+Package: ros-rosidl-default-runtime
+Architecture: amd64
+Version: 1.5.0-2023.03.01.15.39
+Priority: optional
+Section: misc
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Installed-Size: 44
+Depends: ros-action-msgs, ros-rosidl-core-runtime, ros-service-msgs
+Filename: ./ros-rosidl-default-runtime_1.5.0-2023.03.01.15.39_amd64.deb
+Size: 8084
+MD5sum: bbc120238dc2db075f8b680995c92f22
+SHA1: a776d6275989a18eaf553b54886b048f34f11a68
+SHA256: b62670022c3d71f2510bf4dd88b4b43951c6d8fed9f61705ed287badaac881d5
+SHA512: c69bb54f2cd3817f6007d54fbb46b0af2f54e00e4493d26b040055a3a151ad88942c1a9324cf2ecd6a2272d00cf31f6fb337ce6da06dd47fda2ee556fc922151
+Description: A configuration package defining the runtime for the ROS interfaces.
+
+Package: ros-rpyutils
+Architecture: amd64
+Version: 0.3.2-2023.03.01.15.45
+Priority: optional
+Section: misc
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Installed-Size: 30
+Depends: python3:any
+Filename: ./ros-rpyutils_0.3.2-2023.03.01.15.45_amd64.deb
+Size: 5456
+MD5sum: 44cdec1c1bc6a1c9b36207891e1099fd
+SHA1: 344fb467209b60063131aaa26cfb2ac38876c244
+SHA256: a80354632dcd466ab3e9c4b213a0a4a0325d4448d96ec30269ac2228dedc7cdf
+SHA512: 15541c7b644d6deab1807352386c06875e91410763a7d9151e1e2883dc665c621fc3bc5a24571956a296d568aee589eb132c9abd4021d0d27029fccd901a2a66
+Description: Package containing various utility types and functions for Python
+
+Package: ros-rqt-action
+Architecture: amd64
+Version: 2.1.2-2023.03.01.15.52
+Priority: optional
+Section: misc
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Installed-Size: 33
+Depends: python3-pkg-resources, python3:any, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-msg, ros-rqt-py-common
+Filename: ./ros-rqt-action_2.1.2-2023.03.01.15.52_amd64.deb
+Size: 6344
+MD5sum: 702598e3f2ab00c38a2f588aaed35f0b
+SHA1: 0462bc12a8e89c90c9237ab58c1a245bd60c5723
+SHA256: e400ec7ba6203ebfc64ebcd7aa6ed4910591904a34601ce30c8c49423b8cf8f5
+SHA512: e38195a57d716022b3eccce33aa9522f6402f1dd7972d738c752a3aacee6917874dbd77ef30173abf531bf8fa68db6805afc3615e21636fba6df9c05913f5859
+Homepage: http://wiki.ros.org/rqt_action
+Description: rqt_action provides a feature to introspect all available ROS action types.
+
+Package: ros-rqt-bag-plugins
+Architecture: amd64
+Version: 1.3.0-2023.03.01.15.54
+Priority: optional
+Section: misc
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Installed-Size: 76
+Depends: python3-pkg-resources, python3:any, python3-cairo, python3-pil, ros-geometry-msgs, ros-rclpy, ros-rosbag2, ros-rqt-bag, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-plot, ros-sensor-msgs, ros-std-msgs
+Filename: ./ros-rqt-bag-plugins_1.3.0-2023.03.01.15.54_amd64.deb
+Size: 15664
+MD5sum: 27bb65ac03d00f55867274f64d197acf
+SHA1: 156612790243da66fc24cd253c948d1c9f69f2e6
+SHA256: 37c97feb79b94196be93de23b7b8b54d7ca26b4bb1ad6f2f1f3ac9aa6e54a503
+SHA512: 01af54bb3a1883d0d59083fa3091e2d97ce0574edc7cd918e034454ed2425c30371e8f03968d92dea74ee8bb09211ad8f4921950c0006a9e15b313c4eaf32169
+Homepage: http://wiki.ros.org/rqt_bag
+Description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
+
+Package: ros-rqt-bag
+Architecture: amd64
+Version: 1.3.0-2023.03.01.15.53
+Priority: optional
+Section: misc
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Installed-Size: 262
+Depends: python3-pkg-resources, python3:any, ros-python-qt-binding (>= 0.2.19), ros-rclpy, ros-rosbag2-py, ros-rqt-gui (>= 0.2.12), ros-rqt-gui-py
+Filename: ./ros-rqt-bag_1.3.0-2023.03.01.15.53_amd64.deb
+Size: 43144
+MD5sum: 85f869e644fd32e3fba1fec44b0b8f86
+SHA1: 1a704a2b2e3f3971432b358074eb8ddd0026d10c
+SHA256: de03c2f3fac03bfeabe3f4fb4c5fed0fd9ce58996e5fe36acb40d23417cd2f55
+SHA512: 0e45d479f762412f484f9f733442ee8683da3757cb65e8f6d26f9024f4db2b78acb5bc9854a243053ac0de6b35e4c0d922415fd57899a5bef53ef377c8ec5a42
+Homepage: http://wiki.ros.org/rqt_bag
+Description: rqt_bag provides a GUI plugin for displaying and replaying ROS bag files.
+
+Package: ros-rqt-console
+Architecture: amd64
+Version: 2.1.1-2023.03.01.15.55
+Priority: optional
+Section: misc
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Installed-Size: 194
+Depends: python3-pkg-resources, python3:any, python3-ament-index, ros-python-qt-binding (>= 0.2.19), ros-rcl-interfaces, ros-rclpy, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common
+Filename: ./ros-rqt-console_2.1.1-2023.03.01.15.55_amd64.deb
+Size: 27176
+MD5sum: 393b4b0b4784afb6ac53bc8a2f932953
+SHA1: 21396976af771e02fd12072ba7b1c5f6bac3aa29
+SHA256: 88e005d6cd0a21874bc87970e25f0eb792de957e967487e0376467f8473a088f
+SHA512: 65677000f9ed5f2388dd38135195cffd3841d61cab53fe89bd8db2dc9da98c6e13b92a8317271a25d4dedb3b254838d3df163739bc181db766bbb3e3d7e1cd51
+Homepage: http://wiki.ros.org/rqt_console
+Description: rqt_console provides a GUI plugin for displaying and filtering ROS messages.
+
+Package: ros-rqt-graph
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.56
+Priority: optional
+Section: misc
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Installed-Size: 136
+Depends: python3-pkg-resources, python3:any, python3-ament-index, ros-python-qt-binding, ros-qt-dotgraph (>= 1.1.2), ros-rqt-gui, ros-rqt-gui-py
+Filename: ./ros-rqt-graph_1.4.1-2023.03.01.15.56_amd64.deb
+Size: 24472
+MD5sum: 65b582ff77ddeb40d4e9945e8e573e09
+SHA1: 6f1e6e3ba1f1a63f9337ec05414d237215b5aa07
+SHA256: 30c4295545cbfdb4096f7b3c424f74e39685ba3342efa96833db17d74a827c9e
+SHA512: ef489bcfe952b2020d0c4ec9096d909ee754cddb1f6eb83294c5be276ed18b75b02b963d46a40ad424020cc57ef922b12ebcf012f914ce39a54207149e273e5f
+Homepage: http://wiki.ros.org/rqt_graph
+Description: rqt_graph provides a GUI plugin for visualizing the ROS computation graph.
+ Its components are made generic so that other packages where you want to achieve graph representation can depend upon this pkg (use rqt_dep to find out the pkgs that depend. rqt_dep itself depends on rqt_graph too).
+
+Package: ros-rqt-msg
+Architecture: amd64
+Version: 1.3.1-2023.03.01.15.57
+Priority: optional
+Section: misc
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Installed-Size: 56
+Depends: python3-pkg-resources, python3:any, python3-catkin-pkg, ros-python-qt-binding (>= 0.2.19), ros-rclpy, ros-rqt-console, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common
+Filename: ./ros-rqt-msg_1.3.1-2023.03.01.15.57_amd64.deb
+Size: 10404
+MD5sum: ea1e0c6feba1a0204dfd584dbbdfb263
+SHA1: 4ace7760b637511f9c26e1cb3b20cfccb20ddea4
+SHA256: 0fa8b0a21d0437abf228192c22ac06eb8135f845bfabdc7f0d564b882b560e82
+SHA512: 1b3a83104d8b52aca775fa2a09e6ccc108aa1225a29874e54cf8d1f6c69a14c0cae2fe6c4939654cd1ed8080b235384ca0c9fb638b9d2159deb9e13471694b89
+Homepage: http://wiki.ros.org/rqt_msg
+Description: A Python GUI plugin for introspecting available ROS message types.
+ Note that the msgs available through this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.
+
+Package: ros-rqt-plot
+Architecture: amd64
+Version: 1.2.1-2023.03.01.15.58
+Priority: optional
+Section: misc
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Installed-Size: 116
+Depends: python3-pkg-resources, python3:any, python3-catkin-pkg, python3-matplotlib, python3-numpy, ros-python-qt-binding (>= 0.2.19), ros-qt-gui-py-common (>= 0.2.25), ros-rclpy, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common, ros-std-msgs
+Filename: ./ros-rqt-plot_1.2.1-2023.03.01.15.58_amd64.deb
+Size: 23484
+MD5sum: f00faba013e7a4c807dcfde39d114918
+SHA1: 2a620ec71dce84a89a8468eb9f699c524361381c
+SHA256: 2aee8ae05f39d0578646e4acd3f0be6736d649f3275b86343b500c09e70a7004
+SHA512: 20e3b4028ca945595a328e51f60433f098aca8adecb9e660624dc30e55004139ce044402ca59a2c55f61034c4ddbdc34ef9007c0e662339485a3dd6af0edc56a
+Homepage: http://wiki.ros.org/rqt_plot
+Description: rqt_plot provides a GUI plugin visualizing numeric values in a 2D plot using different plotting backends.
+
+Package: ros-rqt-publisher
+Architecture: amd64
+Version: 1.6.2-2023.03.01.15.59
+Priority: optional
+Section: misc
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Installed-Size: 77
+Depends: python3-pkg-resources, python3:any, python3-ament-index, python3-numpy, ros-python-qt-binding (>= 0.2.19), ros-qt-gui-py-common, ros-rclpy, ros-rosidl-runtime-py, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common
+Filename: ./ros-rqt-publisher_1.6.2-2023.03.01.15.59_amd64.deb
+Size: 15280
+MD5sum: 2bde3284602f56096b5b6e6f2eb7e4e5
+SHA1: 89f24e168bf29affeef65b48446ac41f59008c52
+SHA256: 12a2fb36ec0682c94a197e3fcaae118b2ba9173348cb6b5561ae6cba15ebafda
+SHA512: 1f9963fb2a81609b7490d42e28a07e460edafe10b81d5fc6d463d9e720875fc6e0cd205bc5a210518ecded92139c76bbb90a17000a0df1d969f207f9de3f1f23
+Homepage: http://wiki.ros.org/rqt_publisher
+Description: rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.
+
+Package: ros-rqt-py-console
+Architecture: amd64
+Version: 1.1.1-2023.03.01.16.00
+Priority: optional
+Section: misc
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Installed-Size: 48
+Depends: python3-pkg-resources, python3:any, python3-ament-index, ros-python-qt-binding (>= 0.2.19), ros-qt-gui, ros-qt-gui-py-common, ros-rclpy, ros-rqt-gui, ros-rqt-gui-py
+Filename: ./ros-rqt-py-console_1.1.1-2023.03.01.16.00_amd64.deb
+Size: 8228
+MD5sum: 7c9e2c0a093400543cbded813b5b177c
+SHA1: 74f4c5ff33fdc16ed13e9158ec3190aef0aa64b1
+SHA256: 2ceeda56dba9cb3923efcc92b414790b2b6bddf61ebd893ba709ba63cd1f7acb
+SHA512: 008be0056dfb7f678215e7239d61e1b86f4bc4819dc1886cf6e0a1d9f8826ac94eac1cb69b319011b65d1928fbd8ee8395cefa6fec1fea7f372aea3d55f2de0a
+Homepage: http://wiki.ros.org/rqt_py_console
+Description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
+
+Package: ros-rqt-reconfigure
+Architecture: amd64
+Version: 1.3.1-2023.03.01.16.01
+Priority: optional
+Section: misc
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Installed-Size: 172
+Depends: python3-pkg-resources, python3:any, python3-ament-index, python3-yaml, ros-python-qt-binding (>= 0.2.19), ros-qt-gui-py-common, ros-rclpy, ros-rqt-console, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common
+Filename: ./ros-rqt-reconfigure_1.3.1-2023.03.01.16.01_amd64.deb
+Size: 28832
+MD5sum: cc0b4ecf012e03543cde55e7b5b011cb
+SHA1: cbb3e6aebc82736039d7b80af611de9b4bd1b10a
+SHA256: 04fe8afa33d56f96821e321859d4805a047a0cb4b591f689904033b013fa659b
+SHA512: 743ce47f531dd369c4320cda51d9d6668aad27094dae6d48fe113231d5e4e98a9d0f3e4e0b3aa5db05060b3b7d8352ae168c840dec65ff14240168fa1d265cdc
+Homepage: http://wiki.ros.org/rqt_reconfigure
+Description: This rqt plugin provides a way to view and edit parameters on nodes.
+
+Package: ros-rqt-service-caller
+Architecture: amd64
+Version: 1.1.1-2023.03.01.16.02
+Priority: optional
+Section: misc
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Installed-Size: 58
+Depends: python3-pkg-resources, python3:any, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common
+Filename: ./ros-rqt-service-caller_1.1.1-2023.03.01.16.02_amd64.deb
+Size: 10904
+MD5sum: 40d14f5ace6d7e8be575d4d65f892e37
+SHA1: f309afd28e8385d16a931d646f9bcc0278ce9835
+SHA256: 21564fc484461bcb9f7bbe1b47ed0c7a7dfa28092086409664373072ed386587
+SHA512: 0553c8c9bb602213826713f0814112ecb48207d6625f96f893efa4580183cf534a373a34fd83d8fc11e4e3159401e328e3df982a02bffa381aae2efa6c364227
+Homepage: http://wiki.ros.org/rqt_service_caller
+Description: rqt_service_caller provides a GUI plugin for calling arbitrary services.
+
+Package: ros-rqt-shell
+Architecture: amd64
+Version: 1.1.1-2023.03.01.16.03
+Priority: optional
+Section: misc
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Installed-Size: 53
+Depends: python3-pkg-resources, python3:any, python3-catkin-pkg, ros-python-qt-binding (>= 0.2.19), ros-qt-gui, ros-qt-gui-py-common, ros-rqt-gui, ros-rqt-gui-py
+Filename: ./ros-rqt-shell_1.1.1-2023.03.01.16.03_amd64.deb
+Size: 9656
+MD5sum: a8e16e1a5d85baeb7171ebaba445917e
+SHA1: fc718296d131602a9f2485e44ba3972601292493
+SHA256: 68ddf2037532861d4116be8321c741b88315b48aa08802c3edca42ef149686be
+SHA512: f112d2e5a682786ba20925040bbfef620f3c7be3ae71a23f988ecd5add2f9b97ec814f0e66d0e138637434eb41d2c4770bb09bbaa9671723639820746d111ff5
+Homepage: http://wiki.ros.org/rqt_shell
+Description: rqt_shell is a Python GUI plugin providing an interactive shell.
+
+Package: ros-rqt-srv
+Architecture: amd64
+Version: 1.1.1-2023.03.01.16.04
+Priority: optional
+Section: misc
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Installed-Size: 33
+Depends: python3-pkg-resources, python3:any, ros-rclpy, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-msg
+Filename: ./ros-rqt-srv_1.1.1-2023.03.01.16.04_amd64.deb
+Size: 6504
+MD5sum: 396ecfd0bc2684fdab60df3f08fba962
+SHA1: ebd8776c7a2e29b5af25e434715d2d042d8bd5ce
+SHA256: e25cba75afe692627ffbbfe81b9f0530da2bb3d3f00780118b5bd1f27e7ca8a5
+SHA512: 867b76ae2b423d4f5692060f2c1c6dbca246f9c9e911881d4b396f78315fff5faf5368c191e4f0f15b0f1dd848aa4db5072724fb57c11fd4457bfd3295d5a90d
+Homepage: http://wiki.ros.org/rqt_srv
+Description: A Python GUI plugin for introspecting available ROS message types.
+ Note that the srvs available through this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.
+
+Package: ros-rqt-topic
+Architecture: amd64
+Version: 1.6.1-2023.03.01.16.05
+Priority: optional
+Section: misc
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Installed-Size: 64
+Depends: python3-pkg-resources, python3:any, ros-python-qt-binding (>= 0.2.19), ros-rclpy, ros-ros2topic, ros-rqt-gui, ros-rqt-gui-py, ros-rqt-py-common
+Filename: ./ros-rqt-topic_1.6.1-2023.03.01.16.05_amd64.deb
+Size: 13164
+MD5sum: 17210262526ae9d53220f9a65cced24d
+SHA1: 5c4906ef3f7565f614702c6ea1e068849af2d89b
+SHA256: 4d5e1f55392b5825dcb8168dec375d6986fdedd5f109b9c43a734bfb64c16b32
+SHA512: 1d61b8852a23dd44f98312900cd2c7fc6157621f35a6e15691ba4d3f20a3bcabe8afc19fef003aa90f334d934d21a393ab26a9475664fd1af27bdc5063a210b8
+Homepage: http://wiki.ros.org/rqt_topic
+Description: rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
+
+Package: ros-rqt
+Architecture: amd64
+Version: 1.3.1-2023.03.01.15.52
+Priority: optional
+Section: misc
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Installed-Size: 24
+Depends: ros-rqt-gui (>= 0.3.0), ros-rqt-gui-cpp (>= 0.3.0), ros-rqt-gui-py (>= 0.3.0), ros-rqt-py-common
+Filename: ./ros-rqt_1.3.1-2023.03.01.15.52_amd64.deb
+Size: 7064
+MD5sum: 3023940f2dfd0263bf8db80c849f69e4
+SHA1: 09b960875c66eace74bc268d2518b5a23a79b9cb
+SHA256: 960e55319620ee3e7571ebd2b1812ae1ce646f73b94b6122c5e6e240691f0c56
+SHA512: bd6f2d915e76c40327633f2fac33c490824e419ab8d1f0fcf015be6201426a889c2179966a9f89753034e1d8e172bed08a32c0ac2f56dc1a9e85f5b43f71ed5a
+Homepage: http://ros.org/wiki/rqt
+Description: rqt is a Qt-based framework for GUI development for ROS.
+
+Package: ros-rttest-dbgsym
+Architecture: amd64
+Version: 0.15.0-2023.03.01.16.06
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rttest
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Installed-Size: 201
+Depends: ros-rttest (= 0.15.0-2023.03.01.16.06)
+Filename: ./ros-rttest-dbgsym_0.15.0-2023.03.01.16.06_amd64.deb
+Size: 184524
+MD5sum: f79b92a6b59e897c6151cde87f7cdb26
+SHA1: 7ef86f24d1df16ff20461d9d29d91555b6102abc
+SHA256: 2b29ac1636fae2e4db4ed0510b58f47d2ad246d124a58f515146908867426669
+SHA512: 0f05c23a71e76ff19eedf98bc60773ba1095516fac9792aab42eb0dea8166049b4797fc18fb1b33726880b5477d6fa1faada6ed659ef0714fab7778b48e96a37
+Description: debug symbols for ros-rttest
+Build-Ids: d19932a7487c4db90eec1b138acc29a7b3bc42b0
+
+Package: ros-rttest
+Architecture: amd64
+Version: 0.15.0-2023.03.01.16.06
+Priority: optional
+Section: misc
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Installed-Size: 116
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: ./ros-rttest_0.15.0-2023.03.01.16.06_amd64.deb
+Size: 31292
+MD5sum: 4e5e6bb9800cbf5ec87119e722aabd03
+SHA1: 3993a28751e983b209961338a5c2573dfda552f9
+SHA256: 35d8c6c9af6fe2f9b22ec38f8991cc1e8d6f07badad03fae9466fba9bfaea513
+SHA512: be54edb6ea17d434108638ccbb9792fb3d176a48d90e4fc9d4f19aded74c73cdeb769e730e8aa918b0bfef20c70aa602c911029df2f517228051632f70904798
+Description: Instrumentation library for real-time performance testing
+
+Package: ros-rviz-assimp-vendor
+Architecture: amd64
+Version: 12.3.1-2023.03.01.16.07
+Priority: optional
+Section: misc
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 41
+Depends: libassimp-dev
+Filename: ./ros-rviz-assimp-vendor_12.3.1-2023.03.01.16.07_amd64.deb
+Size: 8948
+MD5sum: 522f45df2f99acc40c49a720642a2a04
+SHA1: dba7289c73e6f9ea7905a653a95d41ae961b78f1
+SHA256: 9853671a818bd153b0b40303260c99d3904021905c0cc5414a777885fe863370
+SHA512: f14d318044b55e2482009fcd1a7abb967707ae1204e01e400b69a7588094eb1c6e2ceb4ddc8aabe756f4e44b39b13f35116d7d40393efa906c135073343bff73
+Homepage: http://assimp.sourceforge.net/index.html
+Description: Wrapper around assimp, providing nothing but a dependency on assimp, on some systems.
+ On others, it provides a fixed CMake module or even an ExternalProject build of assimp.
+
+Package: ros-sensor-msgs-py
+Architecture: amd64
+Version: 4.7.0-2023.03.01.16.12
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Installed-Size: 46
+Depends: python3-pkg-resources, python3:any, python3-numpy, ros-sensor-msgs
+Filename: ./ros-sensor-msgs-py_4.7.0-2023.03.01.16.12_amd64.deb
+Size: 9464
+MD5sum: d88234c7aef139a41252fb751f5f10e3
+SHA1: 3622f865027f67652341c047ed8f9aa133906cbe
+SHA256: 0bedf60889d4fbda981a4743006e2aa294e19659c497241f81730e0075fd03a6
+SHA512: 4ba1bff07f5d6e2bb66576ac457a495520b6ee8ba02f52ce246c01d18c0a8d955227cd9c5da61ca7e7d1181378865ad8c7dc9c894d561216e58cf9aa793c7541
+Description: A package for easy creation and reading of PointCloud2 messages in Python.
+
+Package: ros-spdlog-vendor
+Architecture: amd64
+Version: 1.4.3-2023.03.01.16.16
+Priority: optional
+Section: misc
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Installed-Size: 39
+Depends: libspdlog-dev
+Filename: ./ros-spdlog-vendor_1.4.3-2023.03.01.16.16_amd64.deb
+Size: 7400
+MD5sum: 64020dcba35fef6dc6101665ccf53938
+SHA1: 3e40bbc32dcba07243a6c659095811d2929becd9
+SHA256: f5db2bdc09b750b277409e84cb95fa8447194b7e95e7fbc2dc85294ca8c4176d
+SHA512: 0cd71cfb4ce62a689032d301dd0da6c6d6981261fb26b9d4d1dfe1b3259ec48a8cec1ecb590e53e9979f7346190105aab3408131e5cd0263517d1d5b0860c237
+Homepage: https://github.com/gabime/spdlog
+Description: Wrapper around spdlog, providing nothing but a dependency on spdlog, on some systems.
+ On others, it provides an ExternalProject build of spdlog.
+
+Package: ros-sqlite3-vendor
+Architecture: amd64
+Version: 0.20.0-3-g6160bb3-2023.03.01.16.19
+Priority: optional
+Section: misc
+Maintainer: Michael Orlov <michael.orlov@apex.ai>
+Installed-Size: 44
+Depends: libsqlite3-dev
+Filename: ./ros-sqlite3-vendor_0.20.0-3-g6160bb3-2023.03.01.16.19_amd64.deb
+Size: 8692
+MD5sum: 23624fd1d7b62f720101a6fcfe783516
+SHA1: e76233705a1cb0b00b491ac67ab116f379ffc4cb
+SHA256: 78f03803ab2319118194b58de1b5ae9118b5e87909c97f9b054b55873baa49eb
+SHA512: c7f0cea3b153ae51803e10d554013a63784e04902e9ce568851c7944f89be6ac804293119294598372ca87c9889d627d7e4978a36e9cafbc5e2222a21a39d7a0
+Description: SQLite 3 vendor package
+
+Package: ros-sros2-cmake
+Architecture: amd64
+Version: 0.11.1-2023.03.01.16.20
+Priority: optional
+Section: misc
+Maintainer: ROS Security Working Group <ros-security@googlegroups.com>
+Installed-Size: 40
+Depends: ros-ros2cli, ros-sros2
+Filename: ./ros-sros2-cmake_0.11.1-2023.03.01.16.20_amd64.deb
+Size: 7484
+MD5sum: 6567ee12b5391d8c3c265a682f24a330
+SHA1: fa3f198c392572cfc72bb1ed12edaa16a6530399
+SHA256: f3068757deff076b42252884c55e53774aaa7b8310ce87c8bcda86d065586e52
+SHA512: fe8e8c51708b2c60ee86590305d21c6d92b16f13bfa21ae20c0085224f6fb2b2cac3249d4b0efbc23c3d3753b6d67ab2baee4190cf80179d6c5bb3ce7cd08d81
+Description: CMake macros to configure security
+
+Package: ros-test-launch-testing
+Architecture: amd64
+Version: 1.4.1-2023.03.01.16.23
+Priority: optional
+Section: misc
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 41
+Filename: ./ros-test-launch-testing_1.4.1-2023.03.01.16.23_amd64.deb
+Size: 7216
+MD5sum: 1431f0106be0a8a815b57d1419deec6e
+SHA1: a2000b074c395cc16c5a5a46f84b4a16abe1597e
+SHA256: 4e1492969e513f83beb140d39ae5c4564281a4541c8c096809c0d0dc3a808a28
+SHA512: 174585bafe3f0c26ac788cb44864e2a84dc3348475b653be5a9528eed59a15fa89b32a5578609b333b5ba3d6125d54cc55cc339eb198144a32e94ee6dac39826
+Description: Tests for the launch_testing package.
+
+Package: ros-tf2-ros-py
+Architecture: amd64
+Version: 0.30.0-2023.03.01.17.55
+Priority: optional
+Section: misc
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 80
+Depends: python3-pkg-resources, python3:any, ros-geometry-msgs, ros-rclpy, ros-sensor-msgs, ros-std-msgs, ros-tf2-msgs, ros-tf2-py
+Filename: ./ros-tf2-ros-py_0.30.0-2023.03.01.17.55_amd64.deb
+Size: 13140
+MD5sum: 09e6eaf770e7c6433de0829e312f632e
+SHA1: 21eca12876ed8653599c5fb5fa9c334fab7bd285
+SHA256: de0c2f95fa5c3c689dd2dca65d430ef11d845aa43536d708ac2fec135d8ef2f0
+SHA512: 4e8262079c1ffd59d3c83f2b2ce58eaad131ee733f3a69fb1ffe39b1bb1d3946b11121da42999097e1e62b5287f463dcd788f30e39d3fb13989d5845deee97bc
+Homepage: http://www.ros.org/wiki/tf2_ros
+Description: This package contains the ROS Python bindings for the tf2 library
+
+Package: ros-tf2-tools
+Architecture: amd64
+Version: 0.30.0-2023.03.01.16.25
+Priority: optional
+Section: misc
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 35
+Depends: python3-pkg-resources, python3:any, graphviz, python3-yaml, ros-rclpy, ros-tf2-msgs, ros-tf2-py, ros-tf2-ros-py
+Filename: ./ros-tf2-tools_0.30.0-2023.03.01.16.25_amd64.deb
+Size: 8288
+MD5sum: d72b68f1763325e4ad01f36e2a07e4e7
+SHA1: 20ea6ed002ad9a4f1e48405258f74acc48270c77
+SHA256: 2422c9533d34b77d1740564b4b3e6cebb14afbaced178a50c88ff355be0087c4
+SHA512: 13bcbf03ffa43e78f486de945ff97866acfd14ca6902626093f494e14a2d67c5d15956bc0fa25cde79ef1f91e232c2c91dbb21addb1f83e4c63e74b089b2b618
+Homepage: http://www.ros.org/wiki/tf2_tools
+Description: tf2_tools
+
+Package: ros-tinyxml2-vendor
+Architecture: amd64
+Version: 0.8.2-2023.03.01.16.26
+Priority: optional
+Section: misc
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Installed-Size: 43
+Depends: libtinyxml2-dev
+Filename: ./ros-tinyxml2-vendor_0.8.2-2023.03.01.16.26_amd64.deb
+Size: 6532
+MD5sum: dc3b85f1f6c677c5a2d4d267ca76a4f4
+SHA1: fb5cdf30de366a84a2b7585efd29486718be9ad3
+SHA256: c6c19965694f6091545853530fbb42238fa9e48e3143c9c973a79c1647c0d6f9
+SHA512: 5cee43cd97c2518d75f50f520bfc9a628511653d34707e3b4fb9a579394c4066b9fd4d85019d12423be0759e91960e33c7db0994e7eca615afd838643fcd45ac
+Description: Wrapper around tinyxml2, providing nothing but a dependency on tinyxml2, on some systems.
+ On others, it provides a fixed CMake module or even an ExternalProject build of tinyxml2.
+
+Package: ros-tlsf
+Architecture: amd64
+Version: 0.8.2-2023.03.01.16.28
+Priority: optional
+Section: misc
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Installed-Size: 58
+Depends: ament-cmake
+Filename: ./ros-tlsf_0.8.2-2023.03.01.16.28_amd64.deb
+Size: 12020
+MD5sum: 4f17ef4181398f1f2d943848234ffc06
+SHA1: 602b126a6c0cb0a1fce3c65130baa2f881f7287b
+SHA256: 3486a9d65f8090843d46f972bffa269bb170b645713e13a271c52910e4fcddcf
+SHA512: a5cafcaa224fd1c0dbbd4f236390af7da42a547c590387c9e5a1dcf8f598fce3e0ef1080e2362066b9d05b150fd8ad1265a86ded0305802fde4b5bb1040f1a82
+Description: TLSF allocator version 2.4.6
+
+Package: ros-tracetools-dbgsym
+Architecture: amd64
+Version: 5.0.0-2-gfaf6c27-2023.03.01.16.29
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-tracetools
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Installed-Size: 38
+Depends: ros-tracetools (= 5.0.0-2-gfaf6c27-2023.03.01.16.29)
+Filename: ./ros-tracetools-dbgsym_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.deb
+Size: 10540
+MD5sum: fc3658847b7bba56202d72cd0e1c45b3
+SHA1: db91a8536cd9b83b2e5a7dc34dd934e6eb68fb24
+SHA256: cb6a5b8fd3a797fa69b2577bbc469bbbeddf4b4a9f716e70854550810b51f010
+SHA512: 9e445c27ab55730053aae38b283ff37b3a1fad141c238e2336426dc5b59ee5ac1d3128000b1003db74cacc211328ebb749653716d0e59af74d3d50f97bc4c007
+Description: debug symbols for ros-tracetools
+Build-Ids: 7fcf2b32b839449b1e15ea1b979f0dcb0162ca52 b88759ddf2911a44a34a0217a688a18aa34fef2e d446d11715f7987dbda6df1fae8d1fc1f30d5349
+
+Package: ros-tracetools-read
+Architecture: amd64
+Version: 5.0.0-2-gfaf6c27-2023.03.01.16.30
+Priority: optional
+Section: misc
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Installed-Size: 29
+Depends: python3-pkg-resources, python3:any, python3-babeltrace
+Filename: ./ros-tracetools-read_5.0.0-2-gfaf6c27-2023.03.01.16.30_amd64.deb
+Size: 5252
+MD5sum: 163e3f928b4141bd76b29db7e4f9f941
+SHA1: 7a1209852972cad6318aeb6a138eb9e040a0a1bf
+SHA256: 7f20039ba21f7503f3f45cd0d8519ef67127315b144f01bc318c069ac1f3af81
+SHA512: 2203bfaf8fd2a120b20caeb5939d84511fb6a4a4a7686eebb9fbbbc343b6597c0901858c73ad4b5fd07f23f845e6040bee5204d689c006d4ef3d3c05800b04b8
+Homepage: https://index.ros.org/p/tracetools_read/
+Description: Tools for reading traces.
+
+Package: ros-tracetools-trace
+Architecture: amd64
+Version: 5.0.0-2-gfaf6c27-2023.03.01.16.32
+Priority: optional
+Section: misc
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Installed-Size: 70
+Depends: python3-pkg-resources, python3:any, python3-lttng
+Filename: ./ros-tracetools-trace_5.0.0-2-gfaf6c27-2023.03.01.16.32_amd64.deb
+Size: 14200
+MD5sum: 4525046db2b38e6a70042a257e6c9da5
+SHA1: 1825f79b51087eceed2ced4bfd7acbf1eb9c258d
+SHA256: 6317b286e12ac65ecdc8496b3bf8afc4326352473f9518b64781ce62f1104b5c
+SHA512: 883a36e8189ce99df36d77c13fe47e5d36a4656548be9ba18cc477dd72536a2d2435aafbbdf100d0f157aac63696cc1a6e0c79a9345a30a7020b22fe4809ac4a
+Homepage: https://index.ros.org/p/tracetools_trace/
+Description: Tools for setting up tracing sessions.
+
+Package: ros-tracetools
+Architecture: amd64
+Version: 5.0.0-2-gfaf6c27-2023.03.01.16.29
+Priority: optional
+Section: misc
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Installed-Size: 129
+Depends: libc6 (>= 2.34), libstdc++6 (>= 4.1.1)
+Filename: ./ros-tracetools_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.deb
+Size: 19760
+MD5sum: 62774f06c8ff257004188a4b8c8b129c
+SHA1: 7403b33503865a95a932f588afc427fa4b9dd8b3
+SHA256: 704fd8c6b9696fa254569c2bb050b09486f3facebb1be0e2b00f8ba1e3180101
+SHA512: 676c5d75803cbe6f34fc1b0003e1255748f59f9bbf0f6718b0e11f963ef40bdc90508e913709705e2fadefb58efaf8b2e41d9d3767dce76a9123b495fd52e5d3
+Homepage: https://index.ros.org/p/tracetools/
+Description: Tracing wrapper for ROS 2.
+
+Package: ros-urdf-dbgsym
+Architecture: amd64
+Version: 2.8.2-2023.03.01.18.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-urdf
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 1303
+Depends: ros-urdf (= 2.8.2-2023.03.01.18.08)
+Filename: ./ros-urdf-dbgsym_2.8.2-2023.03.01.18.08_amd64.deb
+Size: 1245256
+MD5sum: 73be485026b18b0d53dee05c266a5822
+SHA1: a7d6d45d04d896e29a5d0a47d5ca9fa4cd5b8d30
+SHA256: da5ac6cb410dd679fb651af534ab6855dad3710636c781876322aeaa2f163c55
+SHA512: b0a05973c2aa13d84f41e4fa17eb5321dc8015fa5fcc4dbe9e05a3a54356a18d5ae1a55d1d9cd314d6eb3d9f20a8b9d96209f114b612d77609cb48a27f336b34
+Description: debug symbols for ros-urdf
+Build-Ids: 32d9188293d2850a6161b23dc30630724c4acc59 dcab25d6dcd61f023680c6252b794ce425def9bf
+
+Package: ros-urdf-parser-plugin
+Architecture: amd64
+Version: 2.8.2-2023.03.01.18.07
+Priority: optional
+Section: misc
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 53
+Depends: liburdfdom-headers-dev
+Filename: ./ros-urdf-parser-plugin_2.8.2-2023.03.01.18.07_amd64.deb
+Size: 10096
+MD5sum: 1c6158a5b84528d8fe9f657515a23af1
+SHA1: 565bf92695c95e41cff318fa5211ea93d949e286
+SHA256: 53a34a629a730e9f9ed17301094c714f011430768afb891666880a15b5362973
+SHA512: f0e088b59fce54018bd1dd9c3c32d7258d092f35e5ae7d15be7c0e9d1dbc47d0ea20152cd302fa50a3e0705b79305e7ce3e061fbc9af82109e6e5577ee8ba197
+Description: This package contains a C++ base class for URDF parsers.
+
+Package: ros-urdf
+Architecture: amd64
+Version: 2.8.2-2023.03.01.18.08
+Priority: optional
+Section: misc
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 388
+Depends: libament-index-cpp0d (>= 1.5.1), libc6 (>= 2.32), libclass-loader3d (>= 2.4.0), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), librcpputils1d (>= 2.6.0), librcutils1d (>= 6.0.0), libroslib0d (>= 1.15.8), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), liburdfdom-model3.0 (>= 3.0.1), liburdfdom-dev, liburdfdom-headers-dev, pluginlib-dev, ros-tinyxml2-vendor, ros-urdf-parser-plugin
+Filename: ./ros-urdf_2.8.2-2023.03.01.18.08_amd64.deb
+Size: 103984
+MD5sum: e1de8b7e6d69ea3a080322ab06b28486
+SHA1: b61d42ca672f8b1c7d7d122627b586f24fa55a96
+SHA256: 1fdb782cb7633a8d9476100951152d5daf2017cfa258658712e7f2b522ad19b2
+SHA512: 9cc3eca4dd1a06caa62c767339db4e89e6df83d6a35418b089dc3397a764dfd4ec1996241029f21f143fc6df39d074f238b50d31b4f7fcd2c81b74535f29f38e
+Description: This package contains a C++ parser for the Unified Robot Description Format (URDF), which is an XML format for representing a robot model.
+ The code API of the parser has been through our review process and will remain backwards compatible in future releases.
+
+Package: ros-yaml-cpp-vendor
+Architecture: amd64
+Version: 8.1.2-2023.03.01.18.14
+Priority: optional
+Section: misc
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Installed-Size: 39
+Depends: libyaml-cpp-dev
+Filename: ./ros-yaml-cpp-vendor_8.1.2-2023.03.01.18.14_amd64.deb
+Size: 8380
+MD5sum: b2d337b7c51f63293e5da6187afb9d1d
+SHA1: ea62a1fae5d69963d76ed54433b2d5ccfd1c1991
+SHA256: 384f22ec81fb4f52490d3b5df40149e973ae3c8f3c6fd716cbe7e524e8e71077
+SHA512: 512243bafb680bbc9335e953c1cac17ebee81a8767459620ae7c65d59b82a6181615a3f2d2a70907fb28aba1582794198615854c99556d45a59f7678e2001f62
+Homepage: https://github.com/jbeder/yaml-cpp
+Description: Wrapper around yaml-cpp, it provides a fixed CMake module and an ExternalProject build of it.
+
+Package: ros-zstd-vendor
+Architecture: amd64
+Version: 0.20.0-3-g6160bb3-2023.03.01.18.22
+Priority: optional
+Section: misc
+Maintainer: Michael Orlov <michael.orlov@apex.ai>
+Installed-Size: 44
+Depends: libzstd-dev
+Filename: ./ros-zstd-vendor_0.20.0-3-g6160bb3-2023.03.01.18.22_amd64.deb
+Size: 8328
+MD5sum: 4503219b649583beb2bb6031b757149b
+SHA1: 2f6f5f26a29908a2c9454486722a0a91793a72fb
+SHA256: c2eb8f82618f199066f50a837f8e7457f140e00559d0b49680b2e16dbb8021f1
+SHA512: 57ffc13c316b44739fb5ce02a13aeacac3e20baf63e5ea550bd7feaa74a5f2c7d2073291f797a19c2b568f283f5fe0e8fbacea645f28cf7e34aeb5646531c9ba
+Homepage: https://facebook.github.io/zstd/
+Description: Zstd compression vendor package, providing a dependency for Zstd.
+

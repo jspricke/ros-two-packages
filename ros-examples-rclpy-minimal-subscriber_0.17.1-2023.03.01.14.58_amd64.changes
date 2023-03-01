@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-examples-rclpy-minimal-subscriber
+Binary: ros-examples-rclpy-minimal-subscriber
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.58
+Distribution: bookworm
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-examples-rclpy-minimal-subscriber - Examples of minimal subscribers using rclpy.
+Changes:
+ ros-examples-rclpy-minimal-subscriber (0.17.1-2023.03.01.14.58) bookworm; urgency=high
+Checksums-Sha1:
+ 4c1224afbf7c8efcedae73c36513dfa4138f5e48 7184 ros-examples-rclpy-minimal-subscriber_0.17.1-2023.03.01.14.58_amd64.buildinfo
+ 5f001df11f77d1f886f316c3a74165726c8c1359 6332 ros-examples-rclpy-minimal-subscriber_0.17.1-2023.03.01.14.58_amd64.deb
+Checksums-Sha256:
+ 06fceefc27c2c4a102a3146305c3ef7fbf3e42302870d73f1adf2bbc3ddaebe2 7184 ros-examples-rclpy-minimal-subscriber_0.17.1-2023.03.01.14.58_amd64.buildinfo
+ de1cbde7115c94a524c149ef8fdfcdc88458df75aadeb6746e7ba599570375ee 6332 ros-examples-rclpy-minimal-subscriber_0.17.1-2023.03.01.14.58_amd64.deb
+Files:
+ ee46b245f0232e1cf79a7bff5e9861d5 7184 misc optional ros-examples-rclpy-minimal-subscriber_0.17.1-2023.03.01.14.58_amd64.buildinfo
+ 96d4fed5733fcfcd4f37778a3bcd6480 6332 misc optional ros-examples-rclpy-minimal-subscriber_0.17.1-2023.03.01.14.58_amd64.deb

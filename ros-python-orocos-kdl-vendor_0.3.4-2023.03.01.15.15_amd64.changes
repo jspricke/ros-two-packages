@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 13 Sep 2022 00:00:00 -0000
+Source: ros-python-orocos-kdl-vendor
+Binary: ros-python-orocos-kdl-vendor
+Architecture: amd64
+Version: 0.3.4-2023.03.01.15.15
+Distribution: bookworm
+Urgency: high
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Changed-By: Jacob Perron <jacob@openrobotics.org>
+Description:
+ ros-python-orocos-kdl-vendor - Wrapper around PyKDL, providing nothing but a dependency on PyKDL
+Changes:
+ ros-python-orocos-kdl-vendor (0.3.4-2023.03.01.15.15) bookworm; urgency=high
+ .
+   * Fixes policy CMP0135 warning for CMake >= 3.24 (#16 <https://github.com/ros2/orocos_kdl_vendor/issues/16>)
+   * Workaround pybind11 CMake error (#9 <https://github.com/ros2/orocos_kdl_vendor/issues/9>)
+   * Contributors: Cristóbal Arroyo, Jacob Perron
+Checksums-Sha1:
+ d94f2c90fa14a30c790b13c091bac0ffc2c18b1e 8393 ros-python-orocos-kdl-vendor_0.3.4-2023.03.01.15.15_amd64.buildinfo
+ 96b347e8245f22fa275cbfc0b4cfd180cceab164 5908 ros-python-orocos-kdl-vendor_0.3.4-2023.03.01.15.15_amd64.deb
+Checksums-Sha256:
+ d9b29a55d8be5f04bc40965ee3df5d0dd2cbc20a899cf333e7cf7ae914e87d9b 8393 ros-python-orocos-kdl-vendor_0.3.4-2023.03.01.15.15_amd64.buildinfo
+ 0d624a3f47e34a35b3af6d4c74d89e2c3f83de40b9583bb4a4ca37f1419a006c 5908 ros-python-orocos-kdl-vendor_0.3.4-2023.03.01.15.15_amd64.deb
+Files:
+ 06a31bdf3c4e4da5667c850d5fa284c7 8393 misc optional ros-python-orocos-kdl-vendor_0.3.4-2023.03.01.15.15_amd64.buildinfo
+ 74d6dee4dae98ae3a7579ce890e809d1 5908 misc optional ros-python-orocos-kdl-vendor_0.3.4-2023.03.01.15.15_amd64.deb

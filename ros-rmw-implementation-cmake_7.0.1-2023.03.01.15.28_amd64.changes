@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-rmw-implementation-cmake
+Binary: ros-rmw-implementation-cmake
+Architecture: amd64
+Version: 7.0.1-2023.03.01.15.28
+Distribution: bookworm
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-rmw-implementation-cmake - CMake functions which can discover and enumerate available implem
+Changes:
+ ros-rmw-implementation-cmake (7.0.1-2023.03.01.15.28) bookworm; urgency=high
+Checksums-Sha1:
+ 4c9c50e58a551870611d79ee8931fcd0e83cad15 7570 ros-rmw-implementation-cmake_7.0.1-2023.03.01.15.28_amd64.buildinfo
+ 3fbfc3393ae6587496fd619864ad63dd72c630b5 9460 ros-rmw-implementation-cmake_7.0.1-2023.03.01.15.28_amd64.deb
+Checksums-Sha256:
+ 658ec8eef455660e9f65451ddaa93685c3e83239781935dbb26648d79d9ca684 7570 ros-rmw-implementation-cmake_7.0.1-2023.03.01.15.28_amd64.buildinfo
+ e001d5af75abbc5352de54fbb9bdb1c854fe3807071700b974db13d5fdf873ef 9460 ros-rmw-implementation-cmake_7.0.1-2023.03.01.15.28_amd64.deb
+Files:
+ 9d281c027f8025a219f7400705708a73 7570 misc optional ros-rmw-implementation-cmake_7.0.1-2023.03.01.15.28_amd64.buildinfo
+ bde713ddeb2f9cff82e58767fb32bd6e 9460 misc optional ros-rmw-implementation-cmake_7.0.1-2023.03.01.15.28_amd64.deb

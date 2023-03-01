@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-action
+Binary: ros-rqt-action
+Architecture: amd64
+Version: 2.1.2-2023.03.01.15.52
+Distribution: bookworm
+Urgency: high
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Changed-By: Geoffrey Biggs <geoff@openrobotics.org>
+Description:
+ ros-rqt-action - rqt_action provides a feature to introspect all available ROS act
+Changes:
+ ros-rqt-action (2.1.2-2023.03.01.15.52) bookworm; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#14 <https://github.com/ros-visualization/rqt_action/issues/14>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 5a9eec60ea77eb0780a20290ce5ffa7097cb9436 5677 ros-rqt-action_2.1.2-2023.03.01.15.52_amd64.buildinfo
+ 0462bc12a8e89c90c9237ab58c1a245bd60c5723 6344 ros-rqt-action_2.1.2-2023.03.01.15.52_amd64.deb
+Checksums-Sha256:
+ 864ef5baf5a5a928d99494374b181215298361ac009604574eff2ce13157e8fc 5677 ros-rqt-action_2.1.2-2023.03.01.15.52_amd64.buildinfo
+ e400ec7ba6203ebfc64ebcd7aa6ed4910591904a34601ce30c8c49423b8cf8f5 6344 ros-rqt-action_2.1.2-2023.03.01.15.52_amd64.deb
+Files:
+ 4574087873c5802db4ca8db6b954da44 5677 misc optional ros-rqt-action_2.1.2-2023.03.01.15.52_amd64.buildinfo
+ 702598e3f2ab00c38a2f588aaed35f0b 6344 misc optional ros-rqt-action_2.1.2-2023.03.01.15.52_amd64.deb

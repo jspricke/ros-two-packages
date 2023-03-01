@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-launch-testing
+Binary: ros-launch-testing
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.09
+Distribution: bookworm
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-launch-testing - A package to create tests which involve launch files and multiple
+Changes:
+ ros-launch-testing (1.4.1-2023.03.01.15.09) bookworm; urgency=high
+ .
+   * Fixed typos (#692 <https://github.com/ros2/launch/issues/692>)
+   * Contributors: Alejandro Hernández Cordero
+Checksums-Sha1:
+ 5bd6ccf7f82cf2c143eb4ee202494c946287217f 7166 ros-launch-testing_1.4.1-2023.03.01.15.09_amd64.buildinfo
+ 624df8980e3b6cfda7bceadf3e1927c5eaac112c 38848 ros-launch-testing_1.4.1-2023.03.01.15.09_amd64.deb
+Checksums-Sha256:
+ d1a2667ed8f2e5f0cee129c90373fed095adcc35a630e4881d9e7e5af4658926 7166 ros-launch-testing_1.4.1-2023.03.01.15.09_amd64.buildinfo
+ 69cc4f56ad7a6793e04feeca0adfd469d3bf501d0b1ab580dc28e8001d1e34b5 38848 ros-launch-testing_1.4.1-2023.03.01.15.09_amd64.deb
+Files:
+ 69033717ad7719ca39df826f4cba0366 7166 misc optional ros-launch-testing_1.4.1-2023.03.01.15.09_amd64.buildinfo
+ 3fc48542dcda62fd559b417cd4c1df43 38848 misc optional ros-launch-testing_1.4.1-2023.03.01.15.09_amd64.deb

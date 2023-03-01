@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-dummy-robot-bringup
+Binary: ros-dummy-robot-bringup
+Architecture: amd64
+Version: 0.25.0-2023.03.01.14.52
+Distribution: bookworm
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-dummy-robot-bringup - dummy robot bringup
+Changes:
+ ros-dummy-robot-bringup (0.25.0-2023.03.01.14.52) bookworm; urgency=high
+Checksums-Sha1:
+ 7e0316e3382a8bae1e4e6aa38cbafb05f0e9cb62 7674 ros-dummy-robot-bringup_0.25.0-2023.03.01.14.52_amd64.buildinfo
+ aa56caca7dd3817fd5892c2293b60dd9e22852dd 9492 ros-dummy-robot-bringup_0.25.0-2023.03.01.14.52_amd64.deb
+Checksums-Sha256:
+ 5cd0ad363d6bc09741bbe4dd7a0789ed5e772835df72e437b8254d0edc95cdf3 7674 ros-dummy-robot-bringup_0.25.0-2023.03.01.14.52_amd64.buildinfo
+ 3b942da872d7a32e2343cf83a0d0f83c853194127436c647b0c028b4064b1e6f 9492 ros-dummy-robot-bringup_0.25.0-2023.03.01.14.52_amd64.deb
+Files:
+ c8f1a050bddb93862732a3a8a4d5afac 7674 misc optional ros-dummy-robot-bringup_0.25.0-2023.03.01.14.52_amd64.buildinfo
+ c3ade9e58694dab9f380ae09b2df5789 9492 misc optional ros-dummy-robot-bringup_0.25.0-2023.03.01.14.52_amd64.deb

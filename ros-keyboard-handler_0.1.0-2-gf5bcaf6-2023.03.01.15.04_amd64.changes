@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 08 Nov 2022 00:00:00 -0000
+Source: ros-keyboard-handler
+Binary: ros-keyboard-handler ros-keyboard-handler-dbgsym
+Architecture: amd64
+Version: 0.1.0-2-gf5bcaf6-2023.03.01.15.04
+Distribution: bookworm
+Urgency: high
+Maintainer: michael <michael.orlov@apex.ai>
+Changed-By: michael <michael.orlov@apex.ai>
+Description:
+ ros-keyboard-handler - Handler for input from keyboard
+Changes:
+ ros-keyboard-handler (0.1.0-2-gf5bcaf6-2023.03.01.15.04) bookworm; urgency=high
+ .
+   * Force exit from main thread on signal handling in keyboard_handler (#23 <https://github.com/ros-tooling/keyboard_handler/issues/23>)
+   * Contributors: Michael Orlov
+Checksums-Sha1:
+ 5aab4865fddfb62ea7e2686640fb46aa38a1bece 216624 ros-keyboard-handler-dbgsym_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.deb
+ 91886e1de9acd12abd15d5e6c746819ff6f1df70 8109 ros-keyboard-handler_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.buildinfo
+ 49076dd04b3d1e970061566e81ab733983e73c97 30060 ros-keyboard-handler_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.deb
+Checksums-Sha256:
+ 907f72ec2de1330745325b782d6f188e5f186bae80f44fde7d57f684e570bcc3 216624 ros-keyboard-handler-dbgsym_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.deb
+ 69cda75f3172db895411d41c2d932e5613c1a6fd3afc13c29f1454e7c2dc9089 8109 ros-keyboard-handler_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.buildinfo
+ 0f951a896b7038103916e846c797e213f68174bff12e21e38b46f01d1ef14c2a 30060 ros-keyboard-handler_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.deb
+Files:
+ 534bf95347d224e8b18594c43e61de4d 216624 debug optional ros-keyboard-handler-dbgsym_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.deb
+ f479e9ef35502b08d3d64cfe07bddcbf 8109 misc optional ros-keyboard-handler_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.buildinfo
+ cb6f233cb651afcaf4835bd6fc26e333 30060 misc optional ros-keyboard-handler_0.1.0-2-gf5bcaf6-2023.03.01.15.04_amd64.deb

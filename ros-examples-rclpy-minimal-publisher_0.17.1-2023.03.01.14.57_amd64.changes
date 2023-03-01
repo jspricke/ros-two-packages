@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-examples-rclpy-minimal-publisher
+Binary: ros-examples-rclpy-minimal-publisher
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.57
+Distribution: bookworm
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-examples-rclpy-minimal-publisher - Examples of minimal publishers using rclpy.
+Changes:
+ ros-examples-rclpy-minimal-publisher (0.17.1-2023.03.01.14.57) bookworm; urgency=high
+Checksums-Sha1:
+ b5787b833ae78ef3d764ca81793af5efe3c5d3c8 7179 ros-examples-rclpy-minimal-publisher_0.17.1-2023.03.01.14.57_amd64.buildinfo
+ 6c416e8789380f8afffbdd5ad0e2a76cd41d2324 6540 ros-examples-rclpy-minimal-publisher_0.17.1-2023.03.01.14.57_amd64.deb
+Checksums-Sha256:
+ 576b41df13c6bf6401c4cd54e4dad434646bf56e514f9d814a44e0d95a3f63ac 7179 ros-examples-rclpy-minimal-publisher_0.17.1-2023.03.01.14.57_amd64.buildinfo
+ 8a432ea8a7e833a92ac60af1697b6f8926f2e8df4adf856ba2bd099c0b5dd802 6540 ros-examples-rclpy-minimal-publisher_0.17.1-2023.03.01.14.57_amd64.deb
+Files:
+ 79e5aa52cfdf40c24d6680abfe3ecabb 7179 misc optional ros-examples-rclpy-minimal-publisher_0.17.1-2023.03.01.14.57_amd64.buildinfo
+ 4cbcc0d8788801f3d51bdf078999d6e7 6540 misc optional ros-examples-rclpy-minimal-publisher_0.17.1-2023.03.01.14.57_amd64.deb

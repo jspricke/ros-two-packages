@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-rmw
+Binary: ros-rmw ros-rmw-dbgsym
+Architecture: amd64
+Version: 7.0.1-2023.03.01.15.26
+Distribution: bookworm
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-rmw    - Contains the ROS middleware API.
+Changes:
+ ros-rmw (7.0.1-2023.03.01.15.26) bookworm; urgency=high
+ .
+   * Fix rmw->rwm typo (#347 <https://github.com/ros2/rmw/issues/347>)
+   * Contributors: Emerson Knapp
+Checksums-Sha1:
+ 2fe1a1b3949b6732928b0419f7134aa6c7c95fc8 32160 ros-rmw-dbgsym_7.0.1-2023.03.01.15.26_amd64.deb
+ 91413e1828ff38f57e2654c9cd720be54cfc6790 8539 ros-rmw_7.0.1-2023.03.01.15.26_amd64.buildinfo
+ 10912b90f1a3fc93ecf8adcc1eb60fadf5ac8822 71200 ros-rmw_7.0.1-2023.03.01.15.26_amd64.deb
+Checksums-Sha256:
+ d970b18e0e2b0de37a5c7c4f0077eb0d32a627fac7ba6a8e9f35482f365e53d0 32160 ros-rmw-dbgsym_7.0.1-2023.03.01.15.26_amd64.deb
+ a4aee994264fb2753825f1655f9fb2a6f4e1b7764858771afc2e21c77c592e6f 8539 ros-rmw_7.0.1-2023.03.01.15.26_amd64.buildinfo
+ 1a32d3857bce8c7dbccfd2e686898b6be202191d80ff61d0e49aa615ceeb9da6 71200 ros-rmw_7.0.1-2023.03.01.15.26_amd64.deb
+Files:
+ 7202a0299c0b3eb9fd7faee342c3f866 32160 debug optional ros-rmw-dbgsym_7.0.1-2023.03.01.15.26_amd64.deb
+ a6585424cc5e13fae5e849f4e8c1d78d 8539 misc optional ros-rmw_7.0.1-2023.03.01.15.26_amd64.buildinfo
+ 813b18ad0c01da4d320a89b154508f50 71200 misc optional ros-rmw_7.0.1-2023.03.01.15.26_amd64.deb

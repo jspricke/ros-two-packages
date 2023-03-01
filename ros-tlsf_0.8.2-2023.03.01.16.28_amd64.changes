@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-tlsf
+Binary: ros-tlsf
+Architecture: amd64
+Version: 0.8.2-2023.03.01.16.28
+Distribution: bookworm
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-tlsf   - TLSF allocator version 2.4.6
+Changes:
+ ros-tlsf (0.8.2-2023.03.01.16.28) bookworm; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#13 <https://github.com/ros2/tlsf/issues/13>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 5d5c945799f90fd2018ceaa93b6fb4461c0a646b 7473 ros-tlsf_0.8.2-2023.03.01.16.28_amd64.buildinfo
+ 602b126a6c0cb0a1fce3c65130baa2f881f7287b 12020 ros-tlsf_0.8.2-2023.03.01.16.28_amd64.deb
+Checksums-Sha256:
+ 3bd9bdab9567fba33b893acff7b22d475ac01fd445cff614ca78d65ac27992a1 7473 ros-tlsf_0.8.2-2023.03.01.16.28_amd64.buildinfo
+ 3486a9d65f8090843d46f972bffa269bb170b645713e13a271c52910e4fcddcf 12020 ros-tlsf_0.8.2-2023.03.01.16.28_amd64.deb
+Files:
+ 3e4d2d0c6d9b01f0058c85f5bc466b7f 7473 misc optional ros-tlsf_0.8.2-2023.03.01.16.28_amd64.buildinfo
+ 4f17ef4181398f1f2d943848234ffc06 12020 misc optional ros-tlsf_0.8.2-2023.03.01.16.28_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-urdf-parser-plugin
+Binary: ros-urdf-parser-plugin
+Architecture: amd64
+Version: 2.8.2-2023.03.01.18.07
+Distribution: bookworm
+Urgency: high
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Changed-By: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Description:
+ ros-urdf-parser-plugin - This package contains a C++ base class for URDF parsers.
+Changes:
+ ros-urdf-parser-plugin (2.8.2-2023.03.01.18.07) bookworm; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#35 <https://github.com/ros2/urdf/issues/35>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 6abcbd7d321d14d743ff400804b5f9486105508c 8031 ros-urdf-parser-plugin_2.8.2-2023.03.01.18.07_amd64.buildinfo
+ 565bf92695c95e41cff318fa5211ea93d949e286 10096 ros-urdf-parser-plugin_2.8.2-2023.03.01.18.07_amd64.deb
+Checksums-Sha256:
+ 6b28ad83cf7db450dde2ce32392ba0fa58f4cfced1bb1d5302c5ab3fbe211eab 8031 ros-urdf-parser-plugin_2.8.2-2023.03.01.18.07_amd64.buildinfo
+ 53a34a629a730e9f9ed17301094c714f011430768afb891666880a15b5362973 10096 ros-urdf-parser-plugin_2.8.2-2023.03.01.18.07_amd64.deb
+Files:
+ dd987546031f110bb8f3a08eace7ab35 8031 misc optional ros-urdf-parser-plugin_2.8.2-2023.03.01.18.07_amd64.buildinfo
+ 1c6158a5b84528d8fe9f657515a23af1 10096 misc optional ros-urdf-parser-plugin_2.8.2-2023.03.01.18.07_amd64.deb

@@ -1,0 +1,756 @@
+common_interfaces:
+  debian:
+  - ros-common-interfaces
+console_bridge_vendor:
+  debian:
+  - ros-console-bridge-vendor
+demo_nodes_py:
+  debian:
+  - ros-demo-nodes-py
+dummy_robot_bringup:
+  debian:
+  - ros-dummy-robot-bringup
+eigen3_cmake_module:
+  debian:
+  - ros-eigen3-cmake-module
+examples_rclpy_executors:
+  debian:
+  - ros-examples-rclpy-executors
+examples_rclpy_guard_conditions:
+  debian:
+  - ros-examples-rclpy-guard-conditions
+examples_rclpy_minimal_action_client:
+  debian:
+  - ros-examples-rclpy-minimal-action-client
+examples_rclpy_minimal_action_server:
+  debian:
+  - ros-examples-rclpy-minimal-action-server
+examples_rclpy_minimal_client:
+  debian:
+  - ros-examples-rclpy-minimal-client
+examples_rclpy_minimal_publisher:
+  debian:
+  - ros-examples-rclpy-minimal-publisher
+examples_rclpy_minimal_service:
+  debian:
+  - ros-examples-rclpy-minimal-service
+examples_rclpy_minimal_subscriber:
+  debian:
+  - ros-examples-rclpy-minimal-subscriber
+examples_rclpy_pointcloud_publisher:
+  debian:
+  - ros-examples-rclpy-pointcloud-publisher
+examples_tf2_py:
+  debian:
+  - ros-examples-tf2-py
+fastrtps_cmake_module:
+  debian:
+  - ros-fastrtps-cmake-module
+geometry2:
+  debian:
+  - ros-geometry2
+ignition_cmake2_vendor:
+  debian:
+  - ros-ignition-cmake2-vendor
+ignition_math6_vendor:
+  debian:
+  - ros-ignition-math6-vendor
+image_common:
+  debian:
+  - ros-image-common
+keyboard_handler:
+  debian:
+  - ros-keyboard-handler
+launch:
+  debian:
+  - ros-launch
+launch_pytest:
+  debian:
+  - ros-launch-pytest
+launch_xml:
+  debian:
+  - ros-launch-xml
+launch_yaml:
+  debian:
+  - ros-launch-yaml
+launch_testing:
+  debian:
+  - ros-launch-testing
+libcurl_vendor:
+  debian:
+  - ros-libcurl-vendor
+libyaml_vendor:
+  debian:
+  - ros-libyaml-vendor
+mimick_vendor:
+  debian:
+  - ros-mimick-vendor
+orocos_kdl_vendor:
+  debian:
+  - ros-orocos-kdl-vendor
+pybind11_vendor:
+  debian:
+  - ros-pybind11-vendor
+python_cmake_module:
+  debian:
+  - ros-python-cmake-module
+launch_testing_ament_cmake:
+  debian:
+  - ros-launch-testing-ament-cmake
+python_orocos_kdl_vendor:
+  debian:
+  - ros-python-orocos-kdl-vendor
+python_qt_binding:
+  debian:
+  - ros-python-qt-binding
+qt_dotgraph:
+  debian:
+  - ros-qt-dotgraph
+qt_gui:
+  debian:
+  - ros-qt-gui
+qt_gui_app:
+  debian:
+  - ros-qt-gui-app
+qt_gui_core:
+  debian:
+  - ros-qt-gui-core
+qt_gui_py_common:
+  debian:
+  - ros-qt-gui-py-common
+quality_of_service_demo_py:
+  debian:
+  - ros-quality-of-service-demo-py
+rcl_logging_interface:
+  debian:
+  - ros-rcl-logging-interface
+rcl_logging_noop:
+  debian:
+  - ros-rcl-logging-noop
+resource_retriever:
+  debian:
+  - ros-resource-retriever
+rmw:
+  debian:
+  - ros-rmw
+rcl_yaml_param_parser:
+  debian:
+  - ros-rcl-yaml-param-parser
+rmw_implementation_cmake:
+  debian:
+  - ros-rmw-implementation-cmake
+ros2cli_common_extensions:
+  debian:
+  - ros-ros2cli-common-extensions
+ros2component:
+  debian:
+  - ros-ros2component
+ros_environment:
+  debian:
+  - ros-ros-environment
+ros_testing:
+  debian:
+  - ros-ros-testing
+rosbag2_storage_default_plugins:
+  debian:
+  - ros-rosbag2-storage-default-plugins
+rosidl_default_generators:
+  debian:
+  - ros-rosidl-default-generators
+action_tutorials_interfaces:
+  debian:
+  - ros-action-tutorials-interfaces
+example_interfaces:
+  debian:
+  - ros-example-interfaces
+lifecycle_msgs:
+  debian:
+  - ros-lifecycle-msgs
+rmw_dds_common:
+  debian:
+  - ros-rmw-dds-common
+ros2cli_test_interfaces:
+  debian:
+  - ros-ros2cli-test-interfaces
+rosbag2_storage_mcap_testdata:
+  debian:
+  - ros-rosbag2-storage-mcap-testdata
+rosidl_default_runtime:
+  debian:
+  - ros-rosidl-default-runtime
+rosidl_generator_dds_idl:
+  debian:
+  - ros-rosidl-generator-dds-idl
+rosidl_typesupport_fastrtps_cpp:
+  debian:
+  - ros-rosidl-typesupport-fastrtps-cpp
+rosidl_typesupport_fastrtps_c:
+  debian:
+  - ros-rosidl-typesupport-fastrtps-c
+rosidl_typesupport_c:
+  debian:
+  - ros-rosidl-typesupport-c
+rosidl_typesupport_cpp:
+  debian:
+  - ros-rosidl-typesupport-cpp
+rosbag2_performance_benchmarking_msgs:
+  debian:
+  - ros-rosbag2-performance-benchmarking-msgs
+rosidl_core_runtime:
+  debian:
+  - ros-rosidl-core-runtime
+rpyutils:
+  debian:
+  - ros-rpyutils
+rosidl_generator_py:
+  debian:
+  - ros-rosidl-generator-py
+rosidl_core_generators:
+  debian:
+  - ros-rosidl-core-generators
+builtin_interfaces:
+  debian:
+  - ros-builtin-interfaces
+pendulum_msgs:
+  debian:
+  - ros-pendulum-msgs
+rcl_interfaces:
+  debian:
+  - ros-rcl-interfaces
+rosbag2_interfaces:
+  debian:
+  - ros-rosbag2-interfaces
+rosgraph_msgs:
+  debian:
+  - ros-rosgraph-msgs
+rqt:
+  debian:
+  - ros-rqt
+rqt_action:
+  debian:
+  - ros-rqt-action
+rqt_bag:
+  debian:
+  - ros-rqt-bag
+rqt_bag_plugins:
+  debian:
+  - ros-rqt-bag-plugins
+rqt_console:
+  debian:
+  - ros-rqt-console
+rqt_graph:
+  debian:
+  - ros-rqt-graph
+rqt_gui:
+  debian:
+  - ros-rqt-gui
+rqt_msg:
+  debian:
+  - ros-rqt-msg
+rqt_plot:
+  debian:
+  - ros-rqt-plot
+rqt_publisher:
+  debian:
+  - ros-rqt-publisher
+rqt_py_console:
+  debian:
+  - ros-rqt-py-console
+rqt_reconfigure:
+  debian:
+  - ros-rqt-reconfigure
+rqt_service_caller:
+  debian:
+  - ros-rqt-service-caller
+rqt_shell:
+  debian:
+  - ros-rqt-shell
+rqt_srv:
+  debian:
+  - ros-rqt-srv
+rqt_topic:
+  debian:
+  - ros-rqt-topic
+rttest:
+  debian:
+  - ros-rttest
+rviz_assimp_vendor:
+  debian:
+  - ros-rviz-assimp-vendor
+rviz_ogre_vendor:
+  debian:
+  - ros-rviz-ogre-vendor
+rviz_rendering:
+  debian:
+  - ros-rviz-rendering
+rviz_rendering_tests:
+  debian:
+  - ros-rviz-rendering-tests
+sensor_msgs_py:
+  debian:
+  - ros-sensor-msgs-py
+service_msgs:
+  debian:
+  - ros-service-msgs
+shared_queues_vendor:
+  debian:
+  - ros-shared-queues-vendor
+spdlog_vendor:
+  debian:
+  - ros-spdlog-vendor
+rcl_logging_spdlog:
+  debian:
+  - ros-rcl-logging-spdlog
+sqlite3_vendor:
+  debian:
+  - ros-sqlite3-vendor
+sros2_cmake:
+  debian:
+  - ros-sros2-cmake
+statistics_msgs:
+  debian:
+  - ros-statistics-msgs
+std_msgs:
+  debian:
+  - ros-std-msgs
+std_srvs:
+  debian:
+  - ros-std-srvs
+test_launch_testing:
+  debian:
+  - ros-test-launch-testing
+test_msgs:
+  debian:
+  - ros-test-msgs
+tf2_tools:
+  debian:
+  - ros-tf2-tools
+tinyxml2_vendor:
+  debian:
+  - ros-tinyxml2-vendor
+qt_gui_cpp:
+  debian:
+  - ros-qt-gui-cpp
+tlsf:
+  debian:
+  - ros-tlsf
+tracetools:
+  debian:
+  - ros-tracetools
+tracetools_read:
+  debian:
+  - ros-tracetools-read
+tracetools_trace:
+  debian:
+  - ros-tracetools-trace
+unique_identifier_msgs:
+  debian:
+  - ros-unique-identifier-msgs
+action_msgs:
+  debian:
+  - ros-action-msgs
+action_tutorials_py:
+  debian:
+  - ros-action-tutorials-py
+actionlib_msgs:
+  debian:
+  - ros-actionlib-msgs
+composition_interfaces:
+  debian:
+  - ros-composition-interfaces
+geometry_msgs:
+  debian:
+  - ros-geometry-msgs
+diagnostic_msgs:
+  debian:
+  - ros-diagnostic-msgs
+launch_testing_ros:
+  debian:
+  - ros-launch-testing-ros
+nav_msgs:
+  debian:
+  - ros-nav-msgs
+rmw_cyclonedds_cpp:
+  debian:
+  - ros-rmw-cyclonedds-cpp
+rmw_fastrtps_shared_cpp:
+  debian:
+  - ros-rmw-fastrtps-shared-cpp
+rmw_fastrtps_cpp:
+  debian:
+  - ros-rmw-fastrtps-cpp
+rmw_fastrtps_dynamic_cpp:
+  debian:
+  - ros-rmw-fastrtps-dynamic-cpp
+rmw_implementation:
+  debian:
+  - ros-rmw-implementation
+rcl:
+  debian:
+  - ros-rcl
+libstatistics_collector:
+  debian:
+  - ros-libstatistics-collector
+rcl_action:
+  debian:
+  - ros-rcl-action
+rcl_lifecycle:
+  debian:
+  - ros-rcl-lifecycle
+rclcpp:
+  debian:
+  - ros-rclcpp
+dummy_map_server:
+  debian:
+  - ros-dummy-map-server
+examples_rclcpp_async_client:
+  debian:
+  - ros-examples-rclcpp-async-client
+examples_rclcpp_cbg_executor:
+  debian:
+  - ros-examples-rclcpp-cbg-executor
+examples_rclcpp_minimal_client:
+  debian:
+  - ros-examples-rclcpp-minimal-client
+examples_rclcpp_minimal_publisher:
+  debian:
+  - ros-examples-rclcpp-minimal-publisher
+examples_rclcpp_minimal_service:
+  debian:
+  - ros-examples-rclcpp-minimal-service
+examples_rclcpp_minimal_timer:
+  debian:
+  - ros-examples-rclcpp-minimal-timer
+examples_rclcpp_multithreaded_executor:
+  debian:
+  - ros-examples-rclcpp-multithreaded-executor
+rclcpp_action:
+  debian:
+  - ros-rclcpp-action
+examples_rclcpp_minimal_action_client:
+  debian:
+  - ros-examples-rclcpp-minimal-action-client
+examples_rclcpp_minimal_action_server:
+  debian:
+  - ros-examples-rclcpp-minimal-action-server
+rclcpp_components:
+  debian:
+  - ros-rclcpp-components
+action_tutorials_cpp:
+  debian:
+  - ros-action-tutorials-cpp
+examples_rclcpp_minimal_composition:
+  debian:
+  - ros-examples-rclcpp-minimal-composition
+examples_rclcpp_minimal_subscriber:
+  debian:
+  - ros-examples-rclcpp-minimal-subscriber
+examples_rclcpp_wait_set:
+  debian:
+  - ros-examples-rclcpp-wait-set
+rclcpp_lifecycle:
+  debian:
+  - ros-rclcpp-lifecycle
+rclpy:
+  debian:
+  - ros-rclpy
+launch_ros:
+  debian:
+  - ros-launch-ros
+composition:
+  debian:
+  - ros-composition
+demo_nodes_cpp:
+  debian:
+  - ros-demo-nodes-cpp
+demo_nodes_cpp_native:
+  debian:
+  - ros-demo-nodes-cpp-native
+logging_demo:
+  debian:
+  - ros-logging-demo
+ros2cli:
+  debian:
+  - ros-ros2cli
+ros2action:
+  debian:
+  - ros-ros2action
+ros2doctor:
+  debian:
+  - ros-ros2doctor
+ros2interface:
+  debian:
+  - ros-ros2interface
+ros2lifecycle_test_fixtures:
+  debian:
+  - ros-ros2lifecycle-test-fixtures
+ros2lifecycle:
+  debian:
+  - ros-ros2lifecycle
+ros2multicast:
+  debian:
+  - ros-ros2multicast
+ros2node:
+  debian:
+  - ros-ros2node
+ros2param:
+  debian:
+  - ros-ros2param
+ros2pkg:
+  debian:
+  - ros-ros2pkg
+ros2launch:
+  debian:
+  - ros-ros2launch
+ros2run:
+  debian:
+  - ros-ros2run
+ros2service:
+  debian:
+  - ros-ros2service
+ros2test:
+  debian:
+  - ros-ros2test
+lifecycle:
+  debian:
+  - ros-lifecycle
+lifecycle_py:
+  debian:
+  - ros-lifecycle-py
+ros2topic:
+  debian:
+  - ros-ros2topic
+ros2trace:
+  debian:
+  - ros-ros2trace
+rosbag2_test_common:
+  debian:
+  - ros-rosbag2-test-common
+rosidl_runtime_py:
+  debian:
+  - ros-rosidl-runtime-py
+rosidl_typesupport_tests:
+  debian:
+  - ros-rosidl-typesupport-tests
+rqt_gui_cpp:
+  debian:
+  - ros-rqt-gui-cpp
+rqt_gui_py:
+  debian:
+  - ros-rqt-gui-py
+rqt_py_common:
+  debian:
+  - ros-rqt-py-common
+sensor_msgs:
+  debian:
+  - ros-sensor-msgs
+dummy_sensors:
+  debian:
+  - ros-dummy-sensors
+image_tools:
+  debian:
+  - ros-image-tools
+intra_process_demo:
+  debian:
+  - ros-intra-process-demo
+map_msgs:
+  debian:
+  - ros-map-msgs
+message_filters:
+  debian:
+  - ros-message-filters
+image_transport:
+  debian:
+  - ros-image-transport
+quality_of_service_demo_cpp:
+  debian:
+  - ros-quality-of-service-demo-cpp
+shape_msgs:
+  debian:
+  - ros-shape-msgs
+sros2:
+  debian:
+  - ros-sros2
+stereo_msgs:
+  debian:
+  - ros-stereo-msgs
+test_cli:
+  debian:
+  - ros-test-cli
+test_cli_remapping:
+  debian:
+  - ros-test-cli-remapping
+test_communication:
+  debian:
+  - ros-test-communication
+test_launch_ros:
+  debian:
+  - ros-test-launch-ros
+test_quality_of_service:
+  debian:
+  - ros-test-quality-of-service
+test_rclcpp:
+  debian:
+  - ros-test-rclcpp
+test_rmw_implementation:
+  debian:
+  - ros-test-rmw-implementation
+test_security:
+  debian:
+  - ros-test-security
+tf2:
+  debian:
+  - ros-tf2
+laser_geometry:
+  debian:
+  - ros-laser-geometry
+tf2_eigen_kdl:
+  debian:
+  - ros-tf2-eigen-kdl
+tf2_msgs:
+  debian:
+  - ros-tf2-msgs
+tf2_py:
+  debian:
+  - ros-tf2-py
+tf2_ros:
+  debian:
+  - ros-tf2-ros
+tf2_bullet:
+  debian:
+  - ros-tf2-bullet
+tf2_eigen:
+  debian:
+  - ros-tf2-eigen
+tf2_geometry_msgs:
+  debian:
+  - ros-tf2-geometry-msgs
+tf2_kdl:
+  debian:
+  - ros-tf2-kdl
+tf2_ros_py:
+  debian:
+  - ros-tf2-ros-py
+test_tf2:
+  debian:
+  - ros-test-tf2
+tf2_sensor_msgs:
+  debian:
+  - ros-tf2-sensor-msgs
+tlsf_cpp:
+  debian:
+  - ros-tlsf-cpp
+pendulum_control:
+  debian:
+  - ros-pendulum-control
+topic_monitor:
+  debian:
+  - ros-topic-monitor
+topic_statistics_demo:
+  debian:
+  - ros-topic-statistics-demo
+tracetools_launch:
+  debian:
+  - ros-tracetools-launch
+tracetools_test:
+  debian:
+  - ros-tracetools-test
+test_tracetools:
+  debian:
+  - ros-test-tracetools
+test_tracetools_launch:
+  debian:
+  - ros-test-tracetools-launch
+trajectory_msgs:
+  debian:
+  - ros-trajectory-msgs
+turtlesim:
+  debian:
+  - ros-turtlesim
+urdf_parser_plugin:
+  debian:
+  - ros-urdf-parser-plugin
+urdf:
+  debian:
+  - ros-urdf
+kdl_parser:
+  debian:
+  - ros-kdl-parser
+robot_state_publisher:
+  debian:
+  - ros-robot-state-publisher
+visualization_msgs:
+  debian:
+  - ros-visualization-msgs
+interactive_markers:
+  debian:
+  - ros-interactive-markers
+yaml_cpp_vendor:
+  debian:
+  - ros-yaml-cpp-vendor
+camera_calibration_parsers:
+  debian:
+  - ros-camera-calibration-parsers
+camera_info_manager:
+  debian:
+  - ros-camera-info-manager
+rosbag2_storage:
+  debian:
+  - ros-rosbag2-storage
+rosbag2_storage_sqlite3:
+  debian:
+  - ros-rosbag2-storage-sqlite3
+rviz_common:
+  debian:
+  - ros-rviz-common
+rviz2:
+  debian:
+  - ros-rviz2
+rviz_visual_testing_framework:
+  debian:
+  - ros-rviz-visual-testing-framework
+rviz_default_plugins:
+  debian:
+  - ros-rviz-default-plugins
+zstd_vendor:
+  debian:
+  - ros-zstd-vendor
+mcap_vendor:
+  debian:
+  - ros-mcap-vendor
+rosbag2_storage_mcap:
+  debian:
+  - ros-rosbag2-storage-mcap
+rosbag2_cpp:
+  debian:
+  - ros-rosbag2-cpp
+rosbag2_compression:
+  debian:
+  - ros-rosbag2-compression
+rosbag2_compression_zstd:
+  debian:
+  - ros-rosbag2-compression-zstd
+rosbag2_examples_cpp:
+  debian:
+  - ros-rosbag2-examples-cpp
+rosbag2_performance_benchmarking:
+  debian:
+  - ros-rosbag2-performance-benchmarking
+rosbag2_transport:
+  debian:
+  - ros-rosbag2-transport
+rosbag2_py:
+  debian:
+  - ros-rosbag2-py
+ros2bag:
+  debian:
+  - ros-ros2bag
+launch_testing_examples:
+  debian:
+  - ros-launch-testing-examples
+rosbag2_tests:
+  debian:
+  - ros-rosbag2-tests
+rosbag2:
+  debian:
+  - ros-rosbag2

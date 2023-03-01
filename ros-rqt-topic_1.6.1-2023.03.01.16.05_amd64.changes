@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-topic
+Binary: ros-rqt-topic
+Architecture: amd64
+Version: 1.6.1-2023.03.01.16.05
+Distribution: bookworm
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-rqt-topic - rqt_topic provides a GUI plugin for displaying debug information
+Changes:
+ ros-rqt-topic (1.6.1-2023.03.01.16.05) bookworm; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#43 <https://github.com/ros-visualization/rqt_topic/issues/43>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 40bf6f127380937a33aa0dc36c08bc2930683035 5675 ros-rqt-topic_1.6.1-2023.03.01.16.05_amd64.buildinfo
+ 5c4906ef3f7565f614702c6ea1e068849af2d89b 13164 ros-rqt-topic_1.6.1-2023.03.01.16.05_amd64.deb
+Checksums-Sha256:
+ 2f43918c0815e6d1504b3da1245d4df3ff1b8746e1151574486f81e44060a1d3 5675 ros-rqt-topic_1.6.1-2023.03.01.16.05_amd64.buildinfo
+ 4d5e1f55392b5825dcb8168dec375d6986fdedd5f109b9c43a734bfb64c16b32 13164 ros-rqt-topic_1.6.1-2023.03.01.16.05_amd64.deb
+Files:
+ 2e7c69ccca15759dd24f43fca878f154 5675 misc optional ros-rqt-topic_1.6.1-2023.03.01.16.05_amd64.buildinfo
+ 17210262526ae9d53220f9a65cced24d 13164 misc optional ros-rqt-topic_1.6.1-2023.03.01.16.05_amd64.deb

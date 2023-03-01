@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rosidl-core-runtime
+Binary: ros-rosidl-core-runtime
+Architecture: amd64
+Version: 0.1.1-2023.03.01.15.44
+Distribution: bookworm
+Urgency: high
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Changed-By: Shane Loretz <sloretz@openrobotics.org>
+Description:
+ ros-rosidl-core-runtime - A configuration package defining runtime dependencies for core RO
+Changes:
+ ros-rosidl-core-runtime (0.1.1-2023.03.01.15.44) bookworm; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#2 <https://github.com/ros2/rosidl_core/issues/2>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 79f06d06c9a7d2eda00dae96547f844d88bbd879 7545 ros-rosidl-core-runtime_0.1.1-2023.03.01.15.44_amd64.buildinfo
+ 57b5d3a8e693c3d41e0bb3b0173543455861ad5a 5988 ros-rosidl-core-runtime_0.1.1-2023.03.01.15.44_amd64.deb
+Checksums-Sha256:
+ 60a87c43755d8577b235d529e82585882305437c6e362dea876de5b722117a58 7545 ros-rosidl-core-runtime_0.1.1-2023.03.01.15.44_amd64.buildinfo
+ d6bb722b21fae2705d0ddc24f868480381c1c1c4b394c915c52f51f90bfdee8c 5988 ros-rosidl-core-runtime_0.1.1-2023.03.01.15.44_amd64.deb
+Files:
+ a2051c239d0a85da32be8a61e8d80bce 7545 misc optional ros-rosidl-core-runtime_0.1.1-2023.03.01.15.44_amd64.buildinfo
+ 8fca15f7c8b50f4da6efc3875a152129 5988 misc optional ros-rosidl-core-runtime_0.1.1-2023.03.01.15.44_amd64.deb

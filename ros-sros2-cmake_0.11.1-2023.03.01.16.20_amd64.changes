@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 13 Sep 2022 00:00:00 -0000
+Source: ros-sros2-cmake
+Binary: ros-sros2-cmake
+Architecture: amd64
+Version: 0.11.1-2023.03.01.16.20
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Security Working Group <ros-security@googlegroups.com>
+Changed-By: ROS Security Working Group <ros-security@googlegroups.com>
+Description:
+ ros-sros2-cmake - CMake macros to configure security
+Changes:
+ ros-sros2-cmake (0.11.1-2023.03.01.16.20) bookworm; urgency=high
+Checksums-Sha1:
+ 37d5d9cd4a65da4d92dea6558b8511d62d59d2ce 7509 ros-sros2-cmake_0.11.1-2023.03.01.16.20_amd64.buildinfo
+ fa3f198c392572cfc72bb1ed12edaa16a6530399 7484 ros-sros2-cmake_0.11.1-2023.03.01.16.20_amd64.deb
+Checksums-Sha256:
+ 519e3bfb5c738b14c8342b2bb9b17fafdddfac992429894758fc474a1f320929 7509 ros-sros2-cmake_0.11.1-2023.03.01.16.20_amd64.buildinfo
+ f3068757deff076b42252884c55e53774aaa7b8310ce87c8bcda86d065586e52 7484 ros-sros2-cmake_0.11.1-2023.03.01.16.20_amd64.deb
+Files:
+ d71b33063085e9ff0d09401bcc4b43be 7509 misc optional ros-sros2-cmake_0.11.1-2023.03.01.16.20_amd64.buildinfo
+ 6567ee12b5391d8c3c265a682f24a330 7484 misc optional ros-sros2-cmake_0.11.1-2023.03.01.16.20_amd64.deb

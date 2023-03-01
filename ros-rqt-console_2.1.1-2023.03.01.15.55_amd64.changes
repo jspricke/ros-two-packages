@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-console
+Binary: ros-rqt-console
+Architecture: amd64
+Version: 2.1.1-2023.03.01.15.55
+Distribution: bookworm
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rqt-console - rqt_console provides a GUI plugin for displaying and filtering RO
+Changes:
+ ros-rqt-console (2.1.1-2023.03.01.15.55) bookworm; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#39 <https://github.com/ros-visualization/rqt_console/issues/39>)
+   * Contributors: Arne Hitzmann, Audrow Nash
+Checksums-Sha1:
+ 3073cf994ab1f64175a20b8158780112b595d704 5415 ros-rqt-console_2.1.1-2023.03.01.15.55_amd64.buildinfo
+ 21396976af771e02fd12072ba7b1c5f6bac3aa29 27176 ros-rqt-console_2.1.1-2023.03.01.15.55_amd64.deb
+Checksums-Sha256:
+ 8ee1498d20d78d58fe8a424b862015320ca424a63987c985a072c605692b2f79 5415 ros-rqt-console_2.1.1-2023.03.01.15.55_amd64.buildinfo
+ 88e005d6cd0a21874bc87970e25f0eb792de957e967487e0376467f8473a088f 27176 ros-rqt-console_2.1.1-2023.03.01.15.55_amd64.deb
+Files:
+ a6098d678c7382636eea1972aa8faaa5 5415 misc optional ros-rqt-console_2.1.1-2023.03.01.15.55_amd64.buildinfo
+ 393b4b0b4784afb6ac53bc8a2f932953 27176 misc optional ros-rqt-console_2.1.1-2023.03.01.15.55_amd64.deb

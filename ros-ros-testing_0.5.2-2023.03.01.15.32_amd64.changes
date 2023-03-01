@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-ros-testing
+Binary: ros-ros-testing
+Architecture: amd64
+Version: 0.5.2-2023.03.01.15.32
+Distribution: bookworm
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-ros-testing - The entry point package to launch testing in ROS.
+Changes:
+ ros-ros-testing (0.5.2-2023.03.01.15.32) bookworm; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#12 <https://github.com/ros2/ros_testing/issues/12>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 0b269df130a95e440cdc9a8f7e2169100b80d437 6448 ros-ros-testing_0.5.2-2023.03.01.15.32_amd64.buildinfo
+ 9e8b8922339526d76e4f4c1b9ff073a8a648b8b4 7188 ros-ros-testing_0.5.2-2023.03.01.15.32_amd64.deb
+Checksums-Sha256:
+ 01db95cb742b47211eb6677253790d936cc4a7f9f52afbaa094d4695c2f5a571 6448 ros-ros-testing_0.5.2-2023.03.01.15.32_amd64.buildinfo
+ 9f586d835fdbddfdf6ad3647fe00caa1207884785fc1a9030f7fff4fb75a3823 7188 ros-ros-testing_0.5.2-2023.03.01.15.32_amd64.deb
+Files:
+ 2b0a5fbf385abd176bc4b20ec542de7d 6448 misc optional ros-ros-testing_0.5.2-2023.03.01.15.32_amd64.buildinfo
+ e6880e20ac9e4a37f85e8fa5a7b5c1d7 7188 misc optional ros-ros-testing_0.5.2-2023.03.01.15.32_amd64.deb

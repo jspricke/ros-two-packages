@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-sqlite3-vendor
+Binary: ros-sqlite3-vendor
+Architecture: amd64
+Version: 0.20.0-3-g6160bb3-2023.03.01.16.19
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Orlov <michael.orlov@apex.ai>
+Changed-By: Michael Orlov <michael.orlov@apex.ai>
+Description:
+ ros-sqlite3-vendor - SQLite 3 vendor package
+Changes:
+ ros-sqlite3-vendor (0.20.0-3-g6160bb3-2023.03.01.16.19) bookworm; urgency=high
+Checksums-Sha1:
+ 8ecebd7ed4896e0055c911e3b32a204493d2876c 6541 ros-sqlite3-vendor_0.20.0-3-g6160bb3-2023.03.01.16.19_amd64.buildinfo
+ e76233705a1cb0b00b491ac67ab116f379ffc4cb 8692 ros-sqlite3-vendor_0.20.0-3-g6160bb3-2023.03.01.16.19_amd64.deb
+Checksums-Sha256:
+ 681a48efe783b580e67427c3f49cc24088d4a0cf3e170140b8b32e0310a01da1 6541 ros-sqlite3-vendor_0.20.0-3-g6160bb3-2023.03.01.16.19_amd64.buildinfo
+ 78f03803ab2319118194b58de1b5ae9118b5e87909c97f9b054b55873baa49eb 8692 ros-sqlite3-vendor_0.20.0-3-g6160bb3-2023.03.01.16.19_amd64.deb
+Files:
+ 74a2dfe854c476adf70e0179f2e0dfb6 6541 misc optional ros-sqlite3-vendor_0.20.0-3-g6160bb3-2023.03.01.16.19_amd64.buildinfo
+ 23624fd1d7b62f720101a6fcfe783516 8692 misc optional ros-sqlite3-vendor_0.20.0-3-g6160bb3-2023.03.01.16.19_amd64.deb

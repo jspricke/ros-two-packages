@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-image-common
+Binary: ros-image-common
+Architecture: amd64
+Version: 4.2.0-2023.03.01.15.04
+Distribution: bookworm
+Urgency: high
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Changed-By: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Description:
+ ros-image-common - Common code for working with images in ROS.
+Changes:
+ ros-image-common (4.2.0-2023.03.01.15.04) bookworm; urgency=high
+Checksums-Sha1:
+ bc23502700b0180847cdb4630914e9a5d2e2ef92 7510 ros-image-common_4.2.0-2023.03.01.15.04_amd64.buildinfo
+ 13062ae6834440b233814225063f5d6f75cb1029 6256 ros-image-common_4.2.0-2023.03.01.15.04_amd64.deb
+Checksums-Sha256:
+ 39591157dd98a846c46dbdc1ceffad197ffdddb2c0b629028a30bd4b7e7c0f97 7510 ros-image-common_4.2.0-2023.03.01.15.04_amd64.buildinfo
+ 01fa113aaaa332291aab60a9e0a85fc343f6fbc7438cf5c49e21733ddf3cb06b 6256 ros-image-common_4.2.0-2023.03.01.15.04_amd64.deb
+Files:
+ 727ba355d009565570fb0c8a799c067d 7510 misc optional ros-image-common_4.2.0-2023.03.01.15.04_amd64.buildinfo
+ 654e305123c441e04524841b36e1dea7 6256 misc optional ros-image-common_4.2.0-2023.03.01.15.04_amd64.deb

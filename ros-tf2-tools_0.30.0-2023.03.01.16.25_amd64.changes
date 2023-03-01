@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-tf2-tools
+Binary: ros-tf2-tools
+Architecture: amd64
+Version: 0.30.0-2023.03.01.16.25
+Distribution: bookworm
+Urgency: high
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Changed-By: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Description:
+ ros-tf2-tools - tf2_tools
+Changes:
+ ros-tf2-tools (0.30.0-2023.03.01.16.25) bookworm; urgency=high
+Checksums-Sha1:
+ ad60b41eb88d9a3bb1824cc0d4e81f2aab6629c9 5406 ros-tf2-tools_0.30.0-2023.03.01.16.25_amd64.buildinfo
+ 20ea6ed002ad9a4f1e48405258f74acc48270c77 8288 ros-tf2-tools_0.30.0-2023.03.01.16.25_amd64.deb
+Checksums-Sha256:
+ 18b22ae5798c9d64e21c17e79b372a9380f38c4a33e722c09c00a8f6fb7d5567 5406 ros-tf2-tools_0.30.0-2023.03.01.16.25_amd64.buildinfo
+ 2422c9533d34b77d1740564b4b3e6cebb14afbaced178a50c88ff355be0087c4 8288 ros-tf2-tools_0.30.0-2023.03.01.16.25_amd64.deb
+Files:
+ 2856dc23bb45c8b463b265aa30141c04 5406 misc optional ros-tf2-tools_0.30.0-2023.03.01.16.25_amd64.buildinfo
+ d72b68f1763325e4ad01f36e2a07e4e7 8288 misc optional ros-tf2-tools_0.30.0-2023.03.01.16.25_amd64.deb

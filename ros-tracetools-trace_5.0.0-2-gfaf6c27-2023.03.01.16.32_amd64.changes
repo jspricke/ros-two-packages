@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-tracetools-trace
+Binary: ros-tracetools-trace
+Architecture: amd64
+Version: 5.0.0-2-gfaf6c27-2023.03.01.16.32
+Distribution: bookworm
+Urgency: high
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Changed-By: Christophe Bedard <bedard.christophe@gmail.com>
+Description:
+ ros-tracetools-trace - Tools for setting up tracing sessions.
+Changes:
+ ros-tracetools-trace (5.0.0-2-gfaf6c27-2023.03.01.16.32) bookworm; urgency=high
+ .
+   * Replace distutils.version.StrictVersion with packaging.version.Version (#42 <https://github.com/ros2/ros2_tracing/issues/42>)
+   * Remove deprecated context_names parameter (#38 <https://github.com/ros2/ros2_tracing/issues/38>)
+   * Contributors: Christophe Bedard
+Checksums-Sha1:
+ 93809a1152bcd31d98db81031322f5519bef9e6c 7389 ros-tracetools-trace_5.0.0-2-gfaf6c27-2023.03.01.16.32_amd64.buildinfo
+ 1825f79b51087eceed2ced4bfd7acbf1eb9c258d 14200 ros-tracetools-trace_5.0.0-2-gfaf6c27-2023.03.01.16.32_amd64.deb
+Checksums-Sha256:
+ 80949ade9d9a0ff29abb914d6e0ee65a0c5fe33826b119cf3754e58dc0bf93f8 7389 ros-tracetools-trace_5.0.0-2-gfaf6c27-2023.03.01.16.32_amd64.buildinfo
+ 6317b286e12ac65ecdc8496b3bf8afc4326352473f9518b64781ce62f1104b5c 14200 ros-tracetools-trace_5.0.0-2-gfaf6c27-2023.03.01.16.32_amd64.deb
+Files:
+ 842363bc39fa2e543ac7d59a8fd2fd26 7389 misc optional ros-tracetools-trace_5.0.0-2-gfaf6c27-2023.03.01.16.32_amd64.buildinfo
+ 4525046db2b38e6a70042a257e6c9da5 14200 misc optional ros-tracetools-trace_5.0.0-2-gfaf6c27-2023.03.01.16.32_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-python-cmake-module
+Binary: ros-python-cmake-module
+Architecture: amd64
+Version: 0.10.2-2023.03.01.15.14
+Distribution: bookworm
+Urgency: high
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Changed-By: Shane Loretz <sloretz@openrobotics.org>
+Description:
+ ros-python-cmake-module - Provide CMake module with extra functionality for Python.
+Changes:
+ ros-python-cmake-module (0.10.2-2023.03.01.15.14) bookworm; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#13 <https://github.com/ros2/python_cmake_module/issues/13>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ b9b4cf0696365d765556274550fc1a0a7c9dae19 7549 ros-python-cmake-module_0.10.2-2023.03.01.15.14_amd64.buildinfo
+ db00310514a713fb10857228efc93c032caaa920 8636 ros-python-cmake-module_0.10.2-2023.03.01.15.14_amd64.deb
+Checksums-Sha256:
+ 97691217aa693371088d2824e6c6afbd3c6f7273e57573afd72a44f10c75cfee 7549 ros-python-cmake-module_0.10.2-2023.03.01.15.14_amd64.buildinfo
+ c6aab48aebe7a264401654752998a2a885941a8fb6beb7eae34e5b1eb76ad014 8636 ros-python-cmake-module_0.10.2-2023.03.01.15.14_amd64.deb
+Files:
+ 4e657bded961d2afb28ba5e4cb93cee6 7549 misc optional ros-python-cmake-module_0.10.2-2023.03.01.15.14_amd64.buildinfo
+ 4ec9704542fb85a6ad764f83202e586c 8636 misc optional ros-python-cmake-module_0.10.2-2023.03.01.15.14_amd64.deb

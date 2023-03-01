@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-tracetools
+Binary: ros-tracetools ros-tracetools-dbgsym
+Architecture: amd64
+Version: 5.0.0-2-gfaf6c27-2023.03.01.16.29
+Distribution: bookworm
+Urgency: high
+Maintainer: Christophe Bedard <bedard.christophe@gmail.com>
+Changed-By: Christophe Bedard <bedard.christophe@gmail.com>
+Description:
+ ros-tracetools - Tracing wrapper for ROS 2.
+Changes:
+ ros-tracetools (5.0.0-2-gfaf6c27-2023.03.01.16.29) bookworm; urgency=high
+ .
+   * Update tracing to C++17. (#33 <https://github.com/ros2/ros2_tracing/issues/33>)
+   * Contributors: Chris Lalancette
+Checksums-Sha1:
+ db91a8536cd9b83b2e5a7dc34dd934e6eb68fb24 10540 ros-tracetools-dbgsym_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.deb
+ 71317442841bf27ebb0d415ea67dc44d48253fc9 8477 ros-tracetools_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.buildinfo
+ 7403b33503865a95a932f588afc427fa4b9dd8b3 19760 ros-tracetools_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.deb
+Checksums-Sha256:
+ cb6a5b8fd3a797fa69b2577bbc469bbbeddf4b4a9f716e70854550810b51f010 10540 ros-tracetools-dbgsym_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.deb
+ 0d7fff678485a792044706351750b6a950196c0ad5982c526ec8c35646c50e43 8477 ros-tracetools_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.buildinfo
+ 704fd8c6b9696fa254569c2bb050b09486f3facebb1be0e2b00f8ba1e3180101 19760 ros-tracetools_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.deb
+Files:
+ fc3658847b7bba56202d72cd0e1c45b3 10540 debug optional ros-tracetools-dbgsym_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.deb
+ bc640c8bab8bd7abbc5e630445c76eef 8477 misc optional ros-tracetools_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.buildinfo
+ 62774f06c8ff257004188a4b8c8b129c 19760 misc optional ros-tracetools_5.0.0-2-gfaf6c27-2023.03.01.16.29_amd64.deb

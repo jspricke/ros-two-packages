@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-launch-pytest
+Binary: ros-launch-pytest
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.06
+Distribution: bookworm
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-launch-pytest - A package to create tests which involve launch files and multiple
+Changes:
+ ros-launch-pytest (1.4.1-2023.03.01.15.06) bookworm; urgency=high
+ .
+   * Fixed typos (#692 <https://github.com/ros2/launch/issues/692>)
+   * Contributors: Alejandro Hernández Cordero
+Checksums-Sha1:
+ c7602324d191bf35b8bfa60fe1564cfd539ee787 7161 ros-launch-pytest_1.4.1-2023.03.01.15.06_amd64.buildinfo
+ 39bbbc3f7579dae0d1e4c234982c478c6595dddb 13616 ros-launch-pytest_1.4.1-2023.03.01.15.06_amd64.deb
+Checksums-Sha256:
+ ea0448a1ec3106c1fa9f4f61aecce294c53637646ea04a517e07546227afc1b5 7161 ros-launch-pytest_1.4.1-2023.03.01.15.06_amd64.buildinfo
+ 86847bd9018270db32a89dd62f79efc82b4ca24b7f419ec4eb5a754343a2e3c8 13616 ros-launch-pytest_1.4.1-2023.03.01.15.06_amd64.deb
+Files:
+ f6e8102b915613907a106047880b5f57 7161 misc optional ros-launch-pytest_1.4.1-2023.03.01.15.06_amd64.buildinfo
+ 265fa824c1bc85442428bc3ff2a7b54e 13616 misc optional ros-launch-pytest_1.4.1-2023.03.01.15.06_amd64.deb

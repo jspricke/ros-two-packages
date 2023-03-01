@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-rviz-assimp-vendor
+Binary: ros-rviz-assimp-vendor
+Architecture: amd64
+Version: 12.3.1-2023.03.01.16.07
+Distribution: bookworm
+Urgency: high
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Changed-By: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Description:
+ ros-rviz-assimp-vendor - Wrapper around assimp, providing nothing but a dependency on assi
+Changes:
+ ros-rviz-assimp-vendor (12.3.1-2023.03.01.16.07) bookworm; urgency=high
+Checksums-Sha1:
+ 1661cb752b42c21658b6aec3a2e53fc5c45c954f 7729 ros-rviz-assimp-vendor_12.3.1-2023.03.01.16.07_amd64.buildinfo
+ dba7289c73e6f9ea7905a653a95d41ae961b78f1 8948 ros-rviz-assimp-vendor_12.3.1-2023.03.01.16.07_amd64.deb
+Checksums-Sha256:
+ 88d4ad83bf9e0691599600c688e30de83ed6165490c146c6f4693e3d9d0e0489 7729 ros-rviz-assimp-vendor_12.3.1-2023.03.01.16.07_amd64.buildinfo
+ 9853671a818bd153b0b40303260c99d3904021905c0cc5414a777885fe863370 8948 ros-rviz-assimp-vendor_12.3.1-2023.03.01.16.07_amd64.deb
+Files:
+ 7946ac20c01f906d11c33c3079747e4a 7729 misc optional ros-rviz-assimp-vendor_12.3.1-2023.03.01.16.07_amd64.buildinfo
+ 522f45df2f99acc40c49a720642a2a04 8948 misc optional ros-rviz-assimp-vendor_12.3.1-2023.03.01.16.07_amd64.deb

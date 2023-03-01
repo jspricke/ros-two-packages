@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-kdl-parser
+Binary: ros-kdl-parser ros-kdl-parser-dbgsym
+Architecture: amd64
+Version: 2.9.0-2023.03.01.18.09
+Distribution: bookworm
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Changed-By: Chris Lalancette <clalancette@osrfoundation.org>
+Description:
+ ros-kdl-parser - The Kinematics and Dynamics Library (KDL) defines a tree structur
+Changes:
+ ros-kdl-parser (2.9.0-2023.03.01.18.09) bookworm; urgency=high
+ .
+   * Switch some tests to use unique pointers instead of raw pointers. (#74 <https://github.com/ros/kdl_parser/issues/74>)
+   * log link children as DEBUG instead of INFO (#71 <https://github.com/ros/kdl_parser/issues/71>)
+   * Contributors: Chris Lalancette, Joseph Schornak
+Checksums-Sha1:
+ 9f1beb3838b5d9b5b2fd7dce80f0a2341293e4c5 165780 ros-kdl-parser-dbgsym_2.9.0-2023.03.01.18.09_amd64.deb
+ f3efdd16e1a449994d0f2c291ab3b20ffea4a57e 10586 ros-kdl-parser_2.9.0-2023.03.01.18.09_amd64.buildinfo
+ 8f4228776e18d62d4411b2fd638831c9d530ec38 21920 ros-kdl-parser_2.9.0-2023.03.01.18.09_amd64.deb
+Checksums-Sha256:
+ c58b3e2d543b4c42ddc372e1b07ecd3f6bc6512d96f33fde745550fb88d76811 165780 ros-kdl-parser-dbgsym_2.9.0-2023.03.01.18.09_amd64.deb
+ f1c465625262c37c4ec07573eeb2a9d91aed21b5fd17761c5b797dea5ac88a20 10586 ros-kdl-parser_2.9.0-2023.03.01.18.09_amd64.buildinfo
+ acaedbc7afd6b9e7d2267f2986fc146ab51dcb92c1a7ac9a88ae172bbb6712ba 21920 ros-kdl-parser_2.9.0-2023.03.01.18.09_amd64.deb
+Files:
+ 0a1c7366f0d18778310d384e2a705d66 165780 debug optional ros-kdl-parser-dbgsym_2.9.0-2023.03.01.18.09_amd64.deb
+ f74ac1f29467f6397a41cddfa4490376 10586 misc optional ros-kdl-parser_2.9.0-2023.03.01.18.09_amd64.buildinfo
+ 74f1d43125ad69c1bdce771edf6b2ceb 21920 misc optional ros-kdl-parser_2.9.0-2023.03.01.18.09_amd64.deb

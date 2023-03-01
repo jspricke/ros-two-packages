@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-quality-of-service-demo-py
+Binary: ros-quality-of-service-demo-py
+Architecture: amd64
+Version: 0.25.0-2023.03.01.15.22
+Distribution: bookworm
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-quality-of-service-demo-py - Python Demo applications for Quality of Service features
+Changes:
+ ros-quality-of-service-demo-py (0.25.0-2023.03.01.15.22) bookworm; urgency=high
+Checksums-Sha1:
+ d7e163236cd828a198680bd72460ff761ab860f0 7152 ros-quality-of-service-demo-py_0.25.0-2023.03.01.15.22_amd64.buildinfo
+ b6d4132e1a97c079239fb622985973d9413044d6 10784 ros-quality-of-service-demo-py_0.25.0-2023.03.01.15.22_amd64.deb
+Checksums-Sha256:
+ 365d4daa4239fd569eec30ee412974094c7c43e0265bf3879b285388aa64433a 7152 ros-quality-of-service-demo-py_0.25.0-2023.03.01.15.22_amd64.buildinfo
+ e7633324d2d06229c356649fe71842c155c6517956588e5f7eab1d6ad1818c27 10784 ros-quality-of-service-demo-py_0.25.0-2023.03.01.15.22_amd64.deb
+Files:
+ dcf25eac6b8fbc05fc56fc2e15b8aa56 7152 misc optional ros-quality-of-service-demo-py_0.25.0-2023.03.01.15.22_amd64.buildinfo
+ c6ebadca938f4437116dcb6162d15dab 10784 misc optional ros-quality-of-service-demo-py_0.25.0-2023.03.01.15.22_amd64.deb

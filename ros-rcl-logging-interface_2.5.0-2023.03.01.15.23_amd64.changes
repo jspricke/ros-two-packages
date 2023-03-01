@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rcl-logging-interface
+Binary: ros-rcl-logging-interface ros-rcl-logging-interface-dbgsym
+Architecture: amd64
+Version: 2.5.0-2023.03.01.15.23
+Distribution: bookworm
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Changed-By: Chris Lalancette <clalancette@openrobotics.org>
+Description:
+ ros-rcl-logging-interface - Interface that rcl_logging backends needs to implement.
+Changes:
+ ros-rcl-logging-interface (2.5.0-2023.03.01.15.23) bookworm; urgency=high
+ .
+   * Update rcl_logging to C++17. (#98 <https://github.com/ros2/rcl_logging/issues/98>)
+   * Contributors: Chris Lalancette
+Checksums-Sha1:
+ 825682a242652e500a38e1363502b1fa450599e7 4372 ros-rcl-logging-interface-dbgsym_2.5.0-2023.03.01.15.23_amd64.deb
+ 85ef50e3b517a7c2c12cbe06c6f712d103b45f21 8543 ros-rcl-logging-interface_2.5.0-2023.03.01.15.23_amd64.buildinfo
+ 5dc9508da74e24f733c36b9607973bc4566aff58 13096 ros-rcl-logging-interface_2.5.0-2023.03.01.15.23_amd64.deb
+Checksums-Sha256:
+ 4e84d750d62bbb0b7736eba0383fbe147e7f66bcaedbd4eff6f8383bd1a0a778 4372 ros-rcl-logging-interface-dbgsym_2.5.0-2023.03.01.15.23_amd64.deb
+ a42361aafb6469a3c0dcc9a4c9bffeb5985a3c816cfafeaf9780c386716cf590 8543 ros-rcl-logging-interface_2.5.0-2023.03.01.15.23_amd64.buildinfo
+ 0a296b48ef0608ec7335f91d18357dd3b92438b82245151e92f61e1339d52e89 13096 ros-rcl-logging-interface_2.5.0-2023.03.01.15.23_amd64.deb
+Files:
+ be5d3e24f4a0a9eb66ce8f5051053ad2 4372 debug optional ros-rcl-logging-interface-dbgsym_2.5.0-2023.03.01.15.23_amd64.deb
+ b68db2632b84842447e268a31e3c0d9b 8543 misc optional ros-rcl-logging-interface_2.5.0-2023.03.01.15.23_amd64.buildinfo
+ 26a56956552ee13ad3ccccf81ad3d1aa 13096 misc optional ros-rcl-logging-interface_2.5.0-2023.03.01.15.23_amd64.deb

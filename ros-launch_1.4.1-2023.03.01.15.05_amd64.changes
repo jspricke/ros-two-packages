@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-launch
+Binary: ros-launch
+Architecture: amd64
+Version: 1.4.1-2023.03.01.15.05
+Distribution: bookworm
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-launch - The ROS launch tool.
+Changes:
+ ros-launch (1.4.1-2023.03.01.15.05) bookworm; urgency=high
+ .
+   * Fixed typos (#692 <https://github.com/ros2/launch/issues/692>)
+   * Contributors: Alejandro Hernández Cordero
+Checksums-Sha1:
+ 327e67a5d6c14c60e5b0449d540af2fd13b6fc44 7084 ros-launch_1.4.1-2023.03.01.15.05_amd64.buildinfo
+ 76f1380c0fa1e19b2b50be5e05b5384bc3f089cd 78752 ros-launch_1.4.1-2023.03.01.15.05_amd64.deb
+Checksums-Sha256:
+ 90d61c391d8701d7bef845a39117bcc5745e3f05e86e4f9c71d90df7efb10128 7084 ros-launch_1.4.1-2023.03.01.15.05_amd64.buildinfo
+ 1518ca1405413742f6d0a3777e130aa938206d1fdf6af2331947d23798140c36 78752 ros-launch_1.4.1-2023.03.01.15.05_amd64.deb
+Files:
+ b22ce7bd41c21b48c09aaec0461aa093 7084 misc optional ros-launch_1.4.1-2023.03.01.15.05_amd64.buildinfo
+ 46b7ffe6a86fccc2faf4640eed14a9e4 78752 misc optional ros-launch_1.4.1-2023.03.01.15.05_amd64.deb

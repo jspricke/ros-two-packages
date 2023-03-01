@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-examples-rclpy-minimal-action-server
+Binary: ros-examples-rclpy-minimal-action-server
+Architecture: amd64
+Version: 0.17.1-2023.03.01.14.55
+Distribution: bookworm
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-examples-rclpy-minimal-action-server - Examples of minimal action servers using rclpy.
+Changes:
+ ros-examples-rclpy-minimal-action-server (0.17.1-2023.03.01.14.55) bookworm; urgency=high
+Checksums-Sha1:
+ 010639d4c66cbc5e826b394f74ee2304f5024d5f 7199 ros-examples-rclpy-minimal-action-server_0.17.1-2023.03.01.14.55_amd64.buildinfo
+ ae0e5a7e6f8a908808ad19fc5cab360f17415555 7484 ros-examples-rclpy-minimal-action-server_0.17.1-2023.03.01.14.55_amd64.deb
+Checksums-Sha256:
+ 16e720efc3d643055f602c843b6aa8350ebfe4a17f144c3abc378112bfc8bdb1 7199 ros-examples-rclpy-minimal-action-server_0.17.1-2023.03.01.14.55_amd64.buildinfo
+ e1907c303db7e9e0d8c7b994ebf7ac9701034c98c4c1c4d3e1776ccbac27b6bf 7484 ros-examples-rclpy-minimal-action-server_0.17.1-2023.03.01.14.55_amd64.deb
+Files:
+ fbf20543362565817c7a4184b8fb031c 7199 misc optional ros-examples-rclpy-minimal-action-server_0.17.1-2023.03.01.14.55_amd64.buildinfo
+ 7144b17b2aaf7256093fa7a023fd2b75 7484 misc optional ros-examples-rclpy-minimal-action-server_0.17.1-2023.03.01.14.55_amd64.deb

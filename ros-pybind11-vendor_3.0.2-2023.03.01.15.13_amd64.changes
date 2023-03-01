@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 06 Dec 2022 00:00:00 -0000
+Source: ros-pybind11-vendor
+Binary: ros-pybind11-vendor
+Architecture: amd64
+Version: 3.0.2-2023.03.01.15.13
+Distribution: bookworm
+Urgency: high
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Changed-By: Scott K Logan <scott@openrobotics.org>
+Description:
+ ros-pybind11-vendor - Wrapper around pybind11.
+Changes:
+ ros-pybind11-vendor (3.0.2-2023.03.01.15.13) bookworm; urgency=high
+ .
+   * Add missing buildtool dependency on git (#19 <https://github.com/ros2/pybind11_vendor/issues/19>)
+   * Update maintainers (#17 <https://github.com/ros2/pybind11_vendor/issues/17>)
+   * Contributors: Audrow Nash, Scott K Logan
+Checksums-Sha1:
+ 15a294e07bf4152cfe2a120e805a46c22f0ce654 6603 ros-pybind11-vendor_3.0.2-2023.03.01.15.13_amd64.buildinfo
+ 0522fe8582845ec6e7c8e15e462f3c9c28f5d4a9 6776 ros-pybind11-vendor_3.0.2-2023.03.01.15.13_amd64.deb
+Checksums-Sha256:
+ 724ddb9e39a6b772853512ac64354fae546b89404d6e455af8a0e87f05e6ce77 6603 ros-pybind11-vendor_3.0.2-2023.03.01.15.13_amd64.buildinfo
+ 8d1cfdc391f78eb4d36f9765b636133f65a091105238fcf14abef1f1aad2e44a 6776 ros-pybind11-vendor_3.0.2-2023.03.01.15.13_amd64.deb
+Files:
+ c43a0b9b08734fd166d4c9864993d6dc 6603 misc optional ros-pybind11-vendor_3.0.2-2023.03.01.15.13_amd64.buildinfo
+ 93f774acbbfcac37b1076556fcfc2586 6776 misc optional ros-pybind11-vendor_3.0.2-2023.03.01.15.13_amd64.deb

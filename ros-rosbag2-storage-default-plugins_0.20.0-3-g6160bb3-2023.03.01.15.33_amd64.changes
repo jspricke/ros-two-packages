@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rosbag2-storage-default-plugins
+Binary: ros-rosbag2-storage-default-plugins
+Architecture: amd64
+Version: 0.20.0-3-g6160bb3-2023.03.01.15.33
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Orlov <michael.orlov@apex.ai>
+Changed-By: Michael Orlov <michael.orlov@apex.ai>
+Description:
+ ros-rosbag2-storage-default-plugins - Intermediate metapackage to point at default storage plugin(s) fo
+Changes:
+ ros-rosbag2-storage-default-plugins (0.20.0-3-g6160bb3-2023.03.01.15.33) bookworm; urgency=high
+Checksums-Sha1:
+ ad8438f308a3204067eee3756adff6b0b936c76b 6596 ros-rosbag2-storage-default-plugins_0.20.0-3-g6160bb3-2023.03.01.15.33_amd64.buildinfo
+ e47c6b5a5dca6b84f9d6b05b69b326ff8821b586 5868 ros-rosbag2-storage-default-plugins_0.20.0-3-g6160bb3-2023.03.01.15.33_amd64.deb
+Checksums-Sha256:
+ c815dd2f58e0fae4f49f3477b0fdc79c9572f4f7d530e207b9024a4cb7d51882 6596 ros-rosbag2-storage-default-plugins_0.20.0-3-g6160bb3-2023.03.01.15.33_amd64.buildinfo
+ d60842d83d086ab7b2c45cc388b04a156163985a2a582a42c1dc2cba12a0bfd7 5868 ros-rosbag2-storage-default-plugins_0.20.0-3-g6160bb3-2023.03.01.15.33_amd64.deb
+Files:
+ 99077ea8634bbcbe46665069c5b0d223 6596 misc optional ros-rosbag2-storage-default-plugins_0.20.0-3-g6160bb3-2023.03.01.15.33_amd64.buildinfo
+ 1f86d11a2696f54d5faebf96e8988639 5868 misc optional ros-rosbag2-storage-default-plugins_0.20.0-3-g6160bb3-2023.03.01.15.33_amd64.deb
