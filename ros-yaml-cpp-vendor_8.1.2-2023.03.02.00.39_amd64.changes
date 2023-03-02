@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-yaml-cpp-vendor
+Binary: ros-yaml-cpp-vendor
+Architecture: amd64
+Version: 8.1.2-2023.03.02.00.39
+Distribution: sid
+Urgency: high
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Changed-By: Scott K Logan <scott@openrobotics.org>
+Description:
+ ros-yaml-cpp-vendor - Wrapper around yaml-cpp, it provides a fixed CMake module and an
+Changes:
+ ros-yaml-cpp-vendor (8.1.2-2023.03.02.00.39) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#40 <https://github.com/ros2/yaml_cpp_vendor/issues/40>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ ae44a50a07d47052fa01676e3be7cb1f20eb8e46 6545 ros-yaml-cpp-vendor_8.1.2-2023.03.02.00.39_amd64.buildinfo
+ ded789349531e42e572d91b2b398058091583ded 8372 ros-yaml-cpp-vendor_8.1.2-2023.03.02.00.39_amd64.deb
+Checksums-Sha256:
+ 758c6a4526ebf003dd9a6246e3e135bd97967dce311f9375077956cd1598a771 6545 ros-yaml-cpp-vendor_8.1.2-2023.03.02.00.39_amd64.buildinfo
+ 4905416c15e8ede8ea630bd9c77d8991629068971e34cd946f63b33fa8b0e8ec 8372 ros-yaml-cpp-vendor_8.1.2-2023.03.02.00.39_amd64.deb
+Files:
+ 558f5f4f097d83cbd5454f2bde599577 6545 misc optional ros-yaml-cpp-vendor_8.1.2-2023.03.02.00.39_amd64.buildinfo
+ 6bf8eaee358eee558e2bc58b5e4649be 8372 misc optional ros-yaml-cpp-vendor_8.1.2-2023.03.02.00.39_amd64.deb

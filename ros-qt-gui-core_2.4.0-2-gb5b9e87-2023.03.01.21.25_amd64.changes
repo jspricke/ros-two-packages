@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-qt-gui-core
+Binary: ros-qt-gui-core
+Architecture: amd64
+Version: 2.4.0-2-gb5b9e87-2023.03.01.21.25
+Distribution: sid
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-qt-gui-core - Integration of the ROS package system and ROS-specific plugins fo
+Changes:
+ ros-qt-gui-core (2.4.0-2-gb5b9e87-2023.03.01.21.25) sid; urgency=high
+Checksums-Sha1:
+ fe0d4125f74907ba80d38310c7f6e85b225f01a6 6494 ros-qt-gui-core_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.buildinfo
+ 42875dd2a66d5b5906b60040ab2ac708b0895ba9 7548 ros-qt-gui-core_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.deb
+Checksums-Sha256:
+ d757bc976fc159542176012c6255feac2a948dec2a0fc0cf83936df1f06a8b7c 6494 ros-qt-gui-core_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.buildinfo
+ 656d879964501e6eb6f076e57b4aae686a9595e61f5d3cd002f33e682a07f052 7548 ros-qt-gui-core_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.deb
+Files:
+ 0ca48de6a8385b6371d3ebe6883bde1b 6494 misc optional ros-qt-gui-core_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.buildinfo
+ dc00081c6aa500c7d15270b111446149 7548 misc optional ros-qt-gui-core_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.deb

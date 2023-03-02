@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-examples-rclpy-guard-conditions
+Binary: ros-examples-rclpy-guard-conditions
+Architecture: amd64
+Version: 0.17.1-2023.03.01.20.57
+Distribution: sid
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-examples-rclpy-guard-conditions - Examples of using guard conditions.
+Changes:
+ ros-examples-rclpy-guard-conditions (0.17.1-2023.03.01.20.57) sid; urgency=high
+Checksums-Sha1:
+ 9c3ff778d9be9d3e7b4d7fe34730720178ca76df 7176 ros-examples-rclpy-guard-conditions_0.17.1-2023.03.01.20.57_amd64.buildinfo
+ 9c7637b0e22c3273ac10d0f87c80ca144882a085 5040 ros-examples-rclpy-guard-conditions_0.17.1-2023.03.01.20.57_amd64.deb
+Checksums-Sha256:
+ c4a0e06e466a77690749a8032bdbdedb4dd7a0de838ea1d2c33d579c04c9a413 7176 ros-examples-rclpy-guard-conditions_0.17.1-2023.03.01.20.57_amd64.buildinfo
+ 4b54e60b5e825ffbff67458bf8e427305da34815df48f0c30320c01944bfb9fb 5040 ros-examples-rclpy-guard-conditions_0.17.1-2023.03.01.20.57_amd64.deb
+Files:
+ 3f53314fb138bdffc8094f341c35cf7e 7176 misc optional ros-examples-rclpy-guard-conditions_0.17.1-2023.03.01.20.57_amd64.buildinfo
+ 262c4657579d1c376707f621b23a93f8 5040 misc optional ros-examples-rclpy-guard-conditions_0.17.1-2023.03.01.20.57_amd64.deb

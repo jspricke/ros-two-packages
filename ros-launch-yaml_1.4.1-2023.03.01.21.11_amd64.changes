@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-launch-yaml
+Binary: ros-launch-yaml
+Architecture: amd64
+Version: 1.4.1-2023.03.01.21.11
+Distribution: sid
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-launch-yaml - YAML frontend for the launch package.
+Changes:
+ ros-launch-yaml (1.4.1-2023.03.01.21.11) sid; urgency=high
+Checksums-Sha1:
+ c723b4813d58bc570a1056083d645337aebf9994 7332 ros-launch-yaml_1.4.1-2023.03.01.21.11_amd64.buildinfo
+ 4b506d9c37c789000e696020d1000e5b864ed840 8208 ros-launch-yaml_1.4.1-2023.03.01.21.11_amd64.deb
+Checksums-Sha256:
+ 22f7006b9309e2d737a10bdfdbb4abaf2740ad082d170e5d798867829e4859e4 7332 ros-launch-yaml_1.4.1-2023.03.01.21.11_amd64.buildinfo
+ 2ceed5b5685077a5c2cdc35fd98d6dd4d7e5fac151b9e1954e11b4e1e0d144dd 8208 ros-launch-yaml_1.4.1-2023.03.01.21.11_amd64.deb
+Files:
+ 328c16d49ff118503c11f595e6049373 7332 misc optional ros-launch-yaml_1.4.1-2023.03.01.21.11_amd64.buildinfo
+ 92ee0f546957a86fd8f93ce582189dfb 8208 misc optional ros-launch-yaml_1.4.1-2023.03.01.21.11_amd64.deb

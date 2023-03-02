@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Tue, 29 Mar 2022 00:00:00 -0000
+Source: ros-ignition-cmake2-vendor
+Binary: ros-ignition-cmake2-vendor
+Architecture: amd64
+Version: 0.0.2-1-gb5912fc-2023.03.01.21.05
+Distribution: sid
+Urgency: high
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Changed-By: Jose Luis Rivero <jrivero@osrfoundation.org>
+Description:
+ ros-ignition-cmake2-vendor - This package provides the Ignition CMake 2.x library.
+Changes:
+ ros-ignition-cmake2-vendor (0.0.2-1-gb5912fc-2023.03.01.21.05) sid; urgency=high
+ .
+   * Fix an ament_lint warning. (#3 <https://github.com/ignition-release/ignition_cmake2_vendor/issues/3>)
+   * use --no-warn-unused-cli on MSVC (#2 <https://github.com/ignition-release/ignition_cmake2_vendor/issues/2>)
+   * Fix upstream URL and package reference in manifest
+   * Contributors: Chris Lalancette, Scott K Logan, Shane Loretz
+Checksums-Sha1:
+ adcbd6bd1a69e35366f28171f95a8a4d843cb26e 7288 ros-ignition-cmake2-vendor_0.0.2-1-gb5912fc-2023.03.01.21.05_amd64.buildinfo
+ 0ff8893a9957289e57bff8d603e8640d00b41d5b 2312 ros-ignition-cmake2-vendor_0.0.2-1-gb5912fc-2023.03.01.21.05_amd64.deb
+Checksums-Sha256:
+ 3b65a5ac557013e387b2f0bd27e5cd5b0ee0c86db3d90bc1a84db0b3b8cd4ea1 7288 ros-ignition-cmake2-vendor_0.0.2-1-gb5912fc-2023.03.01.21.05_amd64.buildinfo
+ 91fc47ec5c7783b190feba700f9ca97f1be2a2a95400b43b8d45c291a8832a8f 2312 ros-ignition-cmake2-vendor_0.0.2-1-gb5912fc-2023.03.01.21.05_amd64.deb
+Files:
+ de30131c22552154bb3b7e2d66315a17 7288 misc optional ros-ignition-cmake2-vendor_0.0.2-1-gb5912fc-2023.03.01.21.05_amd64.buildinfo
+ ec8b59549f9f6a9169a59b6a5ae31619 2312 misc optional ros-ignition-cmake2-vendor_0.0.2-1-gb5912fc-2023.03.01.21.05_amd64.deb

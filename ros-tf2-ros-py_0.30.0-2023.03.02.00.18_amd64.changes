@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-tf2-ros-py
+Binary: ros-tf2-ros-py
+Architecture: amd64
+Version: 0.30.0-2023.03.02.00.18
+Distribution: sid
+Urgency: high
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Changed-By: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Description:
+ ros-tf2-ros-py - This package contains the ROS Python bindings for the tf2 library
+Changes:
+ ros-tf2-ros-py (0.30.0-2023.03.02.00.18) sid; urgency=high
+Checksums-Sha1:
+ 4a1c318f1180621e1bad78dd116d9292d9af59ac 5728 ros-tf2-ros-py_0.30.0-2023.03.02.00.18_amd64.buildinfo
+ 701a10fbd3dd3ab41be6b3c1916282a5a37aede3 13136 ros-tf2-ros-py_0.30.0-2023.03.02.00.18_amd64.deb
+Checksums-Sha256:
+ 4d2670894e84065a5c76fb126012d25a6e8a990f6ae623e8dd684bc78a681f33 5728 ros-tf2-ros-py_0.30.0-2023.03.02.00.18_amd64.buildinfo
+ 83d5b006b522e26fb92faf9b103019917fe6c1afb9d3ab827f96f6a1f71ae442 13136 ros-tf2-ros-py_0.30.0-2023.03.02.00.18_amd64.deb
+Files:
+ ab8d1bb35bbbffd55b787507b670786f 5728 misc optional ros-tf2-ros-py_0.30.0-2023.03.02.00.18_amd64.buildinfo
+ 0cd433a1a385abb2ef50e344ad870497 13136 misc optional ros-tf2-ros-py_0.30.0-2023.03.02.00.18_amd64.deb

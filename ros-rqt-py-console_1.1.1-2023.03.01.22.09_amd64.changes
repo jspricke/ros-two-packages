@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-py-console
+Binary: ros-rqt-py-console
+Architecture: amd64
+Version: 1.1.1-2023.03.01.22.09
+Distribution: sid
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rqt-py-console - rqt_py_console is a Python GUI plugin providing an interactive Py
+Changes:
+ ros-rqt-py-console (1.1.1-2023.03.01.22.09) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#13 <https://github.com/ros-visualization/rqt_py_console/issues/13>)
+   * Contributors: Audrow Nash, Jacob Perron
+Checksums-Sha1:
+ 6c38d68d16e930c4b3ab7fb75d22b338523ff5d9 5429 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.buildinfo
+ 32de85827615f1394c9053bad33665c009444c57 8224 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb
+Checksums-Sha256:
+ 082aa2a4da21cf3cf312af383647c89ffe5987f76b15e872e5ec265847b6bb0f 5429 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.buildinfo
+ 7a64fa863d751ad8b315fad36953d240ba00f0c88cb752ff9a7ee45fbb9e1a2a 8224 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb
+Files:
+ 8423a4bc61c349d15358c8c09454dcbe 5429 misc optional ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.buildinfo
+ 7d9e8f6d63dd23bfdadced1a86fec488 8224 misc optional ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb

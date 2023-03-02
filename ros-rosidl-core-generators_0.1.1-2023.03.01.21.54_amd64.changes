@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rosidl-core-generators
+Binary: ros-rosidl-core-generators
+Architecture: amd64
+Version: 0.1.1-2023.03.01.21.54
+Distribution: sid
+Urgency: high
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Changed-By: Shane Loretz <sloretz@openrobotics.org>
+Description:
+ ros-rosidl-core-generators - A configuration package defining core ROS interface generators.
+Changes:
+ ros-rosidl-core-generators (0.1.1-2023.03.01.21.54) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#2 <https://github.com/ros2/rosidl_core/issues/2>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ d2207fd7a360ffbf9c9d7a4f9eaabca0931c9ce4 7562 ros-rosidl-core-generators_0.1.1-2023.03.01.21.54_amd64.buildinfo
+ 546ddaeb0215ae5193c0330d70c3c7cd98f6ca76 6864 ros-rosidl-core-generators_0.1.1-2023.03.01.21.54_amd64.deb
+Checksums-Sha256:
+ d84c1b26a35f4ea71e06267cca1d978d56760b0a239f259312874e137535e114 7562 ros-rosidl-core-generators_0.1.1-2023.03.01.21.54_amd64.buildinfo
+ 017c12c541ec261eb3160b2dead224f50bcbc7f8f81d3b85f45b0f1e607b7750 6864 ros-rosidl-core-generators_0.1.1-2023.03.01.21.54_amd64.deb
+Files:
+ 8467f42848a03e0e8f97e585072d7af8 7562 misc optional ros-rosidl-core-generators_0.1.1-2023.03.01.21.54_amd64.buildinfo
+ b83e5ebab6e906248b06c13923fc6124 6864 misc optional ros-rosidl-core-generators_0.1.1-2023.03.01.21.54_amd64.deb

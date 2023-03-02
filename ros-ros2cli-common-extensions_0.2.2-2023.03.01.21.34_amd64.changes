@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-ros2cli-common-extensions
+Binary: ros-ros2cli-common-extensions
+Architecture: amd64
+Version: 0.2.2-2023.03.01.21.34
+Distribution: sid
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-ros2cli-common-extensions - Meta package for ros2cli common extensions
+Changes:
+ ros-ros2cli-common-extensions (0.2.2-2023.03.01.21.34) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#7 <https://github.com/ros2/ros2cli_common_extensions/issues/7>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 20dbe94fd6b7fbc9d38c03aa73fa36b89e7290ab 7577 ros-ros2cli-common-extensions_0.2.2-2023.03.01.21.34_amd64.buildinfo
+ ab6c4e2924655bc50edcbb59d43edfc5c088720a 5792 ros-ros2cli-common-extensions_0.2.2-2023.03.01.21.34_amd64.deb
+Checksums-Sha256:
+ 25b3c9dad7773480b94bd405c4a9a522885670e08cc88424ef3e9b7b066421bf 7577 ros-ros2cli-common-extensions_0.2.2-2023.03.01.21.34_amd64.buildinfo
+ 6cefddce35a27b1bd645fceec10d421f11857c7a3e9385b7bf8ea1589c758ad2 5792 ros-ros2cli-common-extensions_0.2.2-2023.03.01.21.34_amd64.deb
+Files:
+ 5d2e20ba6d2cc4b1032b7f6b32c4a224 7577 misc optional ros-ros2cli-common-extensions_0.2.2-2023.03.01.21.34_amd64.buildinfo
+ 9f0342f4151988fe95fae3b02b51cfc7 5792 misc optional ros-ros2cli-common-extensions_0.2.2-2023.03.01.21.34_amd64.deb

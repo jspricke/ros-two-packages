@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rosidl-default-runtime
+Binary: ros-rosidl-default-runtime
+Architecture: amd64
+Version: 1.5.0-2023.03.01.21.44
+Distribution: sid
+Urgency: high
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Changed-By: Shane Loretz <sloretz@openrobotics.org>
+Description:
+ ros-rosidl-default-runtime - A configuration package defining the runtime for the ROS interfac
+Changes:
+ ros-rosidl-default-runtime (1.5.0-2023.03.01.21.44) sid; urgency=high
+ .
+   * add service_msgs depend (#24 <https://github.com/ros2/rosidl_defaults/issues/24>)
+   * [rolling] Update maintainers - 2022-11-07 (#25 <https://github.com/ros2/rosidl_defaults/issues/25>)
+   * Contributors: Audrow Nash, Brian
+Checksums-Sha1:
+ edb0372ca4d17a6626a9f00902f93f81472203cd 7562 ros-rosidl-default-runtime_1.5.0-2023.03.01.21.44_amd64.buildinfo
+ 1abf1e398eda310898ee964eb8b44f6890cf8f18 8076 ros-rosidl-default-runtime_1.5.0-2023.03.01.21.44_amd64.deb
+Checksums-Sha256:
+ e9bcbd3ff7e76f589d121bedee75f985d735fb0d26e5494291d1c2d20eb73980 7562 ros-rosidl-default-runtime_1.5.0-2023.03.01.21.44_amd64.buildinfo
+ ca9a6d86d825b6f854ce7c36eb43316f6daa1522b004e76aa18710a306bb3bc3 8076 ros-rosidl-default-runtime_1.5.0-2023.03.01.21.44_amd64.deb
+Files:
+ 3b869a33d667d28a9a820dde249a6f54 7562 misc optional ros-rosidl-default-runtime_1.5.0-2023.03.01.21.44_amd64.buildinfo
+ bbd2ad5671e446db0d3ded193df76f5e 8076 misc optional ros-rosidl-default-runtime_1.5.0-2023.03.01.21.44_amd64.deb

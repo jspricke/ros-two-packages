@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rosidl-typesupport-fastrtps-c
+Binary: ros-rosidl-typesupport-fastrtps-c ros-rosidl-typesupport-fastrtps-c-dbgsym
+Architecture: amd64
+Version: 2.5.0-2023.03.01.21.47
+Distribution: sid
+Urgency: high
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Changed-By: Shane Loretz <sloretz@openrobotics.org>
+Description:
+ ros-rosidl-typesupport-fastrtps-c - Generate the C interfaces for eProsima FastRTPS.
+Changes:
+ ros-rosidl-typesupport-fastrtps-c (2.5.0-2023.03.01.21.47) sid; urgency=high
+ .
+   * Service introspection (#92 <https://github.com/ros2/rosidl_typesupport_fastrtps/issues/92>)
+   * Update rosidl_typesupport_fastrtps to C++17. (#94 <https://github.com/ros2/rosidl_typesupport_fastrtps/issues/94>)
+   * [rolling] Update maintainers - 2022-11-07 (#93 <https://github.com/ros2/rosidl_typesupport_fastrtps/issues/93>)
+   * Contributors: Audrow Nash, Brian, Chris Lalancette
+Checksums-Sha1:
+ 229ebb288d45ca18718229c7775f78209988404e 18624 ros-rosidl-typesupport-fastrtps-c-dbgsym_2.5.0-2023.03.01.21.47_amd64.deb
+ cd806664aceaef8e7bcd46d0e9be20fcf26a2ef4 9767 ros-rosidl-typesupport-fastrtps-c_2.5.0-2023.03.01.21.47_amd64.buildinfo
+ 291429bf378376b8dab62f3a6dd865716deae188 24832 ros-rosidl-typesupport-fastrtps-c_2.5.0-2023.03.01.21.47_amd64.deb
+Checksums-Sha256:
+ 2f68eed57dec351eda0dbce127c852551c73685f9ec94c1722a20b23fa287aeb 18624 ros-rosidl-typesupport-fastrtps-c-dbgsym_2.5.0-2023.03.01.21.47_amd64.deb
+ 4f7731cce81ba5deb1fed815a166a373e2774baa0641fd22d8f790808146ddac 9767 ros-rosidl-typesupport-fastrtps-c_2.5.0-2023.03.01.21.47_amd64.buildinfo
+ 9ebb215e08c26bca7c4387c0968ea34f15c52b05f48a39aff43b6a5b8dc05820 24832 ros-rosidl-typesupport-fastrtps-c_2.5.0-2023.03.01.21.47_amd64.deb
+Files:
+ 2103fea49118a2405e0811288b4adf56 18624 debug optional ros-rosidl-typesupport-fastrtps-c-dbgsym_2.5.0-2023.03.01.21.47_amd64.deb
+ ace63479ad0523cb573f193f4724b8ac 9767 misc optional ros-rosidl-typesupport-fastrtps-c_2.5.0-2023.03.01.21.47_amd64.buildinfo
+ d75a5f52fad15025fc1c8e73897006e6 24832 misc optional ros-rosidl-typesupport-fastrtps-c_2.5.0-2023.03.01.21.47_amd64.deb

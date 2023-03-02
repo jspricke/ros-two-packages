@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-examples-rclpy-minimal-service
+Binary: ros-examples-rclpy-minimal-service
+Architecture: amd64
+Version: 0.17.1-2023.03.01.21.00
+Distribution: sid
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-examples-rclpy-minimal-service - Examples of minimal service servers using rclpy.
+Changes:
+ ros-examples-rclpy-minimal-service (0.17.1-2023.03.01.21.00) sid; urgency=high
+Checksums-Sha1:
+ 5ab6e62b35b177dc8e9b1c454183b5d9c3fa0781 7171 ros-examples-rclpy-minimal-service_0.17.1-2023.03.01.21.00_amd64.buildinfo
+ 0491b9a309bca28ffc7934b99e3067c4d53bba3d 6164 ros-examples-rclpy-minimal-service_0.17.1-2023.03.01.21.00_amd64.deb
+Checksums-Sha256:
+ 0e2dc82eb6e03073b94ce46b985c4309d3f1db208ce22868f10d2c798223010b 7171 ros-examples-rclpy-minimal-service_0.17.1-2023.03.01.21.00_amd64.buildinfo
+ 653b532a4951cdbc45224f6df3a4129e0d5b1bca89c7b406e8751b445b7b05ab 6164 ros-examples-rclpy-minimal-service_0.17.1-2023.03.01.21.00_amd64.deb
+Files:
+ 3c76f6347a8811bc94f29555b9cb07fc 7171 misc optional ros-examples-rclpy-minimal-service_0.17.1-2023.03.01.21.00_amd64.buildinfo
+ da345a7ec5185092d015739a5f364204 6164 misc optional ros-examples-rclpy-minimal-service_0.17.1-2023.03.01.21.00_amd64.deb

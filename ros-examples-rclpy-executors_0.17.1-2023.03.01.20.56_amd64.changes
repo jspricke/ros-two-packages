@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-examples-rclpy-executors
+Binary: ros-examples-rclpy-executors
+Architecture: amd64
+Version: 0.17.1-2023.03.01.20.56
+Distribution: sid
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-examples-rclpy-executors - Examples of creating and using exectors to run multiple nodes in
+Changes:
+ ros-examples-rclpy-executors (0.17.1-2023.03.01.20.56) sid; urgency=high
+Checksums-Sha1:
+ 47a778816dbc9d13eeae091a064d98343a01884b 7141 ros-examples-rclpy-executors_0.17.1-2023.03.01.20.56_amd64.buildinfo
+ c1f9f084a86dec7b7123d3aa74f27953b1cea117 8800 ros-examples-rclpy-executors_0.17.1-2023.03.01.20.56_amd64.deb
+Checksums-Sha256:
+ e1923b6bf67cbd4b4385e5036a0f23232125a80889066dbd2a0ae4f97c5350b0 7141 ros-examples-rclpy-executors_0.17.1-2023.03.01.20.56_amd64.buildinfo
+ e5c540751c8ecf95c85ecdc676d0d5dffd30d5b3fd8d75b11a210b33b0cd0dd3 8800 ros-examples-rclpy-executors_0.17.1-2023.03.01.20.56_amd64.deb
+Files:
+ ec3c014a937eddb38f610b45977ffd76 7141 misc optional ros-examples-rclpy-executors_0.17.1-2023.03.01.20.56_amd64.buildinfo
+ 79d619d63883cb6b07314d185f9feb7f 8800 misc optional ros-examples-rclpy-executors_0.17.1-2023.03.01.20.56_amd64.deb

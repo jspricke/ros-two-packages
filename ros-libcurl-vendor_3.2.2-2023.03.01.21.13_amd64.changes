@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 02 Nov 2022 00:00:00 -0000
+Source: ros-libcurl-vendor
+Binary: ros-libcurl-vendor
+Architecture: amd64
+Version: 3.2.2-2023.03.01.21.13
+Distribution: sid
+Urgency: high
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Changed-By: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Description:
+ ros-libcurl-vendor - Wrapper around libcurl, it provides a fixed CMake module and an E
+Changes:
+ ros-libcurl-vendor (3.2.2-2023.03.01.21.13) sid; urgency=high
+ .
+   * merge libcurl_vendor build instructions (#81 <https://github.com/ros/resource_retriever/issues/81>)
+   * Contributors: schrodinbug
+Checksums-Sha1:
+ 5835d5925b016ab96d0608a7963e67b318567554 6521 ros-libcurl-vendor_3.2.2-2023.03.01.21.13_amd64.buildinfo
+ f43430904b1586ea62d062faa8bed92b40d9a5bd 7580 ros-libcurl-vendor_3.2.2-2023.03.01.21.13_amd64.deb
+Checksums-Sha256:
+ 25d562132eb8a12ff23f19f053571175ceee0175cd26bc919d884fc35e1cf73f 6521 ros-libcurl-vendor_3.2.2-2023.03.01.21.13_amd64.buildinfo
+ 2fea37f5c9b8b5bec07867a89eec7abe53b5ba240cd42445ec6a54b93bfd4126 7580 ros-libcurl-vendor_3.2.2-2023.03.01.21.13_amd64.deb
+Files:
+ 18488ebde79cbd320acdcee4c63b8d00 6521 misc optional ros-libcurl-vendor_3.2.2-2023.03.01.21.13_amd64.buildinfo
+ 08fcefbf4e42dc64f5d5a8fce76a4b39 7580 misc optional ros-libcurl-vendor_3.2.2-2023.03.01.21.13_amd64.deb

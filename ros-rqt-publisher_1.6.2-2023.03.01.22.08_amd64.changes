@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-publisher
+Binary: ros-rqt-publisher
+Architecture: amd64
+Version: 1.6.2-2023.03.01.22.08
+Distribution: sid
+Urgency: high
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Changed-By: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Description:
+ ros-rqt-publisher - rqt_publisher provides a GUI plugin for publishing arbitrary mess
+Changes:
+ ros-rqt-publisher (1.6.2-2023.03.01.22.08) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#36 <https://github.com/ros-visualization/rqt_publisher/issues/36>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ c57e40a54755851cd8afb3739f5a757174033ec1 5427 ros-rqt-publisher_1.6.2-2023.03.01.22.08_amd64.buildinfo
+ e1ed1d05880f50da956ceb82b59b01637fca4910 15276 ros-rqt-publisher_1.6.2-2023.03.01.22.08_amd64.deb
+Checksums-Sha256:
+ f72ae88862ec61a72ab1df462a0d35d9f5ad3495d9897892f687b79fc4e226b3 5427 ros-rqt-publisher_1.6.2-2023.03.01.22.08_amd64.buildinfo
+ 890a21c6f5bd7b8c8e29a1696a378c11e417affd1a556d8b654b1c2ec0a237d9 15276 ros-rqt-publisher_1.6.2-2023.03.01.22.08_amd64.deb
+Files:
+ 2e5770395c6fc633b4288b702aae8a2b 5427 misc optional ros-rqt-publisher_1.6.2-2023.03.01.22.08_amd64.buildinfo
+ c3ef5a04e341da0c660fbfbd7131b614 15276 misc optional ros-rqt-publisher_1.6.2-2023.03.01.22.08_amd64.deb

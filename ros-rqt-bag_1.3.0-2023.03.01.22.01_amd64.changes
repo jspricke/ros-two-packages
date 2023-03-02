@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-bag
+Binary: ros-rqt-bag
+Architecture: amd64
+Version: 1.3.0-2023.03.01.22.01
+Distribution: sid
+Urgency: high
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Changed-By: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Description:
+ ros-rqt-bag - rqt_bag provides a GUI plugin for displaying and replaying ROS ba
+Changes:
+ ros-rqt-bag (1.3.0-2023.03.01.22.01) sid; urgency=high
+ .
+   * Use rosbag2_py API instead of direct bag parsing
+   * [rolling] Update maintainers - 2022-11-07 (#132 <https://github.com/ros-visualization/rqt_bag/issues/132>)
+   * For get_entry_after, bump by 1 nanosecond otherwise always get the same message equal to the timestamp
+   * Use rosbag2_py.reader for all message queries, remove sqlite3 direct usage
+   * Cleanup for review
+   * Improved logging
+   * Use a rosbag2_py.Reader to get bag metadata
+   * Disable reading from bag while recording - use direct caching to index for timeline
+   * Contributors: Audrow Nash, Emerson Knapp
+Checksums-Sha1:
+ d132eef57049d873cf84e88a29419ec7bc10a99d 5397 ros-rqt-bag_1.3.0-2023.03.01.22.01_amd64.buildinfo
+ 7c5dd60e289a3758e191b16f95ab242bf3bd3fa8 43128 ros-rqt-bag_1.3.0-2023.03.01.22.01_amd64.deb
+Checksums-Sha256:
+ 6250c1c16dacd636973b9fa81194fae0990abe238ce20a94e68bb9afdee928a4 5397 ros-rqt-bag_1.3.0-2023.03.01.22.01_amd64.buildinfo
+ f3f755cefa638bc80d4bc942004f3b599619c4eb50c4e1a1c385f077eb6d1bbd 43128 ros-rqt-bag_1.3.0-2023.03.01.22.01_amd64.deb
+Files:
+ 60bc56cedc34bd4993cf332ccc8695b0 5397 misc optional ros-rqt-bag_1.3.0-2023.03.01.22.01_amd64.buildinfo
+ 3d4b934a6ea90584c4f4ccbea6794f97 43128 misc optional ros-rqt-bag_1.3.0-2023.03.01.22.01_amd64.deb

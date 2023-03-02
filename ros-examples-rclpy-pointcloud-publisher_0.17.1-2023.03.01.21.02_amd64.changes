@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-examples-rclpy-pointcloud-publisher
+Binary: ros-examples-rclpy-pointcloud-publisher
+Architecture: amd64
+Version: 0.17.1-2023.03.01.21.02
+Distribution: sid
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-examples-rclpy-pointcloud-publisher - Example on how to publish a Pointcloud2 message
+Changes:
+ ros-examples-rclpy-pointcloud-publisher (0.17.1-2023.03.01.21.02) sid; urgency=high
+Checksums-Sha1:
+ a1c275989eb9cf6cbfcb776b5cb93024cc493727 7196 ros-examples-rclpy-pointcloud-publisher_0.17.1-2023.03.01.21.02_amd64.buildinfo
+ 20a159136a3fa10559336c8a0522d8d67c07139f 5016 ros-examples-rclpy-pointcloud-publisher_0.17.1-2023.03.01.21.02_amd64.deb
+Checksums-Sha256:
+ 638d4dfabb89d192579b20cd0c9e83639ca17a9f90e042cde037b81cb2ee9913 7196 ros-examples-rclpy-pointcloud-publisher_0.17.1-2023.03.01.21.02_amd64.buildinfo
+ 57ae9576600ec2eb664529c38ab55f1a94d0f521167e86f7b1e53839837015b3 5016 ros-examples-rclpy-pointcloud-publisher_0.17.1-2023.03.01.21.02_amd64.deb
+Files:
+ 625f6d6e18fdfa330180b0b7202320e3 7196 misc optional ros-examples-rclpy-pointcloud-publisher_0.17.1-2023.03.01.21.02_amd64.buildinfo
+ 8887697b3f21da458f0a12dd50dfc204 5016 misc optional ros-examples-rclpy-pointcloud-publisher_0.17.1-2023.03.01.21.02_amd64.deb

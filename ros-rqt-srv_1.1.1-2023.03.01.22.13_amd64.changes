@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-srv
+Binary: ros-rqt-srv
+Architecture: amd64
+Version: 1.1.1-2023.03.01.22.13
+Distribution: sid
+Urgency: high
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Changed-By: Geoffrey Biggs <geoff@openrobotics.org>
+Description:
+ ros-rqt-srv - A Python GUI plugin for introspecting available ROS message types
+Changes:
+ ros-rqt-srv (1.1.1-2023.03.01.22.13) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#10 <https://github.com/ros-visualization/rqt_srv/issues/10>)
+   * Contributors: Audrow Nash, Jacob Perron
+Checksums-Sha1:
+ fa2329df413719ee2b5b757309c0cff769fef31e 5394 ros-rqt-srv_1.1.1-2023.03.01.22.13_amd64.buildinfo
+ ec9bfc9bce54c2d6caff8303a8cf7b55f894e0f5 6500 ros-rqt-srv_1.1.1-2023.03.01.22.13_amd64.deb
+Checksums-Sha256:
+ c2f3b33798b9623e39ceaf14e7634ecc7d728a397ad888633ec56b44f29ee5c4 5394 ros-rqt-srv_1.1.1-2023.03.01.22.13_amd64.buildinfo
+ 6653fcd880acbc0787a5bcfffd75f85d83ca24ecdfba6129fce8c3b40a564ad9 6500 ros-rqt-srv_1.1.1-2023.03.01.22.13_amd64.deb
+Files:
+ 31d747515b34d6c33d84b38ab9cb79c3 5394 misc optional ros-rqt-srv_1.1.1-2023.03.01.22.13_amd64.buildinfo
+ c61793b18a5c6914d5bc432cad4b4a97 6500 misc optional ros-rqt-srv_1.1.1-2023.03.01.22.13_amd64.deb

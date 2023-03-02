@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rpyutils
+Binary: ros-rpyutils
+Architecture: amd64
+Version: 0.3.2-2023.03.01.21.52
+Distribution: sid
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rpyutils - Package containing various utility types and functions for Python
+Changes:
+ ros-rpyutils (0.3.2-2023.03.01.21.52) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#10 <https://github.com/ros2/rpyutils/issues/10>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ ec8e0d03b4620538c5e8f6bc4094c5f30083db64 7133 ros-rpyutils_0.3.2-2023.03.01.21.52_amd64.buildinfo
+ 30bb492c833ccad26002a3f96a0224cf3382da63 5440 ros-rpyutils_0.3.2-2023.03.01.21.52_amd64.deb
+Checksums-Sha256:
+ 088da980417381881229e232dee3b3e83503e22ff125fffdf36166715a7df1ae 7133 ros-rpyutils_0.3.2-2023.03.01.21.52_amd64.buildinfo
+ 4a5d3c7e3bea1b50747684dfcaea5560d02f87aa68d44b3201649aafb7904f54 5440 ros-rpyutils_0.3.2-2023.03.01.21.52_amd64.deb
+Files:
+ f5c4d8d62931239cf40baf7f53061180 7133 misc optional ros-rpyutils_0.3.2-2023.03.01.21.52_amd64.buildinfo
+ 1a09411fb589654d7a15e693abdb54c4 5440 misc optional ros-rpyutils_0.3.2-2023.03.01.21.52_amd64.deb

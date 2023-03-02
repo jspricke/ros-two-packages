@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-examples-tf2-py
+Binary: ros-examples-tf2-py
+Architecture: amd64
+Version: 0.30.0-2023.03.01.21.03
+Distribution: sid
+Urgency: high
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Changed-By: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Description:
+ ros-examples-tf2-py - Has examples of using the tf2 Python API.
+Changes:
+ ros-examples-tf2-py (0.30.0-2023.03.01.21.03) sid; urgency=high
+Checksums-Sha1:
+ 426bc1eb43d284ed4c75ce0c74af2b9699d7acfa 7096 ros-examples-tf2-py_0.30.0-2023.03.01.21.03_amd64.buildinfo
+ 14546b332db19dbedc6333b35c4dae1138ee24d7 8300 ros-examples-tf2-py_0.30.0-2023.03.01.21.03_amd64.deb
+Checksums-Sha256:
+ df35b880cd6ae30fcc3c4e3f820d9cd1898086465a48611cb440570be9fcd3ef 7096 ros-examples-tf2-py_0.30.0-2023.03.01.21.03_amd64.buildinfo
+ 8be9597f003d41c722a5d1391cf9130f0f3f470912d4ec2e3cd20b32aa18e10c 8300 ros-examples-tf2-py_0.30.0-2023.03.01.21.03_amd64.deb
+Files:
+ ba288441d73a44f9d5663204a762cba1 7096 misc optional ros-examples-tf2-py_0.30.0-2023.03.01.21.03_amd64.buildinfo
+ febbbd762ea80b31bc2c8685ab51e946 8300 misc optional ros-examples-tf2-py_0.30.0-2023.03.01.21.03_amd64.deb

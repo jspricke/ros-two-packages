@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-qt-gui-app
+Binary: ros-qt-gui-app
+Architecture: amd64
+Version: 2.4.0-2-gb5b9e87-2023.03.01.21.24
+Distribution: sid
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-qt-gui-app - qt_gui_app provides the main to start an instance of the integrat
+Changes:
+ ros-qt-gui-app (2.4.0-2-gb5b9e87-2023.03.01.21.24) sid; urgency=high
+Checksums-Sha1:
+ 7a7d9a965a78fd88bc7ed6b55908ac938718dbbe 7546 ros-qt-gui-app_2.4.0-2-gb5b9e87-2023.03.01.21.24_amd64.buildinfo
+ 05ac4618862da890bf6277e6ec81b1e998645029 6352 ros-qt-gui-app_2.4.0-2-gb5b9e87-2023.03.01.21.24_amd64.deb
+Checksums-Sha256:
+ c908b965ff9d56512f7e7f88e0e84c5e1b85e9ca5b5eeebcd1f2fdeb3873fcfe 7546 ros-qt-gui-app_2.4.0-2-gb5b9e87-2023.03.01.21.24_amd64.buildinfo
+ 8ffe227266315030dfce7efb29ce78032e4a2b1bece60c6f3e92e64f93002905 6352 ros-qt-gui-app_2.4.0-2-gb5b9e87-2023.03.01.21.24_amd64.deb
+Files:
+ 413a2da9a4be6d92a9c98f768be75c6f 7546 misc optional ros-qt-gui-app_2.4.0-2-gb5b9e87-2023.03.01.21.24_amd64.buildinfo
+ 83bcd7550cf6f9538d398b67725de05b 6352 misc optional ros-qt-gui-app_2.4.0-2-gb5b9e87-2023.03.01.21.24_amd64.deb

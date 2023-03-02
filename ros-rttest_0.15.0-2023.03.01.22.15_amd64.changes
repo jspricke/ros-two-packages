@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rttest
+Binary: ros-rttest ros-rttest-dbgsym
+Architecture: amd64
+Version: 0.15.0-2023.03.01.22.15
+Distribution: sid
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-rttest - Instrumentation library for real-time performance testing
+Changes:
+ ros-rttest (0.15.0-2023.03.01.22.15) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#121 <https://github.com/ros2/realtime_support/issues/121>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 665a82735d85f55368d83164151e5639172fbb7b 184524 ros-rttest-dbgsym_0.15.0-2023.03.01.22.15_amd64.deb
+ 46dfaded8260bab51c0e099843074a3d31e6b407 7951 ros-rttest_0.15.0-2023.03.01.22.15_amd64.buildinfo
+ 5d8886f1594fae4ae452f82a53e38617e2f732b3 31276 ros-rttest_0.15.0-2023.03.01.22.15_amd64.deb
+Checksums-Sha256:
+ 3d41006f37440fe29a1e7efdbc554cd2c08f25e2f5c2d0c49312d2cba4f99c37 184524 ros-rttest-dbgsym_0.15.0-2023.03.01.22.15_amd64.deb
+ 6b07822acf570e5c3124a12f5b06976a578726d0f7474b33eea594f71b52332f 7951 ros-rttest_0.15.0-2023.03.01.22.15_amd64.buildinfo
+ f40d606d28e8dfbac9e4fc615d0a5c8588fcfbf102c40ab42e3a166b821c1e26 31276 ros-rttest_0.15.0-2023.03.01.22.15_amd64.deb
+Files:
+ 413b63c9991520aaeb03a111634e6807 184524 debug optional ros-rttest-dbgsym_0.15.0-2023.03.01.22.15_amd64.deb
+ 7c5f3303ade15c881dfe172e9742e71a 7951 misc optional ros-rttest_0.15.0-2023.03.01.22.15_amd64.buildinfo
+ 070f749890be01530bf7bae516286d72 31276 misc optional ros-rttest_0.15.0-2023.03.01.22.15_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-reconfigure
+Binary: ros-rqt-reconfigure
+Architecture: amd64
+Version: 1.3.1-2023.03.01.22.10
+Distribution: sid
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rqt-reconfigure - This rqt plugin provides a way to view and edit parameters on nod
+Changes:
+ ros-rqt-reconfigure (1.3.1-2023.03.01.22.10) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#122 <https://github.com/ros-visualization/rqt_reconfigure/issues/122>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 5eb0f7df30e8d264cabf0f636ce593d4810b33c9 5746 ros-rqt-reconfigure_1.3.1-2023.03.01.22.10_amd64.buildinfo
+ d3401cbb12a98d6ded26ec676055e1fe2e4fc19c 28832 ros-rqt-reconfigure_1.3.1-2023.03.01.22.10_amd64.deb
+Checksums-Sha256:
+ 8ca63faa45b0d5e96a457215eb2caae234d79087b43bdf651675be95b394a845 5746 ros-rqt-reconfigure_1.3.1-2023.03.01.22.10_amd64.buildinfo
+ 0ccc27009c64f3b37e0848a261096156be7fe864e7c72d2db9bb9dd54f500202 28832 ros-rqt-reconfigure_1.3.1-2023.03.01.22.10_amd64.deb
+Files:
+ 66db13c697013833878eeb858f249bb4 5746 misc optional ros-rqt-reconfigure_1.3.1-2023.03.01.22.10_amd64.buildinfo
+ 8d9a18b5abb0eb1c3ec329023fd57122 28832 misc optional ros-rqt-reconfigure_1.3.1-2023.03.01.22.10_amd64.deb

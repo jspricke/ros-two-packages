@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-qt-gui-py-common
+Binary: ros-qt-gui-py-common
+Architecture: amd64
+Version: 2.4.0-2-gb5b9e87-2023.03.01.21.25
+Distribution: sid
+Urgency: high
+Maintainer: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+Changed-By: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+Description:
+ ros-qt-gui-py-common - qt_gui_py_common provides common functionality for GUI plugins wr
+Changes:
+ ros-qt-gui-py-common (2.4.0-2-gb5b9e87-2023.03.01.21.25) sid; urgency=high
+Checksums-Sha1:
+ a838124f670f7242b820d060506139e280bd3da6 7579 ros-qt-gui-py-common_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.buildinfo
+ b4cc1644d0f6deb235908d96cf892077b88b6df5 11460 ros-qt-gui-py-common_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.deb
+Checksums-Sha256:
+ 1fd5ef0d4298ed08e65fac724d97b5f11c0a51857a952a65baa4efd845714a81 7579 ros-qt-gui-py-common_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.buildinfo
+ 76b50fc701c7c92ad5339bceff71dc3bc91d6309243a5d001bcdcc5c1dc01a19 11460 ros-qt-gui-py-common_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.deb
+Files:
+ c26b027ee0299d80e5f37599bff6de8f 7579 misc optional ros-qt-gui-py-common_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.buildinfo
+ bfc6934d2621e37912bd036f7ab86f4c 11460 misc optional ros-qt-gui-py-common_2.4.0-2-gb5b9e87-2023.03.01.21.25_amd64.deb

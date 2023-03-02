@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 02 Nov 2022 00:00:00 -0000
+Source: ros-resource-retriever
+Binary: ros-resource-retriever ros-resource-retriever-dbgsym
+Architecture: amd64
+Version: 3.2.2-2023.03.01.21.29
+Distribution: sid
+Urgency: high
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Changed-By: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Description:
+ ros-resource-retriever - This package retrieves data from url-format files such as http://
+Changes:
+ ros-resource-retriever (3.2.2-2023.03.01.21.29) sid; urgency=high
+Checksums-Sha1:
+ 027626ab0eb9b86a64f5e6dceb243233f098a651 73284 ros-resource-retriever-dbgsym_3.2.2-2023.03.01.21.29_amd64.deb
+ f0c3a065c4fd9497081406f77496faf3c89dfcd1 9063 ros-resource-retriever_3.2.2-2023.03.01.21.29_amd64.buildinfo
+ 723a376c49a32c5dc12032c964e02db3d62e52cb 20740 ros-resource-retriever_3.2.2-2023.03.01.21.29_amd64.deb
+Checksums-Sha256:
+ 6dfb46b079ec8f8ba5f8a91b2ae2d97551369fe59d2558e87beaeefaa60dc5a7 73284 ros-resource-retriever-dbgsym_3.2.2-2023.03.01.21.29_amd64.deb
+ 8821dcd0658d1d0afa3be4aaf7568bdd25611d839175ac8d73dfcef50d0ac3ca 9063 ros-resource-retriever_3.2.2-2023.03.01.21.29_amd64.buildinfo
+ 86cdd72d0bba0b6b7d6491a24643b64def491ea84d631be7e7bc06cf0f4ffd6c 20740 ros-resource-retriever_3.2.2-2023.03.01.21.29_amd64.deb
+Files:
+ 77ef8e34324ee9c7e34a7164e89d73fe 73284 debug optional ros-resource-retriever-dbgsym_3.2.2-2023.03.01.21.29_amd64.deb
+ 485a62fe02d3f83447caed718301620d 9063 misc optional ros-resource-retriever_3.2.2-2023.03.01.21.29_amd64.buildinfo
+ 8b97487922690ebf6c160faa1471e693 20740 misc optional ros-resource-retriever_3.2.2-2023.03.01.21.29_amd64.deb

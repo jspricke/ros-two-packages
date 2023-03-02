@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rosidl-generator-dds-idl
+Binary: ros-rosidl-generator-dds-idl
+Architecture: amd64
+Version: 0.10.1-2023.03.01.21.45
+Distribution: sid
+Urgency: high
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Changed-By: Shane Loretz <sloretz@openrobotics.org>
+Description:
+ ros-rosidl-generator-dds-idl - Generate the DDS interfaces for ROS interfaces.
+Changes:
+ ros-rosidl-generator-dds-idl (0.10.1-2023.03.01.21.45) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#60 <https://github.com/ros2/rosidl_dds/issues/60>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ c0fb6f31f9a289704566be113da1028a398a816d 7832 ros-rosidl-generator-dds-idl_0.10.1-2023.03.01.21.45_amd64.buildinfo
+ 333a590cce61aa886d50d3716bf7b97d5545694c 12408 ros-rosidl-generator-dds-idl_0.10.1-2023.03.01.21.45_amd64.deb
+Checksums-Sha256:
+ 68d93469c6b3069703221437619dd72b939296fd6d33d33606a35285d05d3ad5 7832 ros-rosidl-generator-dds-idl_0.10.1-2023.03.01.21.45_amd64.buildinfo
+ 9ad1b467530af6af0bb1dc8bbbb4ffbd8fc78bbf078e22f9a89b9e15fa9ac8c7 12408 ros-rosidl-generator-dds-idl_0.10.1-2023.03.01.21.45_amd64.deb
+Files:
+ 0907cc46591b1e312e8c9cbdbc11603a 7832 misc optional ros-rosidl-generator-dds-idl_0.10.1-2023.03.01.21.45_amd64.buildinfo
+ e2f34fd757016f22a84e9470fe5a7497 12408 misc optional ros-rosidl-generator-dds-idl_0.10.1-2023.03.01.21.45_amd64.deb

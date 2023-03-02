@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-bag-plugins
+Binary: ros-rqt-bag-plugins
+Architecture: amd64
+Version: 1.3.0-2023.03.01.22.02
+Distribution: sid
+Urgency: high
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Changed-By: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Description:
+ ros-rqt-bag-plugins - rqt_bag provides a GUI plugin for displaying and replaying ROS ba
+Changes:
+ ros-rqt-bag-plugins (1.3.0-2023.03.01.22.02) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#132 <https://github.com/ros-visualization/rqt_bag/issues/132>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 19e258b13dbb5874e2f3ab158af9bf9577c4c07e 5437 ros-rqt-bag-plugins_1.3.0-2023.03.01.22.02_amd64.buildinfo
+ 77f1968ab27939c52991aa3fff2ae52b677e45fa 15652 ros-rqt-bag-plugins_1.3.0-2023.03.01.22.02_amd64.deb
+Checksums-Sha256:
+ 89b42c683815e224f246e8069e3853bf41fbb56bc0a0b5c3a9c77fd284f5cab3 5437 ros-rqt-bag-plugins_1.3.0-2023.03.01.22.02_amd64.buildinfo
+ 8e6830fa13d18a82afceda31479547d14b3eaf9173afa5c862968846fb0d5f90 15652 ros-rqt-bag-plugins_1.3.0-2023.03.01.22.02_amd64.deb
+Files:
+ 489b5d6276a9e3ccb1ff6db41d614f9e 5437 misc optional ros-rqt-bag-plugins_1.3.0-2023.03.01.22.02_amd64.buildinfo
+ cb0584e38fce65c371c3bbe18194b110 15652 misc optional ros-rqt-bag-plugins_1.3.0-2023.03.01.22.02_amd64.deb

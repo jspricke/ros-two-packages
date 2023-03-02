@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-qt-dotgraph
+Binary: ros-qt-dotgraph
+Architecture: amd64
+Version: 2.4.0-2-gb5b9e87-2023.03.01.21.21
+Distribution: sid
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-qt-dotgraph - qt_dotgraph provides helpers to work with dot graphs.
+Changes:
+ ros-qt-dotgraph (2.4.0-2-gb5b9e87-2023.03.01.21.21) sid; urgency=high
+Checksums-Sha1:
+ ad6678c1d3b6e3ce55edf55a59dad4d4ee489887 9613 ros-qt-dotgraph_2.4.0-2-gb5b9e87-2023.03.01.21.21_amd64.buildinfo
+ 75b6e3c595ab0b952c3f8f3867031f4bbc68a362 15872 ros-qt-dotgraph_2.4.0-2-gb5b9e87-2023.03.01.21.21_amd64.deb
+Checksums-Sha256:
+ 4fa29fb70340f8d42c91d1c8493a2c9e1012d6ea3d3e2e880f6715304796b8c3 9613 ros-qt-dotgraph_2.4.0-2-gb5b9e87-2023.03.01.21.21_amd64.buildinfo
+ b8deadd369f7121ca235863051d8dd3cee609b8c8849f57a6fcd3937f81e8b13 15872 ros-qt-dotgraph_2.4.0-2-gb5b9e87-2023.03.01.21.21_amd64.deb
+Files:
+ 0a0d6e54485bb866440e28aacfb057f4 9613 misc optional ros-qt-dotgraph_2.4.0-2-gb5b9e87-2023.03.01.21.21_amd64.buildinfo
+ 435a90c0a9bc7f28616d2a5de4d09052 15872 misc optional ros-qt-dotgraph_2.4.0-2-gb5b9e87-2023.03.01.21.21_amd64.deb

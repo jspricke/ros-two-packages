@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-graph
+Binary: ros-rqt-graph
+Architecture: amd64
+Version: 1.4.1-2023.03.01.22.04
+Distribution: sid
+Urgency: high
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Changed-By: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Description:
+ ros-rqt-graph - rqt_graph provides a GUI plugin for visualizing the ROS computati
+Changes:
+ ros-rqt-graph (1.4.1-2023.03.01.22.04) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#83 <https://github.com/ros-visualization/rqt_graph/issues/83>)
+   * Contributors: Audrow Nash, Chris Lalancette
+Checksums-Sha1:
+ ec62ce2b803f1440ad6882c1b8617d6e01e04bfe 5407 ros-rqt-graph_1.4.1-2023.03.01.22.04_amd64.buildinfo
+ 27a245fc95e0299d838d9987a52c20080879ea15 24468 ros-rqt-graph_1.4.1-2023.03.01.22.04_amd64.deb
+Checksums-Sha256:
+ b4352b17bd2f19b19b355e017a2eff9705844f3f27a03225b5ab3b5369abc29a 5407 ros-rqt-graph_1.4.1-2023.03.01.22.04_amd64.buildinfo
+ 25b0722086b6ea2e66f8d795263ed32f7016a2a4e80a34d4132aa969bdada19f 24468 ros-rqt-graph_1.4.1-2023.03.01.22.04_amd64.deb
+Files:
+ 04e2f4db33ef574587286c0c3300caaa 5407 misc optional ros-rqt-graph_1.4.1-2023.03.01.22.04_amd64.buildinfo
+ 35788d03d8cd3c0362151429ec796e51 24468 misc optional ros-rqt-graph_1.4.1-2023.03.01.22.04_amd64.deb

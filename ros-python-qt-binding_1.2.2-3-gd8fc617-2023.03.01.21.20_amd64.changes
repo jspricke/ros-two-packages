@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-python-qt-binding
+Binary: ros-python-qt-binding
+Architecture: amd64
+Version: 1.2.2-3-gd8fc617-2023.03.01.21.20
+Distribution: sid
+Urgency: high
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Changed-By: Shane Loretz <sloretz@openrobotics.org>
+Description:
+ ros-python-qt-binding - This stack provides Python bindings for Qt.
+Changes:
+ ros-python-qt-binding (1.2.2-3-gd8fc617-2023.03.01.21.20) sid; urgency=high
+ .
+   * Demote missing SIP message from WARNING to STATUS (#122 <https://github.com/ros-visualization/python_qt_binding/issues/122>)
+   * Contributors: Scott K Logan
+Checksums-Sha1:
+ 5df27548c3edf56b5207d7f8945578089b28a274 12337 ros-python-qt-binding_1.2.2-3-gd8fc617-2023.03.01.21.20_amd64.buildinfo
+ 2523804ebfc4ed24d872c1704628ea006f91f089 17440 ros-python-qt-binding_1.2.2-3-gd8fc617-2023.03.01.21.20_amd64.deb
+Checksums-Sha256:
+ b38c8ba05e0fd93a13be27e58d7da5ab51def11e1c00a7dd5a52e9feb5bcb731 12337 ros-python-qt-binding_1.2.2-3-gd8fc617-2023.03.01.21.20_amd64.buildinfo
+ 3fc0fb690dd2c3187fa47b02996d85935199fd1c89d179bf76c5c4d641f7a654 17440 ros-python-qt-binding_1.2.2-3-gd8fc617-2023.03.01.21.20_amd64.deb
+Files:
+ 6afec51b15128d4790086641f66f3c81 12337 misc optional ros-python-qt-binding_1.2.2-3-gd8fc617-2023.03.01.21.20_amd64.buildinfo
+ 1ec7cc11ec34b1e20752ecfdf059573b 17440 misc optional ros-python-qt-binding_1.2.2-3-gd8fc617-2023.03.01.21.20_amd64.deb

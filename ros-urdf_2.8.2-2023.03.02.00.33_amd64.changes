@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-urdf
+Binary: ros-urdf ros-urdf-dbgsym
+Architecture: amd64
+Version: 2.8.2-2023.03.02.00.33
+Distribution: sid
+Urgency: high
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Changed-By: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Description:
+ ros-urdf   - This package contains a C++ parser for the Unified Robot Descript
+Changes:
+ ros-urdf (2.8.2-2023.03.02.00.33) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#35 <https://github.com/ros2/urdf/issues/35>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 723930f79de4758d08a23fa90cb92564c6a2d50f 1245256 ros-urdf-dbgsym_2.8.2-2023.03.02.00.33_amd64.deb
+ a8fa22e48d171bc2689a3c5e6d0bdf0db0012aff 10288 ros-urdf_2.8.2-2023.03.02.00.33_amd64.buildinfo
+ b8312b7139b5da404f5de2384be59c0301a22eb9 103980 ros-urdf_2.8.2-2023.03.02.00.33_amd64.deb
+Checksums-Sha256:
+ 26f763baba7e502b6c511152e7628cc69993c805e818e7cfc165827a30299d33 1245256 ros-urdf-dbgsym_2.8.2-2023.03.02.00.33_amd64.deb
+ b9a75ff0aa4c09c679fd05ab180e39ed6d35986c008966da1e35afa615be0f71 10288 ros-urdf_2.8.2-2023.03.02.00.33_amd64.buildinfo
+ cfebccaf5766dcdc67bb5bb6d7abf423b588901cd838b1dce6442a39a56d4186 103980 ros-urdf_2.8.2-2023.03.02.00.33_amd64.deb
+Files:
+ 4c0964ac2759ca180467b98c435538e8 1245256 debug optional ros-urdf-dbgsym_2.8.2-2023.03.02.00.33_amd64.deb
+ 479ad8040aac51e5d8b9fcc99e4ddb72 10288 misc optional ros-urdf_2.8.2-2023.03.02.00.33_amd64.buildinfo
+ 2e82734de884ced7b4ce99abab851dfe 103980 misc optional ros-urdf_2.8.2-2023.03.02.00.33_amd64.deb

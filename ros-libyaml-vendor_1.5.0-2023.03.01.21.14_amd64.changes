@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-libyaml-vendor
+Binary: ros-libyaml-vendor
+Architecture: amd64
+Version: 1.5.0-2023.03.01.21.14
+Distribution: sid
+Urgency: high
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Changed-By: Scott K Logan <scott@openrobotics.org>
+Description:
+ ros-libyaml-vendor - Vendored version of libyaml.
+Changes:
+ ros-libyaml-vendor (1.5.0-2023.03.01.21.14) sid; urgency=high
+ .
+   * Fix system package dependency (#54 <https://github.com/ros2/libyaml_vendor/issues/54>)
+   * Update libyaml_vendor to C++17. (#55 <https://github.com/ros2/libyaml_vendor/issues/55>)
+   * [rolling] Update maintainers - 2022-11-07 (#53 <https://github.com/ros2/libyaml_vendor/issues/53>)
+   * Contributors: Audrow Nash, Chris Lalancette, Scott K Logan
+Checksums-Sha1:
+ 97b4aa77819565cc90cd1f6521502e321cae5392 8354 ros-libyaml-vendor_1.5.0-2023.03.01.21.14_amd64.buildinfo
+ 1385906e05f8caea0ca61a1356ecf98ca677d624 9480 ros-libyaml-vendor_1.5.0-2023.03.01.21.14_amd64.deb
+Checksums-Sha256:
+ f35ded59d823be5c8a9863b6712d460a80bf8f039de302540628bfff67177927 8354 ros-libyaml-vendor_1.5.0-2023.03.01.21.14_amd64.buildinfo
+ d5a41bfc2c312d53683f1be056ab2a97db67891ad8124801b79dd8f94e3cbc5b 9480 ros-libyaml-vendor_1.5.0-2023.03.01.21.14_amd64.deb
+Files:
+ 60a3db56ad24515f7a89f3f1b89bc033 8354 misc optional ros-libyaml-vendor_1.5.0-2023.03.01.21.14_amd64.buildinfo
+ 447d49acdd5af6b0a88cbcc43d193d51 9480 misc optional ros-libyaml-vendor_1.5.0-2023.03.01.21.14_amd64.deb

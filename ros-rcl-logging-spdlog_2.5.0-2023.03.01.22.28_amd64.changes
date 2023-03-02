@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rcl-logging-spdlog
+Binary: ros-rcl-logging-spdlog ros-rcl-logging-spdlog-dbgsym
+Architecture: amd64
+Version: 2.5.0-2023.03.01.22.28
+Distribution: sid
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Changed-By: Chris Lalancette <clalancette@openrobotics.org>
+Description:
+ ros-rcl-logging-spdlog - Implementation of rcl_logging API for an spdlog backend.
+Changes:
+ ros-rcl-logging-spdlog (2.5.0-2023.03.01.22.28) sid; urgency=high
+ .
+   * Update rcl_logging to C++17. (#98 <https://github.com/ros2/rcl_logging/issues/98>)
+   * Contributors: Chris Lalancette
+Checksums-Sha1:
+ cbd942341d680d841b9051dee5d4d5dbc20773aa 131948 ros-rcl-logging-spdlog-dbgsym_2.5.0-2023.03.01.22.28_amd64.deb
+ ef8a37401e019648a70282d6545f78623f966c8d 9075 ros-rcl-logging-spdlog_2.5.0-2023.03.01.22.28_amd64.buildinfo
+ 86a7a35635ed17e01453ac39fd3332f8da1c5c38 22872 ros-rcl-logging-spdlog_2.5.0-2023.03.01.22.28_amd64.deb
+Checksums-Sha256:
+ b95385c875f8eb1a0350ed1fd376dfb3f992d47a49565e2be5856987093a10fb 131948 ros-rcl-logging-spdlog-dbgsym_2.5.0-2023.03.01.22.28_amd64.deb
+ ea00e646527ad18afb1387047af77cbbde10a5cf1bc3456440f7ab3d67ce4cb5 9075 ros-rcl-logging-spdlog_2.5.0-2023.03.01.22.28_amd64.buildinfo
+ 95abfb193eac97991eedda0f09742fda559f6c4b88de49ee8941cd8803015a02 22872 ros-rcl-logging-spdlog_2.5.0-2023.03.01.22.28_amd64.deb
+Files:
+ c9bbe7568d43138736da84a5ead188e1 131948 debug optional ros-rcl-logging-spdlog-dbgsym_2.5.0-2023.03.01.22.28_amd64.deb
+ e89475ccda951ef275fb259326d8f734 9075 misc optional ros-rcl-logging-spdlog_2.5.0-2023.03.01.22.28_amd64.buildinfo
+ d5f51b72d316bb19f8ef4b7a36fb59c7 22872 misc optional ros-rcl-logging-spdlog_2.5.0-2023.03.01.22.28_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 29 Mar 2022 00:00:00 -0000
+Source: ros-ignition-math6-vendor
+Binary: ros-ignition-math6-vendor
+Architecture: amd64
+Version: 0.0.2-1-gf964dd9-2023.03.01.21.06
+Distribution: sid
+Urgency: high
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Changed-By: Jose Luis Rivero <jrivero@osrfoundation.org>
+Description:
+ ros-ignition-math6-vendor - This package provides the Ignition Math 6.x library.
+Changes:
+ ros-ignition-math6-vendor (0.0.2-1-gf964dd9-2023.03.01.21.06) sid; urgency=high
+ .
+   * Update to 6.9.2 ign-math6. (#1 <https://github.com/ignition-release/ignition_math6_vendor/issues/1>)
+   * Contributors: Chris Lalancette
+Checksums-Sha1:
+ cb1fec94fa840ba74e0310048901b6d0db686641 7244 ros-ignition-math6-vendor_0.0.2-1-gf964dd9-2023.03.01.21.06_amd64.buildinfo
+ 7cbd4e80043fc44cddbd02a8625e7930180a7e94 2168 ros-ignition-math6-vendor_0.0.2-1-gf964dd9-2023.03.01.21.06_amd64.deb
+Checksums-Sha256:
+ 8ba19b77ce2f46923f3c62fa5ed52f383c9901c3cada86d355384c27a7432e32 7244 ros-ignition-math6-vendor_0.0.2-1-gf964dd9-2023.03.01.21.06_amd64.buildinfo
+ 9f924a6c0e767a584e54c690d5d9b7e359ff291c696f137ab299c2350c857c30 2168 ros-ignition-math6-vendor_0.0.2-1-gf964dd9-2023.03.01.21.06_amd64.deb
+Files:
+ e45f17823bb2c29bb36e3d4cc21df917 7244 misc optional ros-ignition-math6-vendor_0.0.2-1-gf964dd9-2023.03.01.21.06_amd64.buildinfo
+ 82b4bcd7d149dd7b4c881a9d6d5fe2b6 2168 misc optional ros-ignition-math6-vendor_0.0.2-1-gf964dd9-2023.03.01.21.06_amd64.deb

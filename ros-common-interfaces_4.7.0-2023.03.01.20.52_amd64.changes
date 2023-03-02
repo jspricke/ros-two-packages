@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-common-interfaces
+Binary: ros-common-interfaces
+Architecture: amd64
+Version: 4.7.0-2023.03.01.20.52
+Distribution: sid
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-common-interfaces - common_interfaces contains messages and services that are widely
+Changes:
+ ros-common-interfaces (4.7.0-2023.03.01.20.52) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#210 <https://github.com/ros2/common_interfaces/issues/210>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ eb330966d10f0ee424d23c0ddb764ca9e0bc0756 7537 ros-common-interfaces_4.7.0-2023.03.01.20.52_amd64.buildinfo
+ 79a90b316802af9a5e760ca63e0b48710a45914e 6020 ros-common-interfaces_4.7.0-2023.03.01.20.52_amd64.deb
+Checksums-Sha256:
+ 0931c588756ea45196abfeb0a95f8dfe68dacdb9555e040e61253e883ff99d48 7537 ros-common-interfaces_4.7.0-2023.03.01.20.52_amd64.buildinfo
+ 0f03383bfaf35a8b15ca8a23e61b0ec3bc37645d1eb8d1fb28452f0fc5828e39 6020 ros-common-interfaces_4.7.0-2023.03.01.20.52_amd64.deb
+Files:
+ c95836d5c92628d523b6545ef8926bba 7537 misc optional ros-common-interfaces_4.7.0-2023.03.01.20.52_amd64.buildinfo
+ 59ddf4b24955c668edf9d6ca89690f4b 6020 misc optional ros-common-interfaces_4.7.0-2023.03.01.20.52_amd64.deb

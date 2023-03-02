@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-spdlog-vendor
+Binary: ros-spdlog-vendor
+Architecture: amd64
+Version: 1.4.3-2023.03.01.22.27
+Distribution: sid
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-spdlog-vendor - Wrapper around spdlog, providing nothing but a dependency on spdl
+Changes:
+ ros-spdlog-vendor (1.4.3-2023.03.01.22.27) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#31 <https://github.com/ros2/spdlog_vendor/issues/31>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 3eb8e0bd9511bd8d1462ca73916d41e3dbca8899 7667 ros-spdlog-vendor_1.4.3-2023.03.01.22.27_amd64.buildinfo
+ 8c9ce77658c5a8579c99e0387581b22153b0be8e 7400 ros-spdlog-vendor_1.4.3-2023.03.01.22.27_amd64.deb
+Checksums-Sha256:
+ a606986e0cfe696a99150247cc02392465af6f5f5c1e73fb5c8b2ffd2065815e 7667 ros-spdlog-vendor_1.4.3-2023.03.01.22.27_amd64.buildinfo
+ 188f327a1544e0447cc35a0b551b799a40645dfc256565068552aefc5803239a 7400 ros-spdlog-vendor_1.4.3-2023.03.01.22.27_amd64.deb
+Files:
+ fb34ed63194ae4f6b5c64fe6d60b70dd 7667 misc optional ros-spdlog-vendor_1.4.3-2023.03.01.22.27_amd64.buildinfo
+ 103b8535aad5ae554bf456998b30627b 7400 misc optional ros-spdlog-vendor_1.4.3-2023.03.01.22.27_amd64.deb

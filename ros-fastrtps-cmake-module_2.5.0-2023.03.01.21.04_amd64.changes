@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-fastrtps-cmake-module
+Binary: ros-fastrtps-cmake-module
+Architecture: amd64
+Version: 2.5.0-2023.03.01.21.04
+Distribution: sid
+Urgency: high
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Changed-By: Shane Loretz <sloretz@openrobotics.org>
+Description:
+ ros-fastrtps-cmake-module - Provide CMake module to find eProsima FastRTPS.
+Changes:
+ ros-fastrtps-cmake-module (2.5.0-2023.03.01.21.04) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#93 <https://github.com/ros2/rosidl_typesupport_fastrtps/issues/93>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 2fcd7d5565bff087443ea081ee4fae5bb8def923 7557 ros-fastrtps-cmake-module_2.5.0-2023.03.01.21.04_amd64.buildinfo
+ 2e873b5c410bad754adabc7ebf59cd7c8389f2d3 7604 ros-fastrtps-cmake-module_2.5.0-2023.03.01.21.04_amd64.deb
+Checksums-Sha256:
+ 3a35c4fcbc52425b36bddc6b4d629263d533d141ec9d6ba86de2de81b44deb49 7557 ros-fastrtps-cmake-module_2.5.0-2023.03.01.21.04_amd64.buildinfo
+ 57972a33111694ffae2d78a23a83def48d7616f379e5a935f2a75a94a776d578 7604 ros-fastrtps-cmake-module_2.5.0-2023.03.01.21.04_amd64.deb
+Files:
+ 20fec0b1305454177a1f29c8fb519701 7557 misc optional ros-fastrtps-cmake-module_2.5.0-2023.03.01.21.04_amd64.buildinfo
+ 905ec65bbfd95e52da1d704e3fcbf82b 7604 misc optional ros-fastrtps-cmake-module_2.5.0-2023.03.01.21.04_amd64.deb

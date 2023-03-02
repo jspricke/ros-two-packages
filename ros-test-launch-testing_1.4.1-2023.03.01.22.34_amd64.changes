@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-test-launch-testing
+Binary: ros-test-launch-testing
+Architecture: amd64
+Version: 1.4.1-2023.03.01.22.34
+Distribution: sid
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-test-launch-testing - Tests for the launch_testing package.
+Changes:
+ ros-test-launch-testing (1.4.1-2023.03.01.22.34) sid; urgency=high
+Checksums-Sha1:
+ bff55c891f11fbb733bfb246ff04dfbe84172b5c 8322 ros-test-launch-testing_1.4.1-2023.03.01.22.34_amd64.buildinfo
+ 242060263bab7f55c63744397ec680645a8fb593 7220 ros-test-launch-testing_1.4.1-2023.03.01.22.34_amd64.deb
+Checksums-Sha256:
+ 807d57512b15bdf547bbab3f29a2d61fb5f264e09e6443eec75364ab06d2ff3d 8322 ros-test-launch-testing_1.4.1-2023.03.01.22.34_amd64.buildinfo
+ 900d34cc934f72d6983e6b33d268f8a9cfd70b9c40c52d3d6625af9b55556254 7220 ros-test-launch-testing_1.4.1-2023.03.01.22.34_amd64.deb
+Files:
+ 38cda8868d796ed723998841eabcd74d 8322 misc optional ros-test-launch-testing_1.4.1-2023.03.01.22.34_amd64.buildinfo
+ 322d5f151cc3cba5b4cbb71a62c268cd 7220 misc optional ros-test-launch-testing_1.4.1-2023.03.01.22.34_amd64.deb

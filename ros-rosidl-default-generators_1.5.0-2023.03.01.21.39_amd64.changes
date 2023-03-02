@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rosidl-default-generators
+Binary: ros-rosidl-default-generators
+Architecture: amd64
+Version: 1.5.0-2023.03.01.21.39
+Distribution: sid
+Urgency: high
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Changed-By: Shane Loretz <sloretz@openrobotics.org>
+Description:
+ ros-rosidl-default-generators - A configuration package defining the default ROS interface genera
+Changes:
+ ros-rosidl-default-generators (1.5.0-2023.03.01.21.39) sid; urgency=high
+ .
+   * add service_msgs depend (#24 <https://github.com/ros2/rosidl_defaults/issues/24>)
+   * [rolling] Update maintainers - 2022-11-07 (#25 <https://github.com/ros2/rosidl_defaults/issues/25>)
+   * Contributors: Audrow Nash, Brian
+Checksums-Sha1:
+ e73d0cf6fe554651ed926d561c81f44ea9aff270 7577 ros-rosidl-default-generators_1.5.0-2023.03.01.21.39_amd64.buildinfo
+ 20e3fb0f4f196130e62c3943f4689728b4f7634d 7388 ros-rosidl-default-generators_1.5.0-2023.03.01.21.39_amd64.deb
+Checksums-Sha256:
+ b92f19077da088917b1766a4d5e8fe56b6cf7c088d4cc829adcebea07f1dbb16 7577 ros-rosidl-default-generators_1.5.0-2023.03.01.21.39_amd64.buildinfo
+ c9cb2c3ce94c1466f7cb2128305349f3fa27082adedb4ce280c9e42d094563ac 7388 ros-rosidl-default-generators_1.5.0-2023.03.01.21.39_amd64.deb
+Files:
+ 8f696a4b885fc4db41b6a8c346fd84e3 7577 misc optional ros-rosidl-default-generators_1.5.0-2023.03.01.21.39_amd64.buildinfo
+ a921f78d0647d91b60031357ba2e1ee4 7388 misc optional ros-rosidl-default-generators_1.5.0-2023.03.01.21.39_amd64.deb

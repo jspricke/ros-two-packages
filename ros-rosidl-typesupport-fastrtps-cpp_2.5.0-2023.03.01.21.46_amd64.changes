@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-rosidl-typesupport-fastrtps-cpp
+Binary: ros-rosidl-typesupport-fastrtps-cpp ros-rosidl-typesupport-fastrtps-cpp-dbgsym
+Architecture: amd64
+Version: 2.5.0-2023.03.01.21.46
+Distribution: sid
+Urgency: high
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Changed-By: Shane Loretz <sloretz@openrobotics.org>
+Description:
+ ros-rosidl-typesupport-fastrtps-cpp - Generate the C++ interfaces for eProsima FastRTPS.
+Changes:
+ ros-rosidl-typesupport-fastrtps-cpp (2.5.0-2023.03.01.21.46) sid; urgency=high
+ .
+   * Service introspection (#92 <https://github.com/ros2/rosidl_typesupport_fastrtps/issues/92>)
+   * Update rosidl_typesupport_fastrtps to C++17. (#94 <https://github.com/ros2/rosidl_typesupport_fastrtps/issues/94>)
+   * [rolling] Update maintainers - 2022-11-07 (#93 <https://github.com/ros2/rosidl_typesupport_fastrtps/issues/93>)
+   * Contributors: Audrow Nash, Brian, Chris Lalancette
+Checksums-Sha1:
+ a12112cfab02e6418c85d95e234d778e3c83651c 31000 ros-rosidl-typesupport-fastrtps-cpp-dbgsym_2.5.0-2023.03.01.21.46_amd64.deb
+ 741147846bb99c822ddf9195e80f567f898207fd 9171 ros-rosidl-typesupport-fastrtps-cpp_2.5.0-2023.03.01.21.46_amd64.buildinfo
+ a1d9287716a531c414d844217004ac854d017b3c 26424 ros-rosidl-typesupport-fastrtps-cpp_2.5.0-2023.03.01.21.46_amd64.deb
+Checksums-Sha256:
+ ad19f716d70b36b11fd9836a8c4cb34d6911ce3400a3ff5d9fe437a40f789800 31000 ros-rosidl-typesupport-fastrtps-cpp-dbgsym_2.5.0-2023.03.01.21.46_amd64.deb
+ c575951b0edafa1005df22002ccd68742388249b05ab8ef263aa0d7d3af9b681 9171 ros-rosidl-typesupport-fastrtps-cpp_2.5.0-2023.03.01.21.46_amd64.buildinfo
+ 12d76715defbee86599566e915da68b6aceb959636521e4e59e2cabc61592ea3 26424 ros-rosidl-typesupport-fastrtps-cpp_2.5.0-2023.03.01.21.46_amd64.deb
+Files:
+ 36967bba9c5d4961289e4c92b8051ad2 31000 debug optional ros-rosidl-typesupport-fastrtps-cpp-dbgsym_2.5.0-2023.03.01.21.46_amd64.deb
+ 16144b605d856883802d7f8392025dbd 9171 misc optional ros-rosidl-typesupport-fastrtps-cpp_2.5.0-2023.03.01.21.46_amd64.buildinfo
+ 05506405fb7539ff9b7e1b936031cb80 26424 misc optional ros-rosidl-typesupport-fastrtps-cpp_2.5.0-2023.03.01.21.46_amd64.deb

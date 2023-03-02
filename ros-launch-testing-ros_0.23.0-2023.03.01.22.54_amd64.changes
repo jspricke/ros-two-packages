@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-launch-testing-ros
+Binary: ros-launch-testing-ros
+Architecture: amd64
+Version: 0.23.0-2023.03.01.22.54
+Distribution: sid
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-launch-testing-ros - A package providing utilities for writing ROS2 enabled launch tes
+Changes:
+ ros-launch-testing-ros (0.23.0-2023.03.01.22.54) sid; urgency=high
+ .
+   * Inherit markers from generate_test_description (#330 <https://github.com/ros2/launch_ros/issues/330>)
+   * [rolling] Update maintainers - 2022-11-07 (#331 <https://github.com/ros2/launch_ros/issues/331>)
+   * Contributors: Audrow Nash, Scott K Logan
+Checksums-Sha1:
+ deba5f8025427e79f73faf8507b43fb6f40041ab 7142 ros-launch-testing-ros_0.23.0-2023.03.01.22.54_amd64.buildinfo
+ ca783798791333bbde0cdcac9bb719a231842651 13648 ros-launch-testing-ros_0.23.0-2023.03.01.22.54_amd64.deb
+Checksums-Sha256:
+ 5dccd44edf7abc0417aeb907b3f3da244fe99f6601ed8df586d25bec8b4a00cd 7142 ros-launch-testing-ros_0.23.0-2023.03.01.22.54_amd64.buildinfo
+ 39a1ebf71acc2d80b41fa11fbdcb6c20c5bed8ef7acb52e3472469c35f7031f4 13648 ros-launch-testing-ros_0.23.0-2023.03.01.22.54_amd64.deb
+Files:
+ 3df404c691a598a23898b7e03ae050a1 7142 misc optional ros-launch-testing-ros_0.23.0-2023.03.01.22.54_amd64.buildinfo
+ a6042d71811c5ceecff77f5dacbf1f57 13648 misc optional ros-launch-testing-ros_0.23.0-2023.03.01.22.54_amd64.deb

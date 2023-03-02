@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-demo-nodes-py
+Binary: ros-demo-nodes-py
+Architecture: amd64
+Version: 0.25.0-2023.03.01.20.54
+Distribution: sid
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-demo-nodes-py - Python nodes which were previously in the ros2/examples repositor
+Changes:
+ ros-demo-nodes-py (0.25.0-2023.03.01.20.54) sid; urgency=high
+ .
+   * Service introspection (#602 <https://github.com/ros2/demos/issues/602>)
+   * Contributors: Chris Lalancette
+Checksums-Sha1:
+ 817949d398f37933a4a3d02824a8f6a9b9679627 7089 ros-demo-nodes-py_0.25.0-2023.03.01.20.54_amd64.buildinfo
+ ed428a828b97fa68a9cc68d67b79ae32dee5a7f4 12196 ros-demo-nodes-py_0.25.0-2023.03.01.20.54_amd64.deb
+Checksums-Sha256:
+ d440a05a7c033fcde1cea2c2287e667458d5fa34f8ce26cf0e6e8bec9b864e50 7089 ros-demo-nodes-py_0.25.0-2023.03.01.20.54_amd64.buildinfo
+ 5135042e8de59f980f5f166fd6ce73b9a9da6449a6aee05a2e754aa890541534 12196 ros-demo-nodes-py_0.25.0-2023.03.01.20.54_amd64.deb
+Files:
+ b8fb05676123c65b1c9382fca4c015b9 7089 misc optional ros-demo-nodes-py_0.25.0-2023.03.01.20.54_amd64.buildinfo
+ d9cc52176b45ecdd13aa7b7fa5709730 12196 misc optional ros-demo-nodes-py_0.25.0-2023.03.01.20.54_amd64.deb

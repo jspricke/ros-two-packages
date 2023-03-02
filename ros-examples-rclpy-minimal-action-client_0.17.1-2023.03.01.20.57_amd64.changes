@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 00:00:00 -0000
+Source: ros-examples-rclpy-minimal-action-client
+Binary: ros-examples-rclpy-minimal-action-client
+Architecture: amd64
+Version: 0.17.1-2023.03.01.20.57
+Distribution: sid
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-examples-rclpy-minimal-action-client - Examples of minimal action clients using rclpy.
+Changes:
+ ros-examples-rclpy-minimal-action-client (0.17.1-2023.03.01.20.57) sid; urgency=high
+Checksums-Sha1:
+ 64454324ba876e70ec13ecd47ea9391b0b12be35 7201 ros-examples-rclpy-minimal-action-client_0.17.1-2023.03.01.20.57_amd64.buildinfo
+ 2d239ce52fe76604202c41bbc1d273da43a7bfab 7084 ros-examples-rclpy-minimal-action-client_0.17.1-2023.03.01.20.57_amd64.deb
+Checksums-Sha256:
+ 026e52196da1e70bd37528ac80d41bfbf32f4ebd0aa72eda46695e00ce98da84 7201 ros-examples-rclpy-minimal-action-client_0.17.1-2023.03.01.20.57_amd64.buildinfo
+ 98b28f1f84ca7aa55ae05935bd1c65237e81cf604f005c8e3554038a4ecde0ef 7084 ros-examples-rclpy-minimal-action-client_0.17.1-2023.03.01.20.57_amd64.deb
+Files:
+ e7c08bfe6de7394698fca58a11258987 7201 misc optional ros-examples-rclpy-minimal-action-client_0.17.1-2023.03.01.20.57_amd64.buildinfo
+ 1e1384909df8996d1a6ec08dc7233862 7084 misc optional ros-examples-rclpy-minimal-action-client_0.17.1-2023.03.01.20.57_amd64.deb

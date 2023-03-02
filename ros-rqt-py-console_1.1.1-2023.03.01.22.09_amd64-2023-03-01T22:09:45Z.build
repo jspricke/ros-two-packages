@@ -1,0 +1,1041 @@
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az456-359
+
++===================================================================================+
+| ros-rqt-py-console 1.1.1-2023.03.01.22.09 (amd64) Wed, 01 Mar 2023 22:09:45 +0000 |
++===================================================================================+
+
+Package: ros-rqt-py-console
+Version: 1.1.1-2023.03.01.22.09
+Source Version: 1.1.1-2023.03.01.22.09
+Distribution: sid
+Machine Architecture: amd64
+Host Architecture: amd64
+Build Architecture: amd64
+Build Type: binary
+
+Unpacking /home/runner/.cache/sbuild/sid-amd64.tar to /tmp/tmp.sbuild.5mJK37VeJ4...
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'PREVENT_NO_AUTH' (notify administrator)
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'PREVENT_NO_AUTH' (notify administrator)
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'PREVENT_NO_AUTH' (notify administrator)
+I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-VmGlNA' with '<<RESOLVERDIR>>'
+
++------------------------------------------------------------------------------+
+| Update chroot                                                                |
++------------------------------------------------------------------------------+
+
+Get:1 file:/build/package//resolver-uKmJSP/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-uKmJSP/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-uKmJSP/apt_archive ./ Release [580 B]
+Get:2 file:/build/package//resolver-uKmJSP/apt_archive ./ Release [580 B]
+Get:3 file:/build/package//resolver-uKmJSP/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-uKmJSP/apt_archive ./ Release.gpg
+Get:4 file:/build/package//resolver-uKmJSP/apt_archive ./ Packages [49.6 kB]
+Get:5 http://deb.debian.org/debian sid InRelease [180 kB]
+Get:6 http://deb.debian.org/debian sid/main amd64 Packages [9430 kB]
+Fetched 9609 kB in 2s (6253 kB/s)
+Reading package lists...
+W: Skipping acquire of configured file 'universe/binary-amd64/Packages' as repository 'http://deb.debian.org/debian sid InRelease' doesn't have the component 'universe' (component misspelt in sources.list?)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
++------------------------------------------------------------------------------+
+| Fetch source files                                                           |
++------------------------------------------------------------------------------+
+
+
+Local sources
+-------------
+
+/home/runner/work/ros-two-packages/ros-two-packages/src/ros-visualization/ros-rqt-py-console_1.1.1-2023.03.01.22.09.dsc exists in /home/runner/work/ros-two-packages/ros-two-packages/src/ros-visualization; copying to chroot
+I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
+I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
+
++------------------------------------------------------------------------------+
+| Install package build dependencies                                           |
++------------------------------------------------------------------------------+
+
+
+Setup apt archive
+-----------------
+
+Merged Build-Depends: debhelper (>= 9.0.0), python3-all, python3-setuptools, dh-python, build-essential, fakeroot
+Filtered Build-Depends: debhelper (>= 9.0.0), python3-all, python3-setuptools, dh-python, build-essential, fakeroot
+dpkg-deb: building package 'sbuild-build-depends-main-dummy' in '/<<RESOLVERDIR>>/apt_archive/sbuild-build-depends-main-dummy.deb'.
+Ign:1 copy:/<<RESOLVERDIR>>/apt_archive ./ InRelease
+Get:2 copy:/<<RESOLVERDIR>>/apt_archive ./ Release [580 B]
+Ign:3 copy:/<<RESOLVERDIR>>/apt_archive ./ Release.gpg
+Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [658 B]
+Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [690 B]
+Fetched 1928 B in 0s (0 B/s)
+Reading package lists...
+Get:1 file:/<<BUILDDIR>>/resolver-uKmJSP/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-uKmJSP/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-uKmJSP/apt_archive ./ Release [580 B]
+Get:2 file:/<<BUILDDIR>>/resolver-uKmJSP/apt_archive ./ Release [580 B]
+Get:3 file:/<<BUILDDIR>>/resolver-uKmJSP/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-uKmJSP/apt_archive ./ Release.gpg
+Reading package lists...
+Reading package lists...
+
+Install main build dependencies (apt-based resolver)
+----------------------------------------------------
+
+Installing build dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  autoconf automake autopoint autotools-dev bsdextrautils debhelper
+  dh-autoreconf dh-python dh-strip-nondeterminism dwz fakeroot file gettext
+  gettext-base groff-base intltool-debian libarchive-zip-perl
+  libdebhelper-perl libelf1 libexpat1 libfakeroot
+  libfile-stripnondeterminism-perl libicu72 libmagic-mgc libmagic1
+  libncursesw6 libpipeline1 libpython3-stdlib libpython3.11-minimal
+  libpython3.11-stdlib libreadline8 libsqlite3-0 libsub-override-perl libtool
+  libuchardet0 libxml2 m4 man-db media-types po-debconf python3 python3-all
+  python3-distutils python3-lib2to3 python3-minimal python3-pkg-resources
+  python3-setuptools python3.11 python3.11-minimal readline-common
+  sensible-utils
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc dh-make flit python3-build
+  python3-tomli python3-installer gettext-doc libasprintf-dev libgettextpo-dev
+  groff libtool-doc gfortran | fortran95-compiler gcj-jdk m4-doc apparmor less
+  www-browser libmail-box-perl python3-doc python3-tk python3-venv
+  python-setuptools-doc python3.11-venv python3.11-doc binfmt-support
+  readline-doc
+Recommended packages:
+  curl | wget | lynx libarchive-cpio-perl libgpm2 libltdl-dev
+  libmail-sendmail-perl ca-certificates
+The following NEW packages will be installed:
+  autoconf automake autopoint autotools-dev bsdextrautils debhelper
+  dh-autoreconf dh-python dh-strip-nondeterminism dwz fakeroot file gettext
+  gettext-base groff-base intltool-debian libarchive-zip-perl
+  libdebhelper-perl libelf1 libexpat1 libfakeroot
+  libfile-stripnondeterminism-perl libicu72 libmagic-mgc libmagic1
+  libncursesw6 libpipeline1 libpython3-stdlib libpython3.11-minimal
+  libpython3.11-stdlib libreadline8 libsqlite3-0 libsub-override-perl libtool
+  libuchardet0 libxml2 m4 man-db media-types po-debconf python3 python3-all
+  python3-distutils python3-lib2to3 python3-minimal python3-pkg-resources
+  python3-setuptools python3.11 python3.11-minimal readline-common
+  sbuild-build-depends-main-dummy sensible-utils
+0 upgraded, 52 newly installed, 0 to remove and 0 not upgraded.
+Need to get 26.6 MB of archives.
+After this operation, 103 MB of additional disk space will be used.
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [892 B]
+Get:2 http://deb.debian.org/debian sid/main amd64 libpython3.11-minimal amd64 3.11.2-4 [813 kB]
+Get:3 http://deb.debian.org/debian sid/main amd64 libexpat1 amd64 2.5.0-1 [99.3 kB]
+Get:4 http://deb.debian.org/debian sid/main amd64 python3.11-minimal amd64 3.11.2-4 [2065 kB]
+Get:5 http://deb.debian.org/debian sid/main amd64 python3-minimal amd64 3.11.2-1 [26.0 kB]
+Get:6 http://deb.debian.org/debian sid/main amd64 media-types all 10.0.0 [26.1 kB]
+Get:7 http://deb.debian.org/debian sid/main amd64 libncursesw6 amd64 6.4-2 [134 kB]
+Get:8 http://deb.debian.org/debian sid/main amd64 readline-common all 8.2-1.3 [69.0 kB]
+Get:9 http://deb.debian.org/debian sid/main amd64 libreadline8 amd64 8.2-1.3 [166 kB]
+Get:10 http://deb.debian.org/debian sid/main amd64 libsqlite3-0 amd64 3.40.1-1 [838 kB]
+Get:11 http://deb.debian.org/debian sid/main amd64 libpython3.11-stdlib amd64 3.11.2-4 [1797 kB]
+Get:12 http://deb.debian.org/debian sid/main amd64 python3.11 amd64 3.11.2-4 [572 kB]
+Get:13 http://deb.debian.org/debian sid/main amd64 libpython3-stdlib amd64 3.11.2-1 [9012 B]
+Get:14 http://deb.debian.org/debian sid/main amd64 python3 amd64 3.11.2-1 [26.0 kB]
+Get:15 http://deb.debian.org/debian sid/main amd64 sensible-utils all 0.0.17+nmu1 [19.0 kB]
+Get:16 http://deb.debian.org/debian sid/main amd64 libmagic-mgc amd64 1:5.44-3 [305 kB]
+Get:17 http://deb.debian.org/debian sid/main amd64 libmagic1 amd64 1:5.44-3 [104 kB]
+Get:18 http://deb.debian.org/debian sid/main amd64 file amd64 1:5.44-3 [42.5 kB]
+Get:19 http://deb.debian.org/debian sid/main amd64 gettext-base amd64 0.21-12 [160 kB]
+Get:20 http://deb.debian.org/debian sid/main amd64 libuchardet0 amd64 0.0.7-1 [67.8 kB]
+Get:21 http://deb.debian.org/debian sid/main amd64 groff-base amd64 1.22.4-9 [916 kB]
+Get:22 http://deb.debian.org/debian sid/main amd64 bsdextrautils amd64 2.38.1-5 [86.1 kB]
+Get:23 http://deb.debian.org/debian sid/main amd64 libpipeline1 amd64 1.5.7-1 [38.5 kB]
+Get:24 http://deb.debian.org/debian sid/main amd64 man-db amd64 2.11.2-1 [1386 kB]
+Get:25 http://deb.debian.org/debian sid/main amd64 m4 amd64 1.4.19-3 [287 kB]
+Get:26 http://deb.debian.org/debian sid/main amd64 autoconf all 2.71-3 [332 kB]
+Get:27 http://deb.debian.org/debian sid/main amd64 autotools-dev all 20220109.1 [51.6 kB]
+Get:28 http://deb.debian.org/debian sid/main amd64 automake all 1:1.16.5-1.3 [823 kB]
+Get:29 http://deb.debian.org/debian sid/main amd64 autopoint all 0.21-12 [495 kB]
+Get:30 http://deb.debian.org/debian sid/main amd64 libdebhelper-perl all 13.11.4 [81.2 kB]
+Get:31 http://deb.debian.org/debian sid/main amd64 libtool all 2.4.7-5 [517 kB]
+Get:32 http://deb.debian.org/debian sid/main amd64 dh-autoreconf all 20 [17.1 kB]
+Get:33 http://deb.debian.org/debian sid/main amd64 libarchive-zip-perl all 1.68-1 [104 kB]
+Get:34 http://deb.debian.org/debian sid/main amd64 libsub-override-perl all 0.09-4 [9304 B]
+Get:35 http://deb.debian.org/debian sid/main amd64 libfile-stripnondeterminism-perl all 1.13.1-1 [19.4 kB]
+Get:36 http://deb.debian.org/debian sid/main amd64 dh-strip-nondeterminism all 1.13.1-1 [8620 B]
+Get:37 http://deb.debian.org/debian sid/main amd64 libelf1 amd64 0.188-2.1 [174 kB]
+Get:38 http://deb.debian.org/debian sid/main amd64 dwz amd64 0.15-1 [109 kB]
+Get:39 http://deb.debian.org/debian sid/main amd64 libicu72 amd64 72.1-3 [9376 kB]
+Get:40 http://deb.debian.org/debian sid/main amd64 libxml2 amd64 2.9.14+dfsg-1.1+b3 [687 kB]
+Get:41 http://deb.debian.org/debian sid/main amd64 gettext amd64 0.21-12 [1300 kB]
+Get:42 http://deb.debian.org/debian sid/main amd64 intltool-debian all 0.35.0+20060710.6 [22.9 kB]
+Get:43 http://deb.debian.org/debian sid/main amd64 po-debconf all 1.0.21+nmu1 [248 kB]
+Get:44 http://deb.debian.org/debian sid/main amd64 debhelper all 13.11.4 [942 kB]
+Get:45 http://deb.debian.org/debian sid/main amd64 python3-lib2to3 all 3.11.2-2 [76.2 kB]
+Get:46 http://deb.debian.org/debian sid/main amd64 python3-distutils all 3.11.2-2 [131 kB]
+Get:47 http://deb.debian.org/debian sid/main amd64 dh-python all 5.20230130 [104 kB]
+Get:48 http://deb.debian.org/debian sid/main amd64 libfakeroot amd64 1.31-1 [28.0 kB]
+Get:49 http://deb.debian.org/debian sid/main amd64 fakeroot amd64 1.31-1 [66.7 kB]
+Get:50 http://deb.debian.org/debian sid/main amd64 python3-all amd64 3.11.2-1 [1060 B]
+Get:51 http://deb.debian.org/debian sid/main amd64 python3-pkg-resources all 66.1.1-1 [296 kB]
+Get:52 http://deb.debian.org/debian sid/main amd64 python3-setuptools all 66.1.1-1 [521 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 26.6 MB in 1s (34.9 MB/s)
+Selecting previously unselected package libpython3.11-minimal:amd64.
+(Reading database ... 12158 files and directories currently installed.)
+Preparing to unpack .../libpython3.11-minimal_3.11.2-4_amd64.deb ...
+Unpacking libpython3.11-minimal:amd64 (3.11.2-4) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../libexpat1_2.5.0-1_amd64.deb ...
+Unpacking libexpat1:amd64 (2.5.0-1) ...
+Selecting previously unselected package python3.11-minimal.
+Preparing to unpack .../python3.11-minimal_3.11.2-4_amd64.deb ...
+Unpacking python3.11-minimal (3.11.2-4) ...
+Setting up libpython3.11-minimal:amd64 (3.11.2-4) ...
+Setting up libexpat1:amd64 (2.5.0-1) ...
+Setting up python3.11-minimal (3.11.2-4) ...
+Selecting previously unselected package python3-minimal.
+(Reading database ... 12474 files and directories currently installed.)
+Preparing to unpack .../0-python3-minimal_3.11.2-1_amd64.deb ...
+Unpacking python3-minimal (3.11.2-1) ...
+Selecting previously unselected package media-types.
+Preparing to unpack .../1-media-types_10.0.0_all.deb ...
+Unpacking media-types (10.0.0) ...
+Selecting previously unselected package libncursesw6:amd64.
+Preparing to unpack .../2-libncursesw6_6.4-2_amd64.deb ...
+Unpacking libncursesw6:amd64 (6.4-2) ...
+Selecting previously unselected package readline-common.
+Preparing to unpack .../3-readline-common_8.2-1.3_all.deb ...
+Unpacking readline-common (8.2-1.3) ...
+Selecting previously unselected package libreadline8:amd64.
+Preparing to unpack .../4-libreadline8_8.2-1.3_amd64.deb ...
+Unpacking libreadline8:amd64 (8.2-1.3) ...
+Selecting previously unselected package libsqlite3-0:amd64.
+Preparing to unpack .../5-libsqlite3-0_3.40.1-1_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.40.1-1) ...
+Selecting previously unselected package libpython3.11-stdlib:amd64.
+Preparing to unpack .../6-libpython3.11-stdlib_3.11.2-4_amd64.deb ...
+Unpacking libpython3.11-stdlib:amd64 (3.11.2-4) ...
+Selecting previously unselected package python3.11.
+Preparing to unpack .../7-python3.11_3.11.2-4_amd64.deb ...
+Unpacking python3.11 (3.11.2-4) ...
+Selecting previously unselected package libpython3-stdlib:amd64.
+Preparing to unpack .../8-libpython3-stdlib_3.11.2-1_amd64.deb ...
+Unpacking libpython3-stdlib:amd64 (3.11.2-1) ...
+Setting up python3-minimal (3.11.2-1) ...
+Selecting previously unselected package python3.
+(Reading database ... 12923 files and directories currently installed.)
+Preparing to unpack .../00-python3_3.11.2-1_amd64.deb ...
+Unpacking python3 (3.11.2-1) ...
+Selecting previously unselected package sensible-utils.
+Preparing to unpack .../01-sensible-utils_0.0.17+nmu1_all.deb ...
+Unpacking sensible-utils (0.0.17+nmu1) ...
+Selecting previously unselected package libmagic-mgc.
+Preparing to unpack .../02-libmagic-mgc_1%3a5.44-3_amd64.deb ...
+Unpacking libmagic-mgc (1:5.44-3) ...
+Selecting previously unselected package libmagic1:amd64.
+Preparing to unpack .../03-libmagic1_1%3a5.44-3_amd64.deb ...
+Unpacking libmagic1:amd64 (1:5.44-3) ...
+Selecting previously unselected package file.
+Preparing to unpack .../04-file_1%3a5.44-3_amd64.deb ...
+Unpacking file (1:5.44-3) ...
+Selecting previously unselected package gettext-base.
+Preparing to unpack .../05-gettext-base_0.21-12_amd64.deb ...
+Unpacking gettext-base (0.21-12) ...
+Selecting previously unselected package libuchardet0:amd64.
+Preparing to unpack .../06-libuchardet0_0.0.7-1_amd64.deb ...
+Unpacking libuchardet0:amd64 (0.0.7-1) ...
+Selecting previously unselected package groff-base.
+Preparing to unpack .../07-groff-base_1.22.4-9_amd64.deb ...
+Unpacking groff-base (1.22.4-9) ...
+Selecting previously unselected package bsdextrautils.
+Preparing to unpack .../08-bsdextrautils_2.38.1-5_amd64.deb ...
+Unpacking bsdextrautils (2.38.1-5) ...
+Selecting previously unselected package libpipeline1:amd64.
+Preparing to unpack .../09-libpipeline1_1.5.7-1_amd64.deb ...
+Unpacking libpipeline1:amd64 (1.5.7-1) ...
+Selecting previously unselected package man-db.
+Preparing to unpack .../10-man-db_2.11.2-1_amd64.deb ...
+Unpacking man-db (2.11.2-1) ...
+Selecting previously unselected package m4.
+Preparing to unpack .../11-m4_1.4.19-3_amd64.deb ...
+Unpacking m4 (1.4.19-3) ...
+Selecting previously unselected package autoconf.
+Preparing to unpack .../12-autoconf_2.71-3_all.deb ...
+Unpacking autoconf (2.71-3) ...
+Selecting previously unselected package autotools-dev.
+Preparing to unpack .../13-autotools-dev_20220109.1_all.deb ...
+Unpacking autotools-dev (20220109.1) ...
+Selecting previously unselected package automake.
+Preparing to unpack .../14-automake_1%3a1.16.5-1.3_all.deb ...
+Unpacking automake (1:1.16.5-1.3) ...
+Selecting previously unselected package autopoint.
+Preparing to unpack .../15-autopoint_0.21-12_all.deb ...
+Unpacking autopoint (0.21-12) ...
+Selecting previously unselected package libdebhelper-perl.
+Preparing to unpack .../16-libdebhelper-perl_13.11.4_all.deb ...
+Unpacking libdebhelper-perl (13.11.4) ...
+Selecting previously unselected package libtool.
+Preparing to unpack .../17-libtool_2.4.7-5_all.deb ...
+Unpacking libtool (2.4.7-5) ...
+Selecting previously unselected package dh-autoreconf.
+Preparing to unpack .../18-dh-autoreconf_20_all.deb ...
+Unpacking dh-autoreconf (20) ...
+Selecting previously unselected package libarchive-zip-perl.
+Preparing to unpack .../19-libarchive-zip-perl_1.68-1_all.deb ...
+Unpacking libarchive-zip-perl (1.68-1) ...
+Selecting previously unselected package libsub-override-perl.
+Preparing to unpack .../20-libsub-override-perl_0.09-4_all.deb ...
+Unpacking libsub-override-perl (0.09-4) ...
+Selecting previously unselected package libfile-stripnondeterminism-perl.
+Preparing to unpack .../21-libfile-stripnondeterminism-perl_1.13.1-1_all.deb ...
+Unpacking libfile-stripnondeterminism-perl (1.13.1-1) ...
+Selecting previously unselected package dh-strip-nondeterminism.
+Preparing to unpack .../22-dh-strip-nondeterminism_1.13.1-1_all.deb ...
+Unpacking dh-strip-nondeterminism (1.13.1-1) ...
+Selecting previously unselected package libelf1:amd64.
+Preparing to unpack .../23-libelf1_0.188-2.1_amd64.deb ...
+Unpacking libelf1:amd64 (0.188-2.1) ...
+Selecting previously unselected package dwz.
+Preparing to unpack .../24-dwz_0.15-1_amd64.deb ...
+Unpacking dwz (0.15-1) ...
+Selecting previously unselected package libicu72:amd64.
+Preparing to unpack .../25-libicu72_72.1-3_amd64.deb ...
+Unpacking libicu72:amd64 (72.1-3) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../26-libxml2_2.9.14+dfsg-1.1+b3_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.14+dfsg-1.1+b3) ...
+Selecting previously unselected package gettext.
+Preparing to unpack .../27-gettext_0.21-12_amd64.deb ...
+Unpacking gettext (0.21-12) ...
+Selecting previously unselected package intltool-debian.
+Preparing to unpack .../28-intltool-debian_0.35.0+20060710.6_all.deb ...
+Unpacking intltool-debian (0.35.0+20060710.6) ...
+Selecting previously unselected package po-debconf.
+Preparing to unpack .../29-po-debconf_1.0.21+nmu1_all.deb ...
+Unpacking po-debconf (1.0.21+nmu1) ...
+Selecting previously unselected package debhelper.
+Preparing to unpack .../30-debhelper_13.11.4_all.deb ...
+Unpacking debhelper (13.11.4) ...
+Selecting previously unselected package python3-lib2to3.
+Preparing to unpack .../31-python3-lib2to3_3.11.2-2_all.deb ...
+Unpacking python3-lib2to3 (3.11.2-2) ...
+Selecting previously unselected package python3-distutils.
+Preparing to unpack .../32-python3-distutils_3.11.2-2_all.deb ...
+Unpacking python3-distutils (3.11.2-2) ...
+Selecting previously unselected package dh-python.
+Preparing to unpack .../33-dh-python_5.20230130_all.deb ...
+Unpacking dh-python (5.20230130) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../34-libfakeroot_1.31-1_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.31-1) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../35-fakeroot_1.31-1_amd64.deb ...
+Unpacking fakeroot (1.31-1) ...
+Selecting previously unselected package python3-all.
+Preparing to unpack .../36-python3-all_3.11.2-1_amd64.deb ...
+Unpacking python3-all (3.11.2-1) ...
+Selecting previously unselected package python3-pkg-resources.
+Preparing to unpack .../37-python3-pkg-resources_66.1.1-1_all.deb ...
+Unpacking python3-pkg-resources (66.1.1-1) ...
+Selecting previously unselected package python3-setuptools.
+Preparing to unpack .../38-python3-setuptools_66.1.1-1_all.deb ...
+Unpacking python3-setuptools (66.1.1-1) ...
+Selecting previously unselected package sbuild-build-depends-main-dummy.
+Preparing to unpack .../39-sbuild-build-depends-main-dummy_0.invalid.0_amd64.deb ...
+Unpacking sbuild-build-depends-main-dummy (0.invalid.0) ...
+Setting up media-types (10.0.0) ...
+Setting up libpipeline1:amd64 (1.5.7-1) ...
+Setting up libicu72:amd64 (72.1-3) ...
+Setting up bsdextrautils (2.38.1-5) ...
+Setting up libmagic-mgc (1:5.44-3) ...
+Setting up libarchive-zip-perl (1.68-1) ...
+Setting up libdebhelper-perl (13.11.4) ...
+Setting up libsqlite3-0:amd64 (3.40.1-1) ...
+Setting up libmagic1:amd64 (1:5.44-3) ...
+Setting up gettext-base (0.21-12) ...
+Setting up m4 (1.4.19-3) ...
+Setting up file (1:5.44-3) ...
+Setting up libfakeroot:amd64 (1.31-1) ...
+Setting up fakeroot (1.31-1) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+Setting up autotools-dev (20220109.1) ...
+Setting up autopoint (0.21-12) ...
+Setting up libncursesw6:amd64 (6.4-2) ...
+Setting up autoconf (2.71-3) ...
+Setting up sensible-utils (0.0.17+nmu1) ...
+Setting up libuchardet0:amd64 (0.0.7-1) ...
+Setting up libsub-override-perl (0.09-4) ...
+Setting up libelf1:amd64 (0.188-2.1) ...
+Setting up readline-common (8.2-1.3) ...
+Setting up libxml2:amd64 (2.9.14+dfsg-1.1+b3) ...
+Setting up automake (1:1.16.5-1.3) ...
+update-alternatives: using /usr/bin/automake-1.16 to provide /usr/bin/automake (automake) in auto mode
+Setting up libfile-stripnondeterminism-perl (1.13.1-1) ...
+Setting up gettext (0.21-12) ...
+Setting up libtool (2.4.7-5) ...
+Setting up libreadline8:amd64 (8.2-1.3) ...
+Setting up intltool-debian (0.35.0+20060710.6) ...
+Setting up dh-autoreconf (20) ...
+Setting up dh-strip-nondeterminism (1.13.1-1) ...
+Setting up dwz (0.15-1) ...
+Setting up groff-base (1.22.4-9) ...
+Setting up po-debconf (1.0.21+nmu1) ...
+Setting up libpython3.11-stdlib:amd64 (3.11.2-4) ...
+Setting up man-db (2.11.2-1) ...
+Not building database; man-db/auto-update is not 'true'.
+Setting up libpython3-stdlib:amd64 (3.11.2-1) ...
+Setting up python3.11 (3.11.2-4) ...
+Setting up debhelper (13.11.4) ...
+Setting up python3 (3.11.2-1) ...
+Setting up python3-lib2to3 (3.11.2-2) ...
+Setting up python3-pkg-resources (66.1.1-1) ...
+Setting up python3-distutils (3.11.2-2) ...
+Setting up dh-python (5.20230130) ...
+Setting up python3-setuptools (66.1.1-1) ...
+Setting up python3-all (3.11.2-1) ...
+Setting up sbuild-build-depends-main-dummy (0.invalid.0) ...
+Processing triggers for libc-bin (2.36-8) ...
+
++------------------------------------------------------------------------------+
+| Check architectures                                                          |
++------------------------------------------------------------------------------+
+
+Arch check ok (amd64 included in any)
+
++------------------------------------------------------------------------------+
+| Build environment                                                            |
++------------------------------------------------------------------------------+
+
+Kernel: Linux 5.15.0-1033-azure #40-Ubuntu SMP Mon Jan 23 20:36:59 UTC 2023 amd64 (x86_64)
+Toolchain package versions: binutils_2.40-2 dpkg-dev_1.21.21 g++-12_12.2.0-14 gcc-12_12.2.0-14 libc6-dev_2.36-8 libstdc++-12-dev_12.2.0-14 libstdc++6_12.2.0-14 linux-libc-dev_6.1.12-1
+Package versions: apt_2.5.6 autoconf_2.71-3 automake_1:1.16.5-1.3 autopoint_0.21-12 autotools-dev_20220109.1 base-files_12.3 base-passwd_3.6.1 bash_5.2.15-2+b1 binutils_2.40-2 binutils-common_2.40-2 binutils-x86-64-linux-gnu_2.40-2 bsdextrautils_2.38.1-5 bsdutils_1:2.38.1-5 build-essential_12.9 bzip2_1.0.8-5+b1 ccache_4.7.4-1 coreutils_9.1-1 cpp_4:12.2.0-3 cpp-12_12.2.0-14 dash_0.5.12-2 debconf_1.5.82 debhelper_13.11.4 debian-archive-keyring_2021.1.1 debianutils_5.7-0.4 dh-autoreconf_20 dh-python_5.20230130 dh-strip-nondeterminism_1.13.1-1 diffutils_1:3.8-4 dpkg_1.21.21 dpkg-dev_1.21.21 dwz_0.15-1 e2fsprogs_1.47.0-1 fakeroot_1.31-1 file_1:5.44-3 findutils_4.9.0-4 g++_4:12.2.0-3 g++-12_12.2.0-14 gcc_4:12.2.0-3 gcc-12_12.2.0-14 gcc-12-base_12.2.0-14 gettext_0.21-12 gettext-base_0.21-12 gpgv_2.2.40-1 grep_3.8-5 groff-base_1.22.4-9 gzip_1.12-1 hostname_3.23+nmu1 init-system-helpers_1.65.2 intltool-debian_0.35.0+20060710.6 libacl1_2.3.1-3 libapt-pkg6.0_2.5.6 libarchive-zip-perl_1.68-1 libasan8_12.2.0-14 libatomic1_12.2.0-14 libattr1_1:2.5.1-4 libaudit-common_1:3.0.9-1 libaudit1_1:3.0.9-1 libbinutils_2.40-2 libblkid1_2.38.1-5 libbz2-1.0_1.0.8-5+b1 libc-bin_2.36-8 libc-dev-bin_2.36-8 libc6_2.36-8 libc6-dev_2.36-8 libcap-ng0_0.8.3-1+b3 libcap2_1:2.66-3 libcc1-0_12.2.0-14 libcom-err2_1.47.0-1 libcrypt-dev_1:4.4.33-2 libcrypt1_1:4.4.33-2 libctf-nobfd0_2.40-2 libctf0_2.40-2 libdb5.3_5.3.28+dfsg2-1 libdebconfclient0_0.267 libdebhelper-perl_13.11.4 libdpkg-perl_1.21.21 libelf1_0.188-2.1 libexpat1_2.5.0-1 libext2fs2_1.47.0-1 libfakeroot_1.31-1 libffi8_3.4.4-1 libfile-find-rule-perl_0.34-3 libfile-stripnondeterminism-perl_1.13.1-1 libgcc-12-dev_12.2.0-14 libgcc-s1_12.2.0-14 libgcrypt20_1.10.1-3 libgdbm-compat4_1.23-3 libgdbm6_1.23-3 libgmp10_2:6.2.1+dfsg1-1.1 libgnutls30_3.7.9-1 libgomp1_12.2.0-14 libgpg-error0_1.46-1 libgprofng0_2.40-2 libgssapi-krb5-2_1.20.1-1 libhiredis0.14_0.14.1-3 libhogweed6_3.8.1-2 libicu72_72.1-3 libidn2-0_2.3.3-1+b1 libisl23_0.25-1 libitm1_12.2.0-14 libjansson4_2.14-2 libk5crypto3_1.20.1-1 libkeyutils1_1.6.3-2 libkrb5-3_1.20.1-1 libkrb5support0_1.20.1-1 liblsan0_12.2.0-14 liblz4-1_1.9.4-1 liblzma5_5.4.1-0.2 libmagic-mgc_1:5.44-3 libmagic1_1:5.44-3 libmd0_1.0.4-2 libmount1_2.38.1-5 libmpc3_1.3.1-1 libmpfr6_4.2.0-1 libncursesw6_6.4-2 libnettle8_3.8.1-2 libnsl-dev_1.3.0-2 libnsl2_1.3.0-2 libnumber-compare-perl_0.03-3 libp11-kit0_0.24.1-2 libpam-modules_1.5.2-6 libpam-modules-bin_1.5.2-6 libpam-runtime_1.5.2-6 libpam0g_1.5.2-6 libpcre2-8-0_10.42-1 libperl5.36_5.36.0-7 libpipeline1_1.5.7-1 libpython3-stdlib_3.11.2-1 libpython3.11-minimal_3.11.2-4 libpython3.11-stdlib_3.11.2-4 libquadmath0_12.2.0-14 libreadline8_8.2-1.3 libseccomp2_2.5.4-1+b3 libselinux1_3.4-1+b5 libsemanage-common_3.4-1 libsemanage2_3.4-1+b5 libsepol2_3.4-2 libsmartcols1_2.38.1-5 libsqlite3-0_3.40.1-1 libss2_1.47.0-1 libssl3_3.0.8-1 libstdc++-12-dev_12.2.0-14 libstdc++6_12.2.0-14 libsub-override-perl_0.09-4 libsystemd0_252.6-1 libtasn1-6_4.19.0-2 libtext-glob-perl_0.11-3 libtinfo6_6.4-2 libtirpc-common_1.3.3+ds-1 libtirpc-dev_1.3.3+ds-1 libtirpc3_1.3.3+ds-1 libtool_2.4.7-5 libtsan2_12.2.0-14 libubsan1_12.2.0-14 libuchardet0_0.0.7-1 libudev1_252.6-1 libunistring2_1.0-2 libuuid1_2.38.1-5 libxml2_2.9.14+dfsg-1.1+b3 libxxhash0_0.8.1-1 libzstd1_1.5.4+dfsg2-3 linux-libc-dev_6.1.12-1 login_1:4.13+dfsg1-1 logsave_1.47.0-1 m4_1.4.19-3 make_4.3-4.1 man-db_2.11.2-1 mawk_1.3.4.20200120-3.1 media-types_10.0.0 mount_2.38.1-5 ncurses-base_6.4-2 ncurses-bin_6.4-2 passwd_1:4.13+dfsg1-1 patch_2.7.6-7 perl_5.36.0-7 perl-base_5.36.0-7 perl-modules-5.36_5.36.0-7 po-debconf_1.0.21+nmu1 python3_3.11.2-1 python3-all_3.11.2-1 python3-distutils_3.11.2-2 python3-lib2to3_3.11.2-2 python3-minimal_3.11.2-1 python3-pkg-resources_66.1.1-1 python3-setuptools_66.1.1-1 python3.11_3.11.2-4 python3.11-minimal_3.11.2-4 readline-common_8.2-1.3 rpcsvc-proto_1.4.3-1 sbuild-build-depends-main-dummy_0.invalid.0 sed_4.9-1 sensible-utils_0.0.17+nmu1 sysvinit-utils_3.06-2 tar_1.34+dfsg-1.1 tzdata_2022g-7 usrmerge_35 util-linux_2.38.1-5 util-linux-extra_2.38.1-5 xz-utils_5.4.1-0.2 zlib1g_1:1.2.13.dfsg-1
+
++------------------------------------------------------------------------------+
+| Build                                                                        |
++------------------------------------------------------------------------------+
+
+
+Unpack source
+-------------
+
+Format: 1.0
+Source: ros-rqt-py-console
+Binary: ros-rqt-py-console
+Architecture: any
+Version: 1.1.1-2023.03.01.22.09
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Homepage: http://wiki.ros.org/rqt_py_console
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9.0.0), python3-all, python3-setuptools, dh-python
+Package-List:
+ ros-rqt-py-console deb misc optional arch=any
+Checksums-Sha1:
+ dcb2df029c19655aa5ae6c965a8612b0d4bfb485 117124 ros-rqt-py-console_1.1.1-2023.03.01.22.09.tar.gz
+Checksums-Sha256:
+ 7430b4ed76d2827a0d9d2ae6a9f8b12bc1b386ad0ce8bb0f3cb5ada6ede43d6e 117124 ros-rqt-py-console_1.1.1-2023.03.01.22.09.tar.gz
+Files:
+ c0311cbd0b9298af34d63d44b0091fc0 117124 ros-rqt-py-console_1.1.1-2023.03.01.22.09.tar.gz
+
+dpkg-source: warning: extracting unsigned source package (ros-rqt-py-console_1.1.1-2023.03.01.22.09.dsc)
+dpkg-source: info: extracting ros-rqt-py-console in /<<BUILDDIR>>package
+dpkg-source: info: unpacking ros-rqt-py-console_1.1.1-2023.03.01.22.09.tar.gz
+
+Check disk space
+----------------
+
+Sufficient free space for build
+
+User Environment
+----------------
+
+APT_CONFIG=/var/lib/sbuild/apt.conf
+CCACHE_DIR=/build/ccache
+DEB_BUILD_OPTIONS=nocheck
+HOME=/var/lib/sbuild
+LANG=C.UTF-8
+LC_ALL=C.UTF-8
+LOGNAME=runner
+OLDPWD=/
+PATH=/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+PWD=/<<BUILDDIR>>package
+SHELL=/bin/sh
+USER=runner
+
+dpkg-buildpackage
+-----------------
+
+Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
+dpkg-buildpackage: info: source package ros-rqt-py-console
+dpkg-buildpackage: info: source version 1.1.1-2023.03.01.22.09
+dpkg-buildpackage: info: source distribution sid
+dpkg-buildpackage: info: source changed by Dharini Dutia <dharini@openrobotics.org>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+dpkg-source: info: using options from package/debian/source/options: --auto-commit
+ fakeroot debian/rules clean
+dh clean -v --buildsystem=pybuild --with python3
+   dh_auto_clean -O-v -O--buildsystem=pybuild
+	pybuild --clean -i python{version} -p 3.11
+I: pybuild base:240: python3.11 setup.py clean 
+running clean
+removing '/<<BUILDDIR>>package/.pybuild/cpython3_3.11/build' (and everything under it)
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.11' does not exist -- can't clean it
+	rm -rf .pybuild/
+	find . -name \*.pyc -exec rm {} \;
+   dh_autoreconf_clean -O-v -O--buildsystem=pybuild
+   dh_clean -O-v -O--buildsystem=pybuild
+	rm -f debian/debhelper-build-stamp
+	rm -rf debian/.debhelper/
+	rm -f -- debian/ros-rqt-py-console.substvars debian/files
+	rm -fr -- debian/ros-rqt-py-console/ debian/tmp/
+	find .  \( \( \
+		\( -path .\*/.git -o -path .\*/.svn -o -path .\*/.bzr -o -path .\*/.hg -o -path .\*/CVS -o -path .\*/.pc -o -path .\*/_darcs \) -prune -o -type f -a \
+	        \( -name '#*#' -o -name '.*~' -o -name '*~' -o -name DEADJOE \
+		 -o -name '*.orig' -o -name '*.rej' -o -name '*.bak' \
+		 -o -name '.*.orig' -o -name .*.rej -o -name '.SUMS' \
+		 -o -name TAGS -o \( -path '*/.deps/*' -a -name '*.P' \) \
+		\) -exec rm -f {} + \) -o \
+		\( -type d -a -name autom4te.cache -prune -exec rm -rf {} + \) \)
+ debian/rules build
+dh build -v --buildsystem=pybuild --with python3
+   dh_update_autotools_config -O-v -O--buildsystem=pybuild
+   dh_autoreconf -O-v -O--buildsystem=pybuild
+   debian/rules override_dh_auto_configure
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/usr/setup.sh" ]; then . "/usr/setup.sh"; fi && \
+dh_auto_configure
+	pybuild --configure -i python{version} -p 3.11
+I: pybuild base:240: python3.11 setup.py config 
+running config
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+	rm -f debian/ros-rqt-py-console.debhelper.log
+   debian/rules override_dh_auto_build
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/usr/setup.sh" ]; then . "/usr/setup.sh"; fi && \
+dh_auto_build
+	pybuild --build -i python{version} -p 3.11
+I: pybuild base:240: /usr/bin/python3 setup.py build 
+running build
+running build_py
+creating /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console
+copying src/rqt_py_console/py_console_text_edit.py -> /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console
+copying src/rqt_py_console/main.py -> /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console
+copying src/rqt_py_console/__init__.py -> /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console
+copying src/rqt_py_console/py_console_widget.py -> /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console
+copying src/rqt_py_console/py_console.py -> /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console
+copying src/rqt_py_console/spyder_console_widget.py -> /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+	rm -f debian/ros-rqt-py-console.debhelper.log
+   debian/rules override_dh_auto_test
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+echo -- Running tests. Even if one of them fails the build is not canceled.
+-- Running tests. Even if one of them fails the build is not canceled.
+if [ -f "/usr/setup.sh" ]; then . "/usr/setup.sh"; fi && \
+dh_auto_test || true
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary -v --buildsystem=pybuild --with python3
+   dh_testroot -O-v -O--buildsystem=pybuild
+   dh_prep -O-v -O--buildsystem=pybuild
+	rm -f -- debian/ros-rqt-py-console.substvars
+	rm -fr -- debian/.debhelper/generated/ros-rqt-py-console/ debian/ros-rqt-py-console/ debian/tmp/
+   debian/rules override_dh_auto_install
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/usr/setup.sh" ]; then . "/usr/setup.sh"; fi && \
+dh_auto_install
+	install -m0755 -d /<<BUILDDIR>>package/debian/ros-rqt-py-console
+	pybuild --install -i python{version} -p 3.11 --dest-dir /<<BUILDDIR>>package/debian/ros-rqt-py-console
+I: pybuild base:240: /usr/bin/python3 setup.py install --root /<<BUILDDIR>>package/debian/ros-rqt-py-console --prefix "/usr" --install-lib "\$base/lib/python3.11/site-packages" 
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running build
+running build_py
+running install_lib
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console
+copying /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console/py_console_text_edit.py -> /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console
+copying /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console/main.py -> /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console
+copying /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console/__init__.py -> /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console
+copying /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console/py_console_widget.py -> /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console
+copying /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console/py_console.py -> /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console
+copying /<<BUILDDIR>>package/.pybuild/cpython3_3.11/build/rqt_py_console/spyder_console_widget.py -> /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console
+byte-compiling /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console/py_console_text_edit.py to py_console_text_edit.cpython-311.pyc
+byte-compiling /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console/main.py to main.cpython-311.pyc
+byte-compiling /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console/__init__.py to __init__.cpython-311.pyc
+byte-compiling /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console/py_console_widget.py to py_console_widget.cpython-311.pyc
+byte-compiling /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console/py_console.py to py_console.cpython-311.pyc
+byte-compiling /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console/spyder_console_widget.py to spyder_console_widget.cpython-311.pyc
+running install_data
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/share
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/share/ament_index
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/share/ament_index/resource_index
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/share/ament_index/resource_index/packages
+copying resource/rqt_py_console -> /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/share/ament_index/resource_index/packages
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/share/rqt_py_console
+creating /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/share/rqt_py_console/resource
+copying resource/py_console_widget.ui -> /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/share/rqt_py_console/resource
+copying package.xml -> /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/share/rqt_py_console
+copying plugin.xml -> /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/share/rqt_py_console
+running install_egg_info
+running egg_info
+creating src/rqt_py_console.egg-info
+writing src/rqt_py_console.egg-info/PKG-INFO
+writing dependency_links to src/rqt_py_console.egg-info/dependency_links.txt
+writing entry points to src/rqt_py_console.egg-info/entry_points.txt
+writing requirements to src/rqt_py_console.egg-info/requires.txt
+writing top-level names to src/rqt_py_console.egg-info/top_level.txt
+writing manifest file 'src/rqt_py_console.egg-info/SOURCES.txt'
+reading manifest file 'src/rqt_py_console.egg-info/SOURCES.txt'
+writing manifest file 'src/rqt_py_console.egg-info/SOURCES.txt'
+Copying src/rqt_py_console.egg-info to /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/python3.11/site-packages/rqt_py_console-1.1.1.egg-info
+Skipping SOURCES.txt
+running install_scripts
+Installing rqt_py_console script to /<<BUILDDIR>>package/debian/ros-rqt-py-console/usr/lib/rqt_py_console
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+   dh_installdocs -O-v -O--buildsystem=pybuild
+	install -m0755 -d debian/ros-rqt-py-console/usr/share/doc/ros-rqt-py-console
+   dh_installchangelogs -O-v -O--buildsystem=pybuild
+	install -m0755 -d debian/ros-rqt-py-console/usr/share/doc/ros-rqt-py-console
+	install -p -m0644 debian/.debhelper/generated/ros-rqt-py-console/dh_installchangelogs.dch.trimmed debian/ros-rqt-py-console/usr/share/doc/ros-rqt-py-console/changelog.Debian
+	install -p -m0644 ./CHANGELOG.rst debian/ros-rqt-py-console/usr/share/doc/ros-rqt-py-console/changelog
+   dh_python3 -O-v -O--buildsystem=pybuild
+D: dh_python3 dh_python3:179: version: 5.20230130
+D: dh_python3 dh_python3:180: argv: ['/usr/bin/dh_python3', '-O-v', '-O--buildsystem=pybuild']
+D: dh_python3 dh_python3:181: options: Namespace(guess_deps=True, skip_private=False, verbose=True, arch=None, package=None, no_package=None, remaining_packages=False, compile_all=False, vrange=None, regexpr=None, accept_upstream_versions=False, depends=None, depends_section=None, recommends=None, recommends_section=None, suggests=None, suggests_section=None, requires=None, shebang=None, ignore_shebangs=False, clean_dbg_pkg=True, no_ext_rename=False, no_shebang_rewrite=False, private_dir=None, O=['-v', '--buildsystem=pybuild'])
+D: dh_python3 dh_python3:182: supported Python versions: 3.11 (default=3.11)
+D: dh_python3 debhelper:183: source=ros-rqt-py-console, binary packages=['ros-rqt-py-console']
+D: dh_python3 dh_python3:204: processing package ros-rqt-py-console...
+D: dh_python3 fs:52: moving files from debian/ros-rqt-py-console/usr/lib/python3.11/site-packages to debian/ros-rqt-py-console/usr/lib/python3/dist-packages/
+D: dh_python3 fs:400: package ros-rqt-py-console details = {'requires.txt': {'debian/ros-rqt-py-console/usr/lib/python3/dist-packages/rqt_py_console-1.1.1.egg-info/requires.txt'}, 'egg-info': set(), 'dist-info': set(), 'nsp.txt': set(), 'shebangs': set(), 'public_vers': {Version('3')}, 'private_dirs': {}, 'compile': True, 'ext_vers': set(), 'ext_no_version': set()}
+D: dh_python3 depends:117: generating dependencies for package ros-rqt-py-console
+D: dh_python3 pydist:173: trying to find dependency for setuptools (python=None)
+D: dh_python3 pydist:207: dependency: module seems to be installed
+D: dh_python3 pydist:270: dependency: included in build-deps
+D: dh_python3 depends:281: D={'python3:any', 'python3-pkg-resources'}; R=[]; S=[]; E=[], B=[]; RT=[]
+   dh_installinit -O-v -O--buildsystem=pybuild
+   dh_perl -O-v -O--buildsystem=pybuild
+   dh_link -O-v -O--buildsystem=pybuild
+   dh_strip_nondeterminism -O-v -O--buildsystem=pybuild
+   dh_compress -O-v -O--buildsystem=pybuild
+	cd debian/ros-rqt-py-console
+	chmod a-x usr/share/doc/ros-rqt-py-console/changelog usr/share/doc/ros-rqt-py-console/changelog.Debian
+	gzip -9nf usr/share/doc/ros-rqt-py-console/changelog usr/share/doc/ros-rqt-py-console/changelog.Debian
+	cd '/<<BUILDDIR>>package'
+   dh_fixperms -O-v -O--buildsystem=pybuild
+	find debian/ros-rqt-py-console -true -print0 2>/dev/null | xargs -0r chown --no-dereference 0:0
+	find debian/ros-rqt-py-console ! -type l -a -true -a -true -print0 2>/dev/null | xargs -0r chmod go=rX,u+rw,a-s
+	find debian/ros-rqt-py-console/usr/share/doc -type f -a -true -a ! -regex 'debian/ros-rqt-py-console/usr/share/doc/[^/]*/examples/.*' -print0 2>/dev/null | xargs -0r chmod 0644
+	find debian/ros-rqt-py-console/usr/share/doc -type d -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0755
+	find debian/ros-rqt-py-console -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
+	find debian/ros-rqt-py-console/usr/lib -type f -name '*.ali' -a -true -a -true -print0 2>/dev/null | xargs -0r chmod uga-w
+   dh_missing -O-v -O--buildsystem=pybuild
+   dh_strip -O-v -O--buildsystem=pybuild
+   dh_makeshlibs -O-v -O--buildsystem=pybuild
+	rm -f debian/ros-rqt-py-console/DEBIAN/shlibs
+	rm -f debian/ros-rqt-py-console.debhelper.log
+   debian/rules override_dh_shlibdeps
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/usr/setup.sh" ]; then . "/usr/setup.sh"; fi && \
+dh_shlibdeps -l/<<BUILDDIR>>package/debian/ros-rqt-py-console//usr/lib/
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+   dh_installdeb -O-v -O--buildsystem=pybuild
+	install -m0755 -d debian/ros-rqt-py-console/DEBIAN
+	printf '#!/bin/sh\nset -e\n' > debian/ros-rqt-py-console/DEBIAN/postinst
+	cat debian/ros-rqt-py-console.postinst.debhelper >> debian/ros-rqt-py-console/DEBIAN/postinst
+	chmod 0755 -- debian/ros-rqt-py-console/DEBIAN/postinst
+	chown 0:0 -- debian/ros-rqt-py-console/DEBIAN/postinst
+	printf '#!/bin/sh\nset -e\n' > debian/ros-rqt-py-console/DEBIAN/prerm
+	cat debian/ros-rqt-py-console.prerm.debhelper >> debian/ros-rqt-py-console/DEBIAN/prerm
+	chmod 0755 -- debian/ros-rqt-py-console/DEBIAN/prerm
+	chown 0:0 -- debian/ros-rqt-py-console/DEBIAN/prerm
+   dh_gencontrol -O-v -O--buildsystem=pybuild
+	install -m0755 -d debian/ros-rqt-py-console/DEBIAN
+	echo misc:Depends= >> debian/ros-rqt-py-console.substvars
+	echo misc:Pre-Depends= >> debian/ros-rqt-py-console.substvars
+	dpkg-gencontrol -pros-rqt-py-console -ldebian/changelog -Tdebian/ros-rqt-py-console.substvars -Pdebian/ros-rqt-py-console
+	chmod 0644 -- debian/ros-rqt-py-console/DEBIAN/control
+	chown 0:0 -- debian/ros-rqt-py-console/DEBIAN/control
+   dh_md5sums -O-v -O--buildsystem=pybuild
+	install -m0755 -d debian/ros-rqt-py-console/DEBIAN
+	cd debian/ros-rqt-py-console >/dev/null && xargs -r0 md5sum | perl -pe 'if (s@^\\@@) { s/\\\\/\\/g; }' > DEBIAN/md5sums
+	chmod 0644 -- debian/ros-rqt-py-console/DEBIAN/md5sums
+	chown 0:0 -- debian/ros-rqt-py-console/DEBIAN/md5sums
+   dh_builddeb -O-v -O--buildsystem=pybuild
+	dpkg-deb --build debian/ros-rqt-py-console ..
+dpkg-deb: building package 'ros-rqt-py-console' in '../ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb'.
+ dpkg-genbuildinfo --build=binary -O../ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.buildinfo
+dpkg-genbuildinfo: warning:     debian/changelog(l12): found trailer where expected start of change data
+LINE:  -- Dharini Dutia <dharini@openrobotics.org>  Tue, 10 May 2022 00:00:00 -0000
+ dpkg-genchanges --build=binary -O../ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.changes
+dpkg-genchanges: warning:     debian/changelog(l12): found trailer where expected start of change data
+LINE:  -- Dharini Dutia <dharini@openrobotics.org>  Tue, 10 May 2022 00:00:00 -0000
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-source: info: using options from package/debian/source/options: --auto-commit
+dpkg-buildpackage: info: binary-only upload (no source included)
+--------------------------------------------------------------------------------
+Build finished at 2023-03-01T22:10:41Z
+
+Finished
+--------
+
+I: Built successfully
+
++------------------------------------------------------------------------------+
+| Changes                                                                      |
++------------------------------------------------------------------------------+
+
+
+ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.changes:
+--------------------------------------------------------
+
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-py-console
+Binary: ros-rqt-py-console
+Architecture: amd64
+Version: 1.1.1-2023.03.01.22.09
+Distribution: sid
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rqt-py-console - rqt_py_console is a Python GUI plugin providing an interactive Py
+Changes:
+ ros-rqt-py-console (1.1.1-2023.03.01.22.09) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#13 <https://github.com/ros-visualization/rqt_py_console/issues/13>)
+   * Contributors: Audrow Nash, Jacob Perron
+Checksums-Sha1:
+ 6c38d68d16e930c4b3ab7fb75d22b338523ff5d9 5429 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.buildinfo
+ 32de85827615f1394c9053bad33665c009444c57 8224 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb
+Checksums-Sha256:
+ 082aa2a4da21cf3cf312af383647c89ffe5987f76b15e872e5ec265847b6bb0f 5429 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.buildinfo
+ 7a64fa863d751ad8b315fad36953d240ba00f0c88cb752ff9a7ee45fbb9e1a2a 8224 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb
+Files:
+ 8423a4bc61c349d15358c8c09454dcbe 5429 misc optional ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.buildinfo
+ 7d9e8f6d63dd23bfdadced1a86fec488 8224 misc optional ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb
+
++------------------------------------------------------------------------------+
+| Buildinfo                                                                    |
++------------------------------------------------------------------------------+
+
+Format: 1.0
+Source: ros-rqt-py-console
+Binary: ros-rqt-py-console
+Architecture: amd64
+Version: 1.1.1-2023.03.01.22.09
+Checksums-Md5:
+ 7d9e8f6d63dd23bfdadced1a86fec488 8224 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb
+Checksums-Sha1:
+ 32de85827615f1394c9053bad33665c009444c57 8224 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb
+Checksums-Sha256:
+ 7a64fa863d751ad8b315fad36953d240ba00f0c88cb752ff9a7ee45fbb9e1a2a 8224 ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Wed, 01 Mar 2023 22:10:41 +0000
+Build-Path: /<<BUILDDIR>>package
+Build-Tainted-By:
+ merged-usr-via-aliased-dirs
+Installed-Build-Depends:
+ autoconf (= 2.71-3),
+ automake (= 1:1.16.5-1.3),
+ autopoint (= 0.21-12),
+ autotools-dev (= 20220109.1),
+ base-files (= 12.3),
+ base-passwd (= 3.6.1),
+ bash (= 5.2.15-2+b1),
+ binutils (= 2.40-2),
+ binutils-common (= 2.40-2),
+ binutils-x86-64-linux-gnu (= 2.40-2),
+ bsdextrautils (= 2.38.1-5),
+ bsdutils (= 1:2.38.1-5),
+ build-essential (= 12.9),
+ bzip2 (= 1.0.8-5+b1),
+ coreutils (= 9.1-1),
+ cpp (= 4:12.2.0-3),
+ cpp-12 (= 12.2.0-14),
+ dash (= 0.5.12-2),
+ debconf (= 1.5.82),
+ debhelper (= 13.11.4),
+ debianutils (= 5.7-0.4),
+ dh-autoreconf (= 20),
+ dh-python (= 5.20230130),
+ dh-strip-nondeterminism (= 1.13.1-1),
+ diffutils (= 1:3.8-4),
+ dpkg (= 1.21.21),
+ dpkg-dev (= 1.21.21),
+ dwz (= 0.15-1),
+ file (= 1:5.44-3),
+ findutils (= 4.9.0-4),
+ g++ (= 4:12.2.0-3),
+ g++-12 (= 12.2.0-14),
+ gcc (= 4:12.2.0-3),
+ gcc-12 (= 12.2.0-14),
+ gcc-12-base (= 12.2.0-14),
+ gettext (= 0.21-12),
+ gettext-base (= 0.21-12),
+ grep (= 3.8-5),
+ groff-base (= 1.22.4-9),
+ gzip (= 1.12-1),
+ hostname (= 3.23+nmu1),
+ init-system-helpers (= 1.65.2),
+ intltool-debian (= 0.35.0+20060710.6),
+ libacl1 (= 2.3.1-3),
+ libarchive-zip-perl (= 1.68-1),
+ libasan8 (= 12.2.0-14),
+ libatomic1 (= 12.2.0-14),
+ libattr1 (= 1:2.5.1-4),
+ libaudit-common (= 1:3.0.9-1),
+ libaudit1 (= 1:3.0.9-1),
+ libbinutils (= 2.40-2),
+ libblkid1 (= 2.38.1-5),
+ libbz2-1.0 (= 1.0.8-5+b1),
+ libc-bin (= 2.36-8),
+ libc-dev-bin (= 2.36-8),
+ libc6 (= 2.36-8),
+ libc6-dev (= 2.36-8),
+ libcap-ng0 (= 0.8.3-1+b3),
+ libcap2 (= 1:2.66-3),
+ libcc1-0 (= 12.2.0-14),
+ libcom-err2 (= 1.47.0-1),
+ libcrypt-dev (= 1:4.4.33-2),
+ libcrypt1 (= 1:4.4.33-2),
+ libctf-nobfd0 (= 2.40-2),
+ libctf0 (= 2.40-2),
+ libdb5.3 (= 5.3.28+dfsg2-1),
+ libdebconfclient0 (= 0.267),
+ libdebhelper-perl (= 13.11.4),
+ libdpkg-perl (= 1.21.21),
+ libelf1 (= 0.188-2.1),
+ libexpat1 (= 2.5.0-1),
+ libffi8 (= 3.4.4-1),
+ libfile-find-rule-perl (= 0.34-3),
+ libfile-stripnondeterminism-perl (= 1.13.1-1),
+ libgcc-12-dev (= 12.2.0-14),
+ libgcc-s1 (= 12.2.0-14),
+ libgcrypt20 (= 1.10.1-3),
+ libgdbm-compat4 (= 1.23-3),
+ libgdbm6 (= 1.23-3),
+ libgmp10 (= 2:6.2.1+dfsg1-1.1),
+ libgomp1 (= 12.2.0-14),
+ libgpg-error0 (= 1.46-1),
+ libgprofng0 (= 2.40-2),
+ libgssapi-krb5-2 (= 1.20.1-1),
+ libicu72 (= 72.1-3),
+ libisl23 (= 0.25-1),
+ libitm1 (= 12.2.0-14),
+ libjansson4 (= 2.14-2),
+ libk5crypto3 (= 1.20.1-1),
+ libkeyutils1 (= 1.6.3-2),
+ libkrb5-3 (= 1.20.1-1),
+ libkrb5support0 (= 1.20.1-1),
+ liblsan0 (= 12.2.0-14),
+ liblz4-1 (= 1.9.4-1),
+ liblzma5 (= 5.4.1-0.2),
+ libmagic-mgc (= 1:5.44-3),
+ libmagic1 (= 1:5.44-3),
+ libmd0 (= 1.0.4-2),
+ libmount1 (= 2.38.1-5),
+ libmpc3 (= 1.3.1-1),
+ libmpfr6 (= 4.2.0-1),
+ libncursesw6 (= 6.4-2),
+ libnsl-dev (= 1.3.0-2),
+ libnsl2 (= 1.3.0-2),
+ libnumber-compare-perl (= 0.03-3),
+ libpam-modules (= 1.5.2-6),
+ libpam-modules-bin (= 1.5.2-6),
+ libpam-runtime (= 1.5.2-6),
+ libpam0g (= 1.5.2-6),
+ libpcre2-8-0 (= 10.42-1),
+ libperl5.36 (= 5.36.0-7),
+ libpipeline1 (= 1.5.7-1),
+ libpython3-stdlib (= 3.11.2-1),
+ libpython3.11-minimal (= 3.11.2-4),
+ libpython3.11-stdlib (= 3.11.2-4),
+ libquadmath0 (= 12.2.0-14),
+ libreadline8 (= 8.2-1.3),
+ libseccomp2 (= 2.5.4-1+b3),
+ libselinux1 (= 3.4-1+b5),
+ libsmartcols1 (= 2.38.1-5),
+ libsqlite3-0 (= 3.40.1-1),
+ libssl3 (= 3.0.8-1),
+ libstdc++-12-dev (= 12.2.0-14),
+ libstdc++6 (= 12.2.0-14),
+ libsub-override-perl (= 0.09-4),
+ libsystemd0 (= 252.6-1),
+ libtext-glob-perl (= 0.11-3),
+ libtinfo6 (= 6.4-2),
+ libtirpc-common (= 1.3.3+ds-1),
+ libtirpc-dev (= 1.3.3+ds-1),
+ libtirpc3 (= 1.3.3+ds-1),
+ libtool (= 2.4.7-5),
+ libtsan2 (= 12.2.0-14),
+ libubsan1 (= 12.2.0-14),
+ libuchardet0 (= 0.0.7-1),
+ libudev1 (= 252.6-1),
+ libunistring2 (= 1.0-2),
+ libuuid1 (= 2.38.1-5),
+ libxml2 (= 2.9.14+dfsg-1.1+b3),
+ libzstd1 (= 1.5.4+dfsg2-3),
+ linux-libc-dev (= 6.1.12-1),
+ login (= 1:4.13+dfsg1-1),
+ m4 (= 1.4.19-3),
+ make (= 4.3-4.1),
+ man-db (= 2.11.2-1),
+ mawk (= 1.3.4.20200120-3.1),
+ media-types (= 10.0.0),
+ ncurses-base (= 6.4-2),
+ ncurses-bin (= 6.4-2),
+ patch (= 2.7.6-7),
+ perl (= 5.36.0-7),
+ perl-base (= 5.36.0-7),
+ perl-modules-5.36 (= 5.36.0-7),
+ po-debconf (= 1.0.21+nmu1),
+ python3 (= 3.11.2-1),
+ python3-all (= 3.11.2-1),
+ python3-distutils (= 3.11.2-2),
+ python3-lib2to3 (= 3.11.2-2),
+ python3-minimal (= 3.11.2-1),
+ python3-pkg-resources (= 66.1.1-1),
+ python3-setuptools (= 66.1.1-1),
+ python3.11 (= 3.11.2-4),
+ python3.11-minimal (= 3.11.2-4),
+ readline-common (= 8.2-1.3),
+ rpcsvc-proto (= 1.4.3-1),
+ sed (= 4.9-1),
+ sensible-utils (= 0.0.17+nmu1),
+ sysvinit-utils (= 3.06-2),
+ tar (= 1.34+dfsg-1.1),
+ usrmerge (= 35),
+ util-linux (= 2.38.1-5),
+ util-linux-extra (= 2.38.1-5),
+ xz-utils (= 5.4.1-0.2),
+ zlib1g (= 1:1.2.13.dfsg-1)
+Environment:
+ DEB_BUILD_OPTIONS="nocheck parallel=2"
+ LANG="C.UTF-8"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1676332800"
+
+
++------------------------------------------------------------------------------+
+| Package contents                                                             |
++------------------------------------------------------------------------------+
+
+
+ros-rqt-py-console_1.1.1-2023.03.01.22.09_amd64.deb
+---------------------------------------------------
+
+ new Debian package, version 2.0.
+ size 8224 bytes: control archive=1428 bytes.
+     496 bytes,    10 lines      control              
+    1789 bytes,    19 lines      md5sums              
+     283 bytes,    12 lines   *  postinst             #!/bin/sh
+     396 bytes,    12 lines   *  prerm                #!/bin/sh
+ Package: ros-rqt-py-console
+ Version: 1.1.1-2023.03.01.22.09
+ Architecture: amd64
+ Maintainer: Dharini Dutia <dharini@openrobotics.org>
+ Installed-Size: 48
+ Depends: python3-pkg-resources, python3:any, python3-ament-index, ros-python-qt-binding (>= 0.2.19), ros-qt-gui, ros-qt-gui-py-common, ros-rclpy, ros-rqt-gui, ros-rqt-gui-py
+ Section: misc
+ Priority: optional
+ Homepage: http://wiki.ros.org/rqt_py_console
+ Description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
+
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/lib/
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/lib/python3/
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/lib/python3/dist-packages/
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console-1.1.1.egg-info/
+-rw-r--r-- root/root       444 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console-1.1.1.egg-info/PKG-INFO
+-rw-r--r-- root/root         1 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console-1.1.1.egg-info/dependency_links.txt
+-rw-r--r-- root/root        60 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console-1.1.1.egg-info/entry_points.txt
+-rw-r--r-- root/root         0 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console-1.1.1.egg-info/requires.txt
+-rw-r--r-- root/root        15 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console-1.1.1.egg-info/top_level.txt
+-rw-r--r-- root/root         1 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console-1.1.1.egg-info/zip-safe
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console/
+-rw-r--r-- root/root         0 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console/__init__.py
+-rw-r--r-- root/root       198 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console/main.py
+-rw-r--r-- root/root      4856 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console/py_console.py
+-rw-r--r-- root/root      2852 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console/py_console_text_edit.py
+-rw-r--r-- root/root      2551 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console/py_console_widget.py
+-rw-r--r-- root/root      2522 2023-02-14 00:00 ./usr/lib/python3/dist-packages/rqt_py_console/spyder_console_widget.py
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/lib/rqt_py_console/
+-rwxr-xr-x root/root       993 2023-02-14 00:00 ./usr/lib/rqt_py_console/rqt_py_console
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/share/
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/share/ament_index/
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/share/ament_index/resource_index/
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/share/ament_index/resource_index/packages/
+-rw-r--r-- root/root         0 2023-02-14 00:00 ./usr/share/ament_index/resource_index/packages/rqt_py_console
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/share/doc/
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/share/doc/ros-rqt-py-console/
+-rw-r--r-- root/root       521 2023-02-14 00:00 ./usr/share/doc/ros-rqt-py-console/changelog.Debian.gz
+-rw-r--r-- root/root      1046 2023-02-14 00:00 ./usr/share/doc/ros-rqt-py-console/changelog.gz
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/share/rqt_py_console/
+-rw-r--r-- root/root      1088 2023-02-14 00:00 ./usr/share/rqt_py_console/package.xml
+-rw-r--r-- root/root       640 2023-02-14 00:00 ./usr/share/rqt_py_console/plugin.xml
+drwxr-xr-x root/root         0 2023-02-14 00:00 ./usr/share/rqt_py_console/resource/
+-rw-r--r-- root/root      1231 2023-02-14 00:00 ./usr/share/rqt_py_console/resource/py_console_widget.ui
+
+
++------------------------------------------------------------------------------+
+| Post Build                                                                   |
++------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------+
+| Cleanup                                                                      |
++------------------------------------------------------------------------------+
+
+Purging /<<BUILDDIR>>
+Not cleaning session: cloned chroot in use
+
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++------------------------------------------------------------------------------+
+
+Build Architecture: amd64
+Build Type: binary
+Build-Space: 676
+Build-Time: 6
+Distribution: sid
+Host Architecture: amd64
+Install-Time: 14
+Job: /home/runner/work/ros-two-packages/ros-two-packages/src/ros-visualization/ros-rqt-py-console_1.1.1-2023.03.01.22.09.dsc
+Machine Architecture: amd64
+Package: ros-rqt-py-console
+Package-Time: 56
+Source-Version: 1.1.1-2023.03.01.22.09
+Space: 676
+Status: successful
+Version: 1.1.1-2023.03.01.22.09
+--------------------------------------------------------------------------------
+Finished at 2023-03-01T22:10:41Z
+Build needed 00:00:56, 676k disk space

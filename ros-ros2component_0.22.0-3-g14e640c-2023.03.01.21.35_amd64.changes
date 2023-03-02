@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-ros2component
+Binary: ros-ros2component
+Architecture: amd64
+Version: 0.22.0-3-g14e640c-2023.03.01.21.35
+Distribution: sid
+Urgency: high
+Maintainer: Audrow Nash <audrow@openrobotics.org>
+Changed-By: Audrow Nash <audrow@openrobotics.org>
+Description:
+ ros-ros2component - The component command for ROS 2 command line tools.
+Changes:
+ ros-ros2component (0.22.0-3-g14e640c-2023.03.01.21.35) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#776 <https://github.com/ros2/ros2cli/issues/776>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ 5435c823fb49652f44f7ab3d0339e6a650cca170 7246 ros-ros2component_0.22.0-3-g14e640c-2023.03.01.21.35_amd64.buildinfo
+ 0ac6cc650bff37d025b047f510142d7735eb0b52 12256 ros-ros2component_0.22.0-3-g14e640c-2023.03.01.21.35_amd64.deb
+Checksums-Sha256:
+ ab70e6045f15b14c5bc87b3653238c6910512a4249f6561f789c443fa91e04cf 7246 ros-ros2component_0.22.0-3-g14e640c-2023.03.01.21.35_amd64.buildinfo
+ 2afe2f761cab4f54bbe412359fde77271415b5249b5d54204bcb7a1bb9957858 12256 ros-ros2component_0.22.0-3-g14e640c-2023.03.01.21.35_amd64.deb
+Files:
+ 865bacfe695ce234c3057293f8f6f756 7246 misc optional ros-ros2component_0.22.0-3-g14e640c-2023.03.01.21.35_amd64.buildinfo
+ e194cdb2159b237d172e4354999bda79 12256 misc optional ros-ros2component_0.22.0-3-g14e640c-2023.03.01.21.35_amd64.deb

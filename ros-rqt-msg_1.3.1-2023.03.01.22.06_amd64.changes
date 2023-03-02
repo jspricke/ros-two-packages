@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-rqt-msg
+Binary: ros-rqt-msg
+Architecture: amd64
+Version: 1.3.1-2023.03.01.22.06
+Distribution: sid
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-rqt-msg - A Python GUI plugin for introspecting available ROS message types
+Changes:
+ ros-rqt-msg (1.3.1-2023.03.01.22.06) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#17 <https://github.com/ros-visualization/rqt_msg/issues/17>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ c3a89fcef44060ca5f9f25f79b19ccd69d88aef0 5397 ros-rqt-msg_1.3.1-2023.03.01.22.06_amd64.buildinfo
+ 7e0c5379121e7036b326606fa78bc9e16b330e5a 10400 ros-rqt-msg_1.3.1-2023.03.01.22.06_amd64.deb
+Checksums-Sha256:
+ a358b55073707e0625407c5e1587ff22fee2b6157ae7ec9333bbcd4428ab8306 5397 ros-rqt-msg_1.3.1-2023.03.01.22.06_amd64.buildinfo
+ e45e4d3fda95bc5a7d2baad98226a97ba54910e54df6b8e340668af20cf03f6e 10400 ros-rqt-msg_1.3.1-2023.03.01.22.06_amd64.deb
+Files:
+ 3d5bffaf4604208302798bb2b27c6f36 5397 misc optional ros-rqt-msg_1.3.1-2023.03.01.22.06_amd64.buildinfo
+ ba5f49f0213bba115d3fddf351aabdee 10400 misc optional ros-rqt-msg_1.3.1-2023.03.01.22.06_amd64.deb

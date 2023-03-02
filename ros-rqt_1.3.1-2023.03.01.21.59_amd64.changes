@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-rqt
+Binary: ros-rqt
+Architecture: amd64
+Version: 1.3.1-2023.03.01.21.59
+Distribution: sid
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rqt    - rqt is a Qt-based framework for GUI development for ROS.
+Changes:
+ ros-rqt (1.3.1-2023.03.01.21.59) sid; urgency=high
+ .
+   * fix build of rqt with setuptools>=v61.0.0 (#271 <https://github.com/ros-visualization/rqt/issues/271>)
+   * Contributors: Daniel Reuter
+Checksums-Sha1:
+ f5ce2d20596c461ef6e18470ab13b6012f524833 5374 ros-rqt_1.3.1-2023.03.01.21.59_amd64.buildinfo
+ f0b989d58ac1fa69a40c6b86af9f7fa5dcb258a2 7056 ros-rqt_1.3.1-2023.03.01.21.59_amd64.deb
+Checksums-Sha256:
+ 327b7a23fb4f74322839047431256f7e185cbc9ad2be2adc28fa2e725b03929c 5374 ros-rqt_1.3.1-2023.03.01.21.59_amd64.buildinfo
+ 8e0275191776babb9d4807f679d5de8177b88159188cc771d904bbf366d94332 7056 ros-rqt_1.3.1-2023.03.01.21.59_amd64.deb
+Files:
+ 412ce6664d8c757be005a9fd0a3fcc95 5374 misc optional ros-rqt_1.3.1-2023.03.01.21.59_amd64.buildinfo
+ 11cd5b8d22b35530e481581014238c18 7056 misc optional ros-rqt_1.3.1-2023.03.01.21.59_amd64.deb

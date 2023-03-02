@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-zstd-vendor
+Binary: ros-zstd-vendor
+Architecture: amd64
+Version: 0.20.0-3-g6160bb3-2023.03.02.00.48
+Distribution: sid
+Urgency: high
+Maintainer: Michael Orlov <michael.orlov@apex.ai>
+Changed-By: Michael Orlov <michael.orlov@apex.ai>
+Description:
+ ros-zstd-vendor - Zstd compression vendor package, providing a dependency for Zstd.
+Changes:
+ ros-zstd-vendor (0.20.0-3-g6160bb3-2023.03.02.00.48) sid; urgency=high
+Checksums-Sha1:
+ 25314dfd051d27771b8bab5916c0ff4ef0e5c712 6641 ros-zstd-vendor_0.20.0-3-g6160bb3-2023.03.02.00.48_amd64.buildinfo
+ 06ffdde33e37982459b08b9d4c5b1185c4668b0a 8312 ros-zstd-vendor_0.20.0-3-g6160bb3-2023.03.02.00.48_amd64.deb
+Checksums-Sha256:
+ 78a59585f396c58ee50bbe30118e2547b6e39a721cd8fb952e71f83d9914b240 6641 ros-zstd-vendor_0.20.0-3-g6160bb3-2023.03.02.00.48_amd64.buildinfo
+ 819f327c5a8a939342fd65ed9142c77b302953de9c76c5ebcf97efaf7fc6c5dc 8312 ros-zstd-vendor_0.20.0-3-g6160bb3-2023.03.02.00.48_amd64.deb
+Files:
+ b4f073d284b4a57bb71d7ef78f85ad51 6641 misc optional ros-zstd-vendor_0.20.0-3-g6160bb3-2023.03.02.00.48_amd64.buildinfo
+ fbd3c566678772f5a2b82d6ec14af1ee 8312 misc optional ros-zstd-vendor_0.20.0-3-g6160bb3-2023.03.02.00.48_amd64.deb

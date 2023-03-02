@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 24 Feb 2023 00:00:00 -0000
+Source: ros-launch-xml
+Binary: ros-launch-xml
+Architecture: amd64
+Version: 1.4.1-2023.03.01.21.10
+Distribution: sid
+Urgency: high
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Changed-By: Aditya Pande <aditya.pande@openrobotics.org>
+Description:
+ ros-launch-xml - XML frontend for the launch package.
+Changes:
+ ros-launch-xml (1.4.1-2023.03.01.21.10) sid; urgency=high
+ .
+   * Fixed typos (#692 <https://github.com/ros2/launch/issues/692>)
+   * Contributors: Alejandro Hernández Cordero
+Checksums-Sha1:
+ dbfa20a192cd635653f0cd470988d5bf10c5582b 7327 ros-launch-xml_1.4.1-2023.03.01.21.10_amd64.buildinfo
+ b990fd701ea2b5717bd850121e09e8e2c1c66788 8336 ros-launch-xml_1.4.1-2023.03.01.21.10_amd64.deb
+Checksums-Sha256:
+ a1345486cd142a73b88484e99b0474ed096272350f9cb0f594d9873ccd589804 7327 ros-launch-xml_1.4.1-2023.03.01.21.10_amd64.buildinfo
+ 23a4399477b479ea4d3612e8b25ae89d4bba2ca0ae507135ffab0f1afe80d353 8336 ros-launch-xml_1.4.1-2023.03.01.21.10_amd64.deb
+Files:
+ 198d0aa6d8d206b83977e649aec6923e 7327 misc optional ros-launch-xml_1.4.1-2023.03.01.21.10_amd64.buildinfo
+ 197c8e02bbff60b09ce0d5c4c00cbd50 8336 misc optional ros-launch-xml_1.4.1-2023.03.01.21.10_amd64.deb

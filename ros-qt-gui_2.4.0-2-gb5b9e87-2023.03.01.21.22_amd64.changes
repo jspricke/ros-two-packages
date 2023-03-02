@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 14 Feb 2023 00:00:00 -0000
+Source: ros-qt-gui
+Binary: ros-qt-gui
+Architecture: amd64
+Version: 2.4.0-2-gb5b9e87-2023.03.01.21.22
+Distribution: sid
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-qt-gui - qt_gui provides the infrastructure for an integrated graphical us
+Changes:
+ ros-qt-gui (2.4.0-2-gb5b9e87-2023.03.01.21.22) sid; urgency=high
+Checksums-Sha1:
+ 0567b781bf2ec9e5acd95b306484e156a16d8a66 12029 ros-qt-gui_2.4.0-2-gb5b9e87-2023.03.01.21.22_amd64.buildinfo
+ f7bde0127391874bd3d12495aeac9e11e1a32d54 55308 ros-qt-gui_2.4.0-2-gb5b9e87-2023.03.01.21.22_amd64.deb
+Checksums-Sha256:
+ c63b3069c009b440470ae7f08e8fb0e3519b48802cf0a63795c7da0c486d6484 12029 ros-qt-gui_2.4.0-2-gb5b9e87-2023.03.01.21.22_amd64.buildinfo
+ b7175572988fc176542916e6c98b03859e7754ac29cb056fead8f033b7393c72 55308 ros-qt-gui_2.4.0-2-gb5b9e87-2023.03.01.21.22_amd64.deb
+Files:
+ 256b14e2a0ccd297ea2fe1f4a2ba5b36 12029 misc optional ros-qt-gui_2.4.0-2-gb5b9e87-2023.03.01.21.22_amd64.buildinfo
+ b8e2c0bb864f81e229eb236e622034ea 55308 misc optional ros-qt-gui_2.4.0-2-gb5b9e87-2023.03.01.21.22_amd64.deb

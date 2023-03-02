@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 13 Feb 2023 00:00:00 -0000
+Source: ros-eigen3-cmake-module
+Binary: ros-eigen3-cmake-module
+Architecture: amd64
+Version: 0.2.2-2023.03.01.20.55
+Distribution: sid
+Urgency: high
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Changed-By: Scott K Logan <scott@openrobotics.org>
+Description:
+ ros-eigen3-cmake-module - Exports a custom CMake module to find Eigen3.
+Changes:
+ ros-eigen3-cmake-module (0.2.2-2023.03.01.20.55) sid; urgency=high
+ .
+   * [rolling] Update maintainers - 2022-11-07 (#6 <https://github.com/ros2/eigen3_cmake_module/issues/6>)
+   * Contributors: Audrow Nash
+Checksums-Sha1:
+ f8fcc7c971d755d1c6601cabf6f927c4a1d49bde 6678 ros-eigen3-cmake-module_0.2.2-2023.03.01.20.55_amd64.buildinfo
+ 6eedc4b41b8e6314077e2f20a084354818777e34 6336 ros-eigen3-cmake-module_0.2.2-2023.03.01.20.55_amd64.deb
+Checksums-Sha256:
+ 56baa275366dcedb13fb3551ea55fc58a5205332ababba342416f4873cf90797 6678 ros-eigen3-cmake-module_0.2.2-2023.03.01.20.55_amd64.buildinfo
+ 4cb97c8e3e3b2e4ac1ff03f3e77115b0e05585da3df960cd6fed4d00b3effe4a 6336 ros-eigen3-cmake-module_0.2.2-2023.03.01.20.55_amd64.deb
+Files:
+ 936a099e96bbc59bed30ad304cbcc9c0 6678 misc optional ros-eigen3-cmake-module_0.2.2-2023.03.01.20.55_amd64.buildinfo
+ 29c6e8669034fcc08363acff49dfe557 6336 misc optional ros-eigen3-cmake-module_0.2.2-2023.03.01.20.55_amd64.deb
